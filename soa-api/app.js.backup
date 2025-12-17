@@ -1,0 +1,528 @@
+// SMARTVALUE SOA API - TAM VERSİYON
+const express = require('express');
+const cors = require('cors');
+require('dotenv').config();
+
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+// Middleware
+app.use(cors());
+app.use(express.json());
+
+// 📌 1. ANA SAYFA
+app.get('/', (req, res) => {
+  res.json({
+    service: 'SmartValue SOA API',
+    version: '1.0.0',
+    developer: 'Üye 3 - Servis Geliştirici',
+    description: 'Akıllı Emlak Değerleme Sistemi',
+    status: '🚀 ÇALIŞIYOR',
+    protocols: ['REST', 'gRPC', 'SOAP'],  // SOAP EKLENDİ!
+    endpoints: [
+      'GET    /                   → API Bilgileri',
+      'GET    /api/health         → Sistem Sağlığı',
+      'POST   /api/predict        → REST Tahmin',
+      'POST   /api/predict-grpc   → gRPC Tahmin',
+      'GET    /api/grpc-status    → gRPC Durumu',
+      'GET    /api/currency       → SOAP Döviz Kuru (NEW!)',
+      'GET    /api/currency/convert → SOAP Çeviri (NEW!)',
+      'GET    /api/soap-status    → SOAP Durumu (NEW!)',
+      'GET    /api/properties     → Örnek İlanlar',
+      'GET    /api/market-analysis → Piyasa Verileri',
+      'GET    /api/districts      → İlçe Listesi',
+      'GET    /api/tech           → Teknik Bilgiler',
+      'GET    /api/maps/coordinates → Google Maps',
+      'GET    /api/maps/districts → Google Maps İlçeler',
+      'GET    /api/maps-status    → Google Maps Durumu'
+    ],
+    services: {
+      gRPC: {
+        server: 'localhost:50051',
+        status: 'connected'
+      },
+      SOAP: {
+        service: 'Currency Exchange',
+        status: 'active',
+        type: 'simulation'
+      },
+      GoogleMaps: {
+        service: 'Geocoding API',
+        status: 'active'
+      }
+    }
+  });
+});
+
+// 📌 2. SAĞLIK KONTROLÜ
+app.get('/api/health', (req, res) => {
+  res.json({
+    status: 'healthy',
+    service: 'smartvalue-api',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime() + ' seconds'
+  });
+});
+
+// 📌 3. ÖRNEK EMLAK VERİLERİ (MOCK)
+const mockProperties = [
+  {
+    id: 1,
+    title: "Yunusemre 3+1 Lüks Daire",
+    district: "Yunusemre",
+    price: 18500,
+    rooms: "3+1",
+    squareMeters: 120,
+    buildingAge: 5,
+    type: "Daire",
+    latitude: 38.6131,
+    longitude: 27.4262
+  },
+  {
+    id: 2,
+    title: "Şehzadeler Merkez 2+1",
+    district: "Şehzadeler",
+    price: 16500,
+    rooms: "2+1",
+    squareMeters: 90,
+    buildingAge: 8,
+    type: "Daire",
+    latitude: 38.6191,
+    longitude: 27.4289
+  },
+  {
+    id: 3,
+    title: "Akhisar Bahçeli Villa",
+    district: "Akhisar",
+    price: 14000,
+    rooms: "3+1",
+    squareMeters: 200,
+    buildingAge: 3,
+    type: "Villa",
+    latitude: 38.9180,
+    longitude: 27.8400
+  }
+];
+
+// 📌 4. İLAN LİSTESİ
+app.get('/api/properties', (req, res) => {
+  res.json({
+    success: true,
+    count: mockProperties.length,
+    data: mockProperties,
+    source: 'mock-data'
+  });
+});
+
+// 📌 5. FİYAT TAHMİNİ (PROJENİN KALBİ!)
+app.post('/api/predict', (req, res) => {
+  console.log('🔍 Tahmin İsteği:', req.body);
+  
+  const { district, rooms, squareMeters, buildingAge } = req.body;
+  
+  // Validasyon
+  if (!district || !rooms || !squareMeters || !buildingAge) {
+    return res.status(400).json({
+      success: false,
+      error: 'Eksik parametre! district, rooms, squareMeters, buildingAge gerekiyor.'
+    });
+  }
+  
+  // İlçe katsayıları
+  const districtRates = {
+    'yunusemre': 1.3,
+    'şehzadeler': 1.2,
+    'akhisar': 1.0,
+    'turgutlu': 0.9,
+    'salihli': 0.85
+  };
+  
+  // Oda katsayıları
+  const roomRates = {
+    '1+1': 0.8,
+    '2+1': 1.0,
+    '3+1': 1.4,
+    '4+1': 1.8
+  };
+  
+  // Hesaplama
+  const districtKey = district.toLowerCase();
+  const districtFactor = districtRates[districtKey] || 1.0;
+  const roomFactor = roomRates[rooms] || 1.0;
+  const ageFactor = Math.max(0.7, 1 - (buildingAge * 0.015));
+  const sizeFactor = squareMeters / 80;
+  
+  const basePrice = 7500; // Manisa baz fiyatı
+  const estimated = basePrice * districtFactor * roomFactor * ageFactor * sizeFactor;
+  
+  // Sonuç
+  res.json({
+    success: true,
+    input: { district, rooms, squareMeters, buildingAge },
+    prediction: {
+      minPrice: Math.round(estimated * 0.88),
+      maxPrice: Math.round(estimated * 1.12),
+      averagePrice: Math.round(estimated),
+      currency: 'TRY',
+      confidence: 0.82
+    },
+    calculationDetails: {
+      formula: 'basePrice * district * rooms * age * size',
+      basePrice: basePrice,
+      factors: {
+        district: districtFactor,
+        rooms: roomFactor,
+        age: ageFactor,
+        size: sizeFactor
+      }
+    },
+    note: 'Mock hesaplama kullanıldı. Gerçek ML modeli entegrasyonu yapılacak.'
+  });
+});
+
+// 📌 6. PİYASA ANALİZİ
+app.get('/api/market-analysis', (req, res) => {
+  res.json({
+    success: true,
+    region: 'Manisa',
+    lastUpdated: new Date().toISOString(),
+    statistics: {
+      totalListings: 2150,
+      averagePrice: 15200,
+      averagePricePerSqm: 127,
+      marketTrend: 'stable',
+      monthlyChange: '+2.3%'
+    },
+    byDistrict: [
+      { name: 'Yunusemre', avgPrice: 18500, count: 540, trend: '↑' },
+      { name: 'Şehzadeler', avgPrice: 16500, count: 620, trend: '→' },
+      { name: 'Akhisar', avgPrice: 14000, count: 380, trend: '↓' },
+      { name: 'Turgutlu', avgPrice: 12500, count: 290, trend: '→' },
+      { name: 'Salihli', avgPrice: 12000, count: 220, trend: '↑' }
+    ],
+    recommendations: [
+      'Yunusemre bölgesi yatırım için önerilir',
+      '2+1 daireler en çok talep gören tip',
+      'Salihli\'de fiyatlar yükseliş eğiliminde'
+    ]
+  });
+});
+
+// 📌 7. İLÇE LİSTESİ
+app.get('/api/districts', (req, res) => {
+  res.json({
+    success: true,
+    count: 5,
+    districts: [
+      { id: 1, name: 'Yunusemre', avgPrice: 18500, latitude: 38.6131, longitude: 27.4262 },
+      { id: 2, name: 'Şehzadeler', avgPrice: 16500, latitude: 38.6191, longitude: 27.4289 },
+      { id: 3, name: 'Akhisar', avgPrice: 14000, latitude: 38.9180, longitude: 27.8400 },
+      { id: 4, name: 'Turgutlu', avgPrice: 12500, latitude: 38.5000, longitude: 27.7000 },
+      { id: 5, name: 'Salihli', avgPrice: 12000, latitude: 38.4833, longitude: 28.1333 }
+    ]
+  });
+});
+
+// 📌 8. TEKNİK BİLGİLER
+app.get('/api/tech', (req, res) => {
+  res.json({
+    architecture: 'SOA (Service-Oriented Architecture)',
+    status: 'Phase 1 - Mock API Complete',
+    nextSteps: [
+      'PostgreSQL integration (Üye 1)',
+      'gRPC ML Service integration (Üye 2)',
+      'Google Maps API integration',
+      'SOAP Currency Service'
+    ],
+    contact: 'Üye 3 - SOA Developer'
+  });
+});
+
+// ==================== gRPC INTEGRATION ====================
+const grpc = require('@grpc/grpc-js');
+const protoLoader = require('@grpc/proto-loader');
+const path = require('path');
+
+// 1. Proto dosyasını yükle
+const PROTO_PATH = path.join(__dirname, 'grpc-server/protos/prediction.proto');
+const packageDefinition = protoLoader.loadSync(PROTO_PATH);
+const predictionProto = grpc.loadPackageDefinition(packageDefinition).smartvalue;
+
+// 2. gRPC Client oluştur
+const grpcClient = new predictionProto.PredictionService(
+  'localhost:50051',  // gRPC Server adresi
+  grpc.credentials.createInsecure()
+);
+
+console.log('✅ gRPC Client hazır. Server: localhost:50051');
+
+// 3. YENİ ENDPOINT: gRPC ile tahmin yap
+app.post('/api/predict-grpc', (req, res) => {
+  console.log('📡 gRPC isteği alındı:', req.body);
+  
+  const { district, rooms, squareMeters, buildingAge } = req.body;
+  
+  // Validasyon
+  if (!district || !rooms || !squareMeters || !buildingAge) {
+    return res.status(400).json({
+      success: false,
+      error: 'Eksik parametre!'
+    });
+  }
+  
+  // gRPC formatına çevir
+  const grpcRequest = {
+    district: district,
+    rooms: rooms,
+    square_meters: squareMeters,
+    building_age: buildingAge
+  };
+  
+  console.log('➡️ gRPC Request:', grpcRequest);
+  
+  // gRPC çağrısı yap
+  grpcClient.Predict(grpcRequest, (error, response) => {
+    if (error) {
+      console.error('❌ gRPC Hatası:', error);
+      
+      // Fallback: Normal REST kullan
+      const estimated = squareMeters * 130;
+      res.json({
+        success: true,
+        source: 'REST-Fallback (gRPC failed)',
+        prediction: {
+          minPrice: Math.round(estimated * 0.9),
+          maxPrice: Math.round(estimated * 1.1),
+          confidence: 0.7
+        }
+      });
+      
+    } else {
+      console.log('✅ gRPC Yanıtı:', response);
+      
+      // gRPC başarılı
+      res.json({
+        success: true,
+        source: 'gRPC-ML-Service',
+        protocol: 'gRPC',
+        prediction: {
+          minPrice: response.min_price,
+          maxPrice: response.max_price,
+          confidence: response.confidence,
+          modelVersion: response.model_version || 'v1.0'
+        },
+        note: 'Mock gRPC server kullanıldı. Python ML hazır olunca değişecek.'
+      });
+    }
+  });
+});
+
+// 4. gRPC durumunu kontrol endpoint'i
+app.get('/api/grpc-status', (req, res) => {
+  res.json({
+    gRPC: {
+      server: 'localhost:50051',
+      status: 'connected',
+      protocol: 'gRPC',
+      note: 'Mock ML server - Python entegrasyonu bekleniyor'
+    }
+  });
+});
+// ==================== gRPC SONU ====================
+
+// ==================== SOAP INTEGRATION ====================
+const SoapCurrencyClient = require('./services/soapClient');
+
+const soapClient = new SoapCurrencyClient();
+
+// 1. DÖVİZ KURU ENDPOINT
+app.get('/api/currency', async (req, res) => {
+  try {
+    console.log('💰 SOAP/Döviz isteği alındı');
+    
+    const rates = await soapClient.getExchangeRates();
+    
+    res.json({
+      success: true,
+      protocol: 'SOAP/XML Simulation',
+      note: 'TCMB SOAP servisi simulasyonu. Gerçek SOAP WSDL kullanılabilir.',
+      ...rates
+    });
+    
+  } catch (error) {
+    console.error('SOAP Error:', error);
+    res.status(500).json({
+      success: false,
+      error: 'SOAP service error',
+      message: error.message
+    });
+  }
+});
+
+// 2. EMLAK FİYATINI DÖVİZE ÇEVİR
+app.get('/api/currency/convert', async (req, res) => {
+  try {
+    const { price, currency = 'USD' } = req.query;
+    
+    if (!price) {
+      return res.status(400).json({
+        success: false,
+        error: 'Price parameter required'
+      });
+    }
+    
+    const priceNum = parseFloat(price);
+    const conversion = await soapClient.convertPropertyPrice(priceNum, currency.toUpperCase());
+    
+    res.json({
+      success: true,
+      protocol: 'SOAP',
+      ...conversion
+    });
+    
+  } catch (error) {
+    res.status(500).json({ error: 'Conversion failed' });
+  }
+});
+
+// 3. SOAP DURUMU
+app.get('/api/soap-status', (req, res) => {
+  res.json({
+    soap: {
+      service: 'Currency Exchange Service',
+      type: 'SOAP/XML Simulation',
+      status: 'active',
+      endpoints: {
+        rates: '/api/currency',
+        convert: '/api/currency/convert?price=10000&currency=USD'
+      },
+      note: 'Mock SOAP service for demonstration. Real SOAP would use WSDL.'
+    }
+  });
+});
+// ==================== SOAP SONU ====================
+
+// ==================== GOOGLE MAPS INTEGRATION ====================
+const googleMapsService = require('./services/googleMapsService');
+
+// 1. Google Maps ile koordinat al
+app.get('/api/maps/coordinates', async (req, res) => {
+    try {
+        const { address } = req.query;
+        
+        if (!address) {
+            return res.status(400).json({
+                success: false,
+                error: 'Address parameter required (örn: ?address=Yunusemre,Manisa)'
+            });
+        }
+        
+        const coordinates = await googleMapsService.getCoordinates(address);
+        
+        res.json({
+            success: true,
+            protocol: 'Google Maps Geocoding API',
+            ...coordinates
+        });
+        
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+// 2. Tüm ilçelerin koordinatlarını getir
+app.get('/api/maps/districts', async (req, res) => {
+    try {
+        const districts = await googleMapsService.getAllDistrictsCoordinates();
+        
+        res.json({
+            success: true,
+            source: 'Google Maps API',
+            count: districts.length,
+            districts: districts
+        });
+        
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+// 3. Google Maps durumu
+app.get('/api/maps-status', (req, res) => {
+    res.json({
+        google_maps: {
+            service: 'Geocoding API',
+            status: 'active',
+            api_key: process.env.GOOGLE_MAPS_API_KEY ? 'configured' : 'not configured',
+            endpoints: {
+                coordinates: '/api/maps/coordinates?address=Yunusemre,Manisa',
+                districts: '/api/maps/districts',
+                test: 'https://maps.googleapis.com/maps/api/geocode/json?address=Manisa,Turkey&key=YOUR_KEY'
+            },
+            note: 'Google Maps API successfully integrated with billing account'
+        }
+    });
+});
+// ==================== GOOGLE MAPS SONU ====================
+
+// 📌 9. HATA YÖNETİMİ (EN SONDA OLMALI!)
+app.use((req, res) => {
+  res.status(404).json({
+    success: false,
+    error: 'Endpoint bulunamadı',
+    availableEndpoints: [
+      'GET /',
+      'GET /api/health',
+      'GET /api/properties',
+      'POST /api/predict',
+      'POST /api/predict-grpc',
+      'GET /api/market-analysis',
+      'GET /api/districts',
+      'GET /api/tech',
+      'GET /api/grpc-status',
+      'GET /api/currency',
+      'GET /api/currency/convert',
+      'GET /api/soap-status',
+      'GET /api/maps/coordinates',
+      'GET /api/maps/districts',
+      'GET /api/maps-status'
+    ]
+  });
+});
+
+// ==================== SERVER'ı BAŞLAT ====================
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`
+  ===========================================
+  🚀 SMARTVALUE SOA API BAŞLATILDI
+  📡 Port: ${PORT}
+  🌐 http://localhost:${PORT}
+  🌐 http://127.0.0.1:${PORT}
+  
+  📍 TEST ENDPOINT'LERİ:
+  • Ana Sayfa:      http://localhost:${PORT}
+  • Sağlık:         http://localhost:${PORT}/api/health
+  • REST Tahmin:    POST http://localhost:${PORT}/api/predict
+  • gRPC Tahmin:    POST http://localhost:${PORT}/api/predict-grpc
+  • gRPC Durum:     GET  http://localhost:${PORT}/api/grpc-status
+  • SOAP Döviz:     GET  http://localhost:${PORT}/api/currency
+  • SOAP Çeviri:    GET  http://localhost:${PORT}/api/currency/convert
+  • SOAP Durum:     GET  http://localhost:${PORT}/api/soap-status
+  • Google Maps:    GET  http://localhost:${PORT}/api/maps/coordinates?address=Manisa
+  • Google Maps İlçeler: GET http://localhost:${PORT}/api/maps/districts
+  • Google Maps Durum: GET http://localhost:${PORT}/api/maps-status
+  
+  🔗 Servisler:
+  • gRPC Server: localhost:50051
+  • SOAP Service: Currency Exchange
+  • Google Maps: Geocoding API ✅ AKTİF!
+  
+  🎯 SOA GEREKSİNİMLERİ:
+  ✅ REST API ✓
+  ✅ gRPC iletişimi ✓
+  ✅ SOAP iletişimi ✓
+  ✅ Dış API (Google Maps) ✓ GERÇEK API İLE TAMAMLANDI!
+  ⏳ 6-Layer mimari (dokümante edildi)
+  ===========================================
+  `);
+});
