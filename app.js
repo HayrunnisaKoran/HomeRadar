@@ -118,7 +118,7 @@ app.get('/api/db/status', async (req, res) => {
       success: true,
       timestamp: new Date().toISOString(),
       database: {
-        name: 'homeradar_db',
+        name: 'HomeRadar_db',
         connection: 'active',
         tables_count: Object.keys(stats).length,
         tables: stats
@@ -737,7 +737,7 @@ app.get('/api/db/check-tables', async (req, res) => {
       message: 'Tablo kontrolü tamamlandı',
       timestamp: new Date().toISOString(),
       database_info: {
-        name: 'homeradar_db',
+        name: 'HomeRadar_db',
         total_tables: tablesResult.rows.length,
         tables: tablesResult.rows.map(t => t.table_name)
       },
@@ -754,7 +754,7 @@ app.get('/api/db/check-tables', async (req, res) => {
         '   Add-Migration InitialCreate',
         '   Update-Database',
         '2. Migration başarısız olursa, SQL scriptlerini manuel çalıştırın:',
-        '   psql -U postgres -d homeradar_db -f SQL/01_Database_Schema.sql',
+        '   psql -U postgres -d hHomeRadar_db -f SQL/01_Database_Schema.sql',
         '   (Diğer SQL dosyalarını da sırayla çalıştırın)'
       ] : ['✅ Tüm tablolar hazır, veri ekleyebilirsiniz']
     });
