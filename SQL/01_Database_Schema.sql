@@ -7,10 +7,149 @@
 -- CREATE DATABASE HomeRadar_db;
 
 -- =============================================
--- 1. TABLOLAR (Entity Framework Migration ile oluşturulacak)
+-- 1. TABLOLAR (CREATE TABLE)
 -- =============================================
--- Tablolar Entity Framework Code First yaklaşımı ile oluşturulacak
--- Bu dosya sadece referans amaçlıdır
+-- NOT: Tablolar zaten varsa hata vermez (IF NOT EXISTS kullanılmıştır)
+-- Foreign key bağımlılıklarına göre sıralanmıştır
+
+-- BuildingTypes tablosu (Foreign key bağımlılığı yok)
+CREATE TABLE IF NOT EXISTS "BuildingTypes" (
+    "Id" SERIAL PRIMARY KEY,
+    "Name" VARCHAR(50) NOT NULL,
+    "Description" VARCHAR(200) NULL
+);
+
+-- Districts tablosu (Foreign key bağımlılığı yok)
+CREATE TABLE IF NOT EXISTS "Districts" (
+    "Id" SERIAL PRIMARY KEY,
+    "Name" VARCHAR(100) NOT NULL,
+    "City" VARCHAR(50) NULL
+);
+
+-- Features tablosu (Foreign key bağımlılığı yok)
+CREATE TABLE IF NOT EXISTS "Features" (
+    "Id" SERIAL PRIMARY KEY,
+    "Name" VARCHAR(50) NOT NULL,
+    "Description" VARCHAR(200) NULL
+);
+
+-- Users tablosu (Foreign key bağımlılığı yok)
+CREATE TABLE IF NOT EXISTS "Users" (
+    "Id" SERIAL PRIMARY KEY,
+    "Email" VARCHAR(100) NOT NULL,
+    "PasswordHash" VARCHAR(255) NOT NULL,
+    "FirstName" VARCHAR(50) NOT NULL,
+    "LastName" VARCHAR(50) NOT NULL,
+    "Role" VARCHAR(20) NOT NULL,
+    "CreatedAt" TIMESTAMP NOT NULL,
+    "IsActive" BOOLEAN NOT NULL
+);
+
+-- Listings tablosu (Districts ve BuildingTypes'a bağımlı)
+CREATE TABLE IF NOT EXISTS "Listings" (
+    "Id" SERIAL PRIMARY KEY,
+    "DistrictId" INTEGER NOT NULL,
+    "BuildingTypeId" INTEGER NOT NULL,
+    "Price" DECIMAL(18,2) NOT NULL,
+    "SquareMeters" DECIMAL(10,2) NOT NULL,
+    "RoomCount" INTEGER NOT NULL,
+    "SalonCount" INTEGER NOT NULL,
+    "BathroomCount" INTEGER NULL,
+    "Floor" VARCHAR(50) NULL,
+    "BuildingAge" INTEGER NOT NULL,
+    "Aidat" DECIMAL(10,2) NULL,
+    "HeatingType" VARCHAR(50) NULL,
+    "Direction" VARCHAR(50) NULL,
+    "BuildingStatus" VARCHAR(50) NULL,
+    "UsageStatus" VARCHAR(50) NULL,
+    "DeedStatus" VARCHAR(50) NULL,
+    "FurnitureStatus" VARCHAR(50) NULL,
+    "HasBalcony" BOOLEAN NULL,
+    "HasElevator" BOOLEAN NULL,
+    "HasGarage" BOOLEAN NULL,
+    "IsInComplex" BOOLEAN NULL,
+    "HasSecurity" BOOLEAN NULL,
+    "IsCreditSuitable" BOOLEAN NULL,
+    "IsExchangeable" BOOLEAN NULL,
+    "Neighborhood" VARCHAR(200) NULL,
+    "ListingDate" TIMESTAMP NOT NULL,
+    "CreatedAt" TIMESTAMP NOT NULL,
+    "IsActive" BOOLEAN NOT NULL,
+    CONSTRAINT "FK_Listings_Districts_DistrictId" 
+        FOREIGN KEY ("DistrictId") REFERENCES "Districts"("Id") ON DELETE RESTRICT,
+    CONSTRAINT "FK_Listings_BuildingTypes_BuildingTypeId" 
+        FOREIGN KEY ("BuildingTypeId") REFERENCES "BuildingTypes"("Id") ON DELETE RESTRICT
+);
+
+-- ListingFeatures tablosu (Listings ve Features'a bağımlı)
+CREATE TABLE IF NOT EXISTS "ListingFeatures" (
+    "Id" SERIAL PRIMARY KEY,
+    "ListingId" INTEGER NOT NULL,
+    "FeatureId" INTEGER NOT NULL,
+    CONSTRAINT "FK_ListingFeatures_Listings_ListingId" 
+        FOREIGN KEY ("ListingId") REFERENCES "Listings"("Id") ON DELETE CASCADE,
+    CONSTRAINT "FK_ListingFeatures_Features_FeatureId" 
+        FOREIGN KEY ("FeatureId") REFERENCES "Features"("Id") ON DELETE RESTRICT
+);
+
+-- Predictions tablosu (Users, Listings, Districts, BuildingTypes'a bağımlı)
+CREATE TABLE IF NOT EXISTS "Predictions" (
+    "Id" SERIAL PRIMARY KEY,
+    "UserId" INTEGER NULL,
+    "ListingId" INTEGER NULL,
+    "DistrictId" INTEGER NOT NULL,
+    "RoomCount" INTEGER NOT NULL,
+    "SquareMeters" DECIMAL(10,2) NOT NULL,
+    "BuildingAge" INTEGER NOT NULL,
+    "BuildingTypeId" INTEGER NULL,
+    "PredictedPriceMin" DECIMAL(18,2) NOT NULL,
+    "PredictedPriceMax" DECIMAL(18,2) NOT NULL,
+    "PredictedPriceAvg" DECIMAL(18,2) NOT NULL,
+    "ModelName" VARCHAR(50) NULL,
+    "ConfidenceScore" DECIMAL(5,2) NULL,
+    "CreatedAt" TIMESTAMP NOT NULL,
+    CONSTRAINT "FK_Predictions_Users_UserId" 
+        FOREIGN KEY ("UserId") REFERENCES "Users"("Id") ON DELETE SET NULL,
+    CONSTRAINT "FK_Predictions_Listings_ListingId" 
+        FOREIGN KEY ("ListingId") REFERENCES "Listings"("Id") ON DELETE SET NULL,
+    CONSTRAINT "FK_Predictions_Districts_DistrictId" 
+        FOREIGN KEY ("DistrictId") REFERENCES "Districts"("Id") ON DELETE RESTRICT,
+    CONSTRAINT "FK_Predictions_BuildingTypes_BuildingTypeId" 
+        FOREIGN KEY ("BuildingTypeId") REFERENCES "BuildingTypes"("Id") ON DELETE SET NULL
+);
+
+-- =============================================
+-- 1.1. UNIQUE INDEXES (Migration'dan)
+-- =============================================
+
+-- BuildingTypes.Name unique index
+CREATE UNIQUE INDEX IF NOT EXISTS "IX_BuildingTypes_Name" ON "BuildingTypes"("Name");
+
+-- Districts.Name index (unique değil)
+CREATE INDEX IF NOT EXISTS "IX_Districts_Name" ON "Districts"("Name");
+
+-- Features.Name unique index
+CREATE UNIQUE INDEX IF NOT EXISTS "IX_Features_Name" ON "Features"("Name");
+
+-- Users.Email unique index
+CREATE UNIQUE INDEX IF NOT EXISTS "IX_Users_Email" ON "Users"("Email");
+
+-- ListingFeatures composite unique index
+CREATE UNIQUE INDEX IF NOT EXISTS "IX_ListingFeatures_ListingId_FeatureId" 
+    ON "ListingFeatures"("ListingId", "FeatureId");
+
+-- ListingFeatures.FeatureId index
+CREATE INDEX IF NOT EXISTS "IX_ListingFeatures_FeatureId" ON "ListingFeatures"("FeatureId");
+
+-- Listings foreign key indexes
+CREATE INDEX IF NOT EXISTS "IX_Listings_BuildingTypeId" ON "Listings"("BuildingTypeId");
+CREATE INDEX IF NOT EXISTS "IX_Listings_DistrictId" ON "Listings"("DistrictId");
+
+-- Predictions foreign key indexes
+CREATE INDEX IF NOT EXISTS "IX_Predictions_BuildingTypeId" ON "Predictions"("BuildingTypeId");
+CREATE INDEX IF NOT EXISTS "IX_Predictions_DistrictId" ON "Predictions"("DistrictId");
+CREATE INDEX IF NOT EXISTS "IX_Predictions_ListingId" ON "Predictions"("ListingId");
+CREATE INDEX IF NOT EXISTS "IX_Predictions_UserId" ON "Predictions"("UserId");
 
 -- =============================================
 -- 2. CONSTRAINTS (Veri Bütünlüğü)

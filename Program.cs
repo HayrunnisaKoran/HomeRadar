@@ -10,7 +10,7 @@ namespace HomeRadar
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("SmartValue - Emlak Değerleme Sistemi");
+            Console.WriteLine("HomeRadar - Emlak Değerleme Sistemi");
             Console.WriteLine("=====================================\n");
 
             try
