@@ -2,7 +2,6 @@
 
 **📍 Proje Kimliği:** SmartValue - Akıllı Emlak Değerleme Sistemi  
 **🎯 Amaç:** Belirli bir bölgedeki emlak verilerini analiz ederek, kullanıcıya evinin tahmini değerini söyleyen ve piyasa analizi sunan web tabanlı bir sistem.  
-**👥 Takım:** Hayrunnisa Koran & Ekibi (5 Kişilik Takım)  
 **📅 Sürüm:** 1.0.0  
 **🚀 Durum:** Geliştirme Aşamasında (SOA API Tamamlandı ✅)
 
@@ -217,4 +216,5 @@ SOA API endpoint'lerini JavaScript/AJAX ile çağırın
 API'den gelen verileri Chart.js ile görselleştirin
 Responsive tasarımları API verileriyle besleyin
 Kullanıcı formlarını SOA API'ye bağlayın 
+
 
