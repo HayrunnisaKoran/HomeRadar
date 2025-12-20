@@ -19,7 +19,7 @@ END $$;
 -- 2. Veritabanı Yetkileri
 -- NOT: Eğer kullanıcı yoksa bu satırlar hata verebilir, bu yüzden önce kullanıcı oluşturulmalı
 GRANT CONNECT ON DATABASE homeradar_db TO homeradar_app_user;
-GRANT USAGE ON SCHEMA public TO homeradar_app_user;
+GRANT USAGE ON SCHEMA puablic TO homeradar_app_user;
 
 -- 3. Tablo Yetkileri (SELECT, INSERT, UPDATE, DELETE)
 GRANT SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO homeradar_app_user;

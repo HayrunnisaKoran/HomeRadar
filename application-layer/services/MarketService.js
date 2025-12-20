@@ -1,116 +1,92 @@
-const propertyRepository = require('../../data-layer/repositories/PropertyRepository');
-const mlService = require('../../infrastructure-layer/external-apis/mlService');
+// application-layer/services/MarketService.js
+const PropertyRepository = require('../../data-layer/repositories/PropertyRepository');
+const ExternalApiService = require('../../infrastructure-layer/external-apis/services/googleMapsService');
 
 class MarketService {
-  
-  // İlan arama servisi
-  async searchProperties(filters) {
-    try {
-      const properties = await propertyRepository.getListingsByCriteria(filters);
-      
-      // Eğer ML servisi varsa, tahmin ekle
-      if (filters.includePrediction) {
-        for (const property of properties) {
-          try {
-            const prediction = await mlService.predictPrice(property);
-            property.predictedPrice = prediction;
-          } catch (error) {
-            console.warn('ML tahmini başarısız:', error.message);
-          }
-        }
-      }
-      
-      return properties;
-    } catch (error) {
-      throw new Error(`İlan arama hatası: ${error.message}`);
-    }
+  constructor() {
+    this.propertyRepository = new PropertyRepository();
+    this.externalApiService = new ExternalApiService();
   }
 
-  // Fiyat tahmini servisi
-  async estimatePrice(predictionRequest) {
+  async getPropertyEstimation(params) {
     try {
-      // 1. ML servisine tahmin yaptır
-      const mlPrediction = await mlService.predictPrice(predictionRequest);
-      
-      // 2. Veritabanında tahmin kaydı oluştur
-      const predictionId = await propertyRepository.createPrediction({
-        ...predictionRequest,
-        predictedPriceMin: mlPrediction.min,
-        predictedPriceMax: mlPrediction.max,
-        modelName: mlPrediction.model,
-        confidenceScore: mlPrediction.confidence
+      // 1. Benzer ilanları getir
+      const similarListings = await this.propertyRepository.getListingsByCriteria({
+        districtId: params.districtId,
+        roomCount: params.roomCount,
+        minSquareMeters: params.squareMeters * 0.8,
+        maxSquareMeters: params.squareMeters * 1.2
       });
-      
-      // 3. Veritabanından benzer ilanları getir
-      const similarProperties = await propertyRepository.getListingsByCriteria({
-        districtId: predictionRequest.districtId,
-        roomCount: predictionRequest.roomCount,
-        minPrice: mlPrediction.min * 0.9,
-        maxPrice: mlPrediction.max * 1.1
-      });
-      
-      return {
-        predictionId,
-        estimatedPrice: {
-          min: mlPrediction.min,
-          max: mlPrediction.max,
-          average: (mlPrediction.min + mlPrediction.max) / 2
-        },
-        confidence: mlPrediction.confidence,
-        model: mlPrediction.model,
-        similarProperties: similarProperties.slice(0, 5) // İlk 5 benzer ilan
-      };
-    } catch (error) {
-      throw new Error(`Fiyat tahmini hatası: ${error.message}`);
-    }
-  }
 
-  // İstatistik servisi
-  async getMarketStatistics() {
-    try {
-      const [avgPrices, activeListings] = await Promise.all([
-        propertyRepository.getDistrictAveragePrices(),
-        propertyRepository.getActiveListings()
-      ]);
-      
-      // User Defined Function ile metrekare fiyatını hesapla
-      const totalPrice = activeListings.reduce((sum, listing) => sum + parseFloat(listing.Price), 0);
-      const totalArea = activeListings.reduce((sum, listing) => sum + parseFloat(listing.SquareMeters), 0);
-      const avgPricePerSqm = totalArea > 0 ? totalPrice / totalArea : 0;
-      
-      return {
-        districtStatistics: avgPrices,
-        activeListingsCount: activeListings.length,
-        averagePricePerSquareMeter: avgPricePerSqm,
-        totalMarketValue: totalPrice
-      };
-    } catch (error) {
-      throw new Error(`İstatistik alma hatası: ${error.message}`);
-    }
-  }
+      // 2. View'den ilçe istatistiklerini al
+      const districtStats = await this.propertyRepository.getDistrictAveragePrices();
+      const currentDistrict = districtStats.find(d => d.districtid === params.districtId);
 
-  // Yeni ilan ekleme servisi
-  async addNewProperty(propertyData) {
-    try {
-      // Veri doğrulama
-      if (!propertyData.districtId || !propertyData.price || propertyData.price <= 0) {
-        throw new Error('Geçersiz ilan verisi');
-      }
-      
-      const newProperty = await propertyRepository.createListing(propertyData);
-      
-      // ML servisine bu yeni ilanı da öğret (opsiyonel)
-      // await mlService.trainWithNewData(newProperty);
-      
+      // 3. User Defined Function ile tahmin yap
+      const estimatedPrice = await this.propertyRepository.estimatePrice(
+        params.districtId,
+        params.roomCount,
+        params.squareMeters,
+        params.buildingAge
+      );
+
+      // 4. Dış API'den ek bilgiler (Google Maps)
+      const locationData = await this.externalApiService.getLocationInfo(params.districtId);
+
       return {
         success: true,
-        propertyId: newProperty.Id,
-        message: 'İlan başarıyla eklendi'
+        data: {
+          similarListings: similarListings.slice(0, 5), // İlk 5 benzer ilan
+          districtStatistics: currentDistrict,
+          estimatedPrice: estimatedPrice,
+          locationInfo: locationData,
+          calculationDetails: {
+            roomCount: params.roomCount,
+            squareMeters: params.squareMeters,
+            buildingAge: params.buildingAge
+          }
+        }
       };
     } catch (error) {
-      throw new Error(`İlan ekleme hatası: ${error.message}`);
+      console.error('MarketService.getPropertyEstimation hatası:', error);
+      return {
+        success: false,
+        error: error.message
+      };
+    }
+  }
+
+  async getMarketOverview() {
+    try {
+      const [
+        districtPrices,
+        ageAnalysis,
+        roomStats,
+        activeListings
+      ] = await Promise.all([
+        this.propertyRepository.getDistrictAveragePrices(),
+        this.propertyRepository.getBuildingAgeAnalysis(),
+        this.propertyRepository.getRoomCountStatistics(),
+        this.propertyRepository.getActiveListings(10)
+      ]);
+
+      return {
+        success: true,
+        data: {
+          districtPrices,
+          ageAnalysis,
+          roomStats,
+          recentListings: activeListings
+        }
+      };
+    } catch (error) {
+      console.error('MarketService.getMarketOverview hatası:', error);
+      return {
+        success: false,
+        error: error.message
+      };
     }
   }
 }
 
-module.exports = new MarketService();
+module.exports = MarketService;
