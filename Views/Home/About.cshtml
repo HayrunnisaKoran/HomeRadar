@@ -2,7 +2,27 @@
     ViewBag.Title = "Hakkında";
 }
 
-<h2>@ViewBag.Message</h2>
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0"><i class="bi bi-info-circle"></i> @ViewBag.Title</h4>
+            </div>
+            <div class="card-body">
+                <h5>HomeRadar Hakkında</h5>
+                <p>HomeRadar, yapay zeka destekli emlak değerleme sistemidir.</p>
+                
+                <h6 class="mt-4">Özellikler:</h6>
+                <ul>
+                    <li>Makine öğrenmesi ile fiyat tahmini</li>
+                    <li>İlçe bazlı analiz</li>
+                    <li>Detaylı emlak bilgileri</li>
+                    <li>Kullanıcı dostu arayüz</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
 <p>HomeRadar, emlak değerleme için geliştirilmiş bir web uygulamasıdır.</p>
 <p>Makine öğrenmesi algoritmaları kullanarak emlak fiyat tahminleri yapmaktadır.</p>

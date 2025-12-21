@@ -1,0 +1,45 @@
+@model HomeRadar.Models.Listing
+
+@{
+    ViewBag.Title = "İlan Sil";
+}
+
+<h3><i class="bi bi-exclamation-triangle text-danger"></i> @ViewBag.Title</h3>
+<hr />
+
+<div class="alert alert-warning">
+    <i class="bi bi-exclamation-triangle"></i> Bu ilanı silmek istediğinizden emin misiniz?
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">ID:</dt>
+            <dd class="col-sm-8">@Model.Id</dd>
+
+            <dt class="col-sm-4">İlçe:</dt>
+            <dd class="col-sm-8">@(Model.District?.Name ?? "Bilinmiyor")</dd>
+
+            <dt class="col-sm-4">Bina Tipi:</dt>
+            <dd class="col-sm-8">@(Model.BuildingType?.Name ?? "Bilinmiyor")</dd>
+
+            <dt class="col-sm-4">Fiyat:</dt>
+            <dd class="col-sm-8">@Model.Price.ToString("C0")</dd>
+
+            <dt class="col-sm-4">Metrekare:</dt>
+            <dd class="col-sm-8">@Model.SquareMeters m²</dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-trash"></i> Sil
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> İptal
+            </a>
+        </form>
+    </div>
+</div>
+

@@ -18,27 +18,27 @@ namespace HomeRadar.Models
         [Required]
         [MaxLength(100)]
         [Column("Email")]
-        public string Email { get; set; }
+        public string Email { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(255)]
         [Column("PasswordHash")]
-        public string PasswordHash { get; set; }
+        public string PasswordHash { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(50)]
         [Column("FirstName")]
-        public string FirstName { get; set; }
+        public string FirstName { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(50)]
         [Column("LastName")]
-        public string LastName { get; set; }
+        public string LastName { get; set; } = string.Empty;
 
         [Required]
         [MaxLength(20)]
         [Column("Role")]
-        public string Role { get; set; } // "Admin" veya "User"
+        public string Role { get; set; } = string.Empty; // "Admin" veya "User"
 
         [Column("CreatedAt")]
         public DateTime CreatedAt { get; set; } = DateTime.Now;
@@ -47,7 +47,7 @@ namespace HomeRadar.Models
         public bool IsActive { get; set; } = true;
 
         // Navigation Properties
-        public virtual ICollection<Prediction> Predictions { get; set; }
+        public virtual ICollection<Prediction>? Predictions { get; set; }
     }
 }
 

@@ -1,5 +1,3 @@
-using System;
-using System.Configuration;
 using Microsoft.EntityFrameworkCore;
 using HomeRadar.Models;
 
@@ -10,38 +8,21 @@ namespace HomeRadar.Data
     /// </summary>
     public class EmlakContext : DbContext
     {
-        public EmlakContext() : base()
-        {
-        }
-
         public EmlakContext(DbContextOptions<EmlakContext> options) : base(options)
         {
         }
 
         // DbSets - Veritabanı tabloları
-        public DbSet<User> Users { get; set; }
-        public DbSet<District> Districts { get; set; }
-        public DbSet<BuildingType> BuildingTypes { get; set; }
-        public DbSet<Feature> Features { get; set; }
-        public DbSet<Listing> Listings { get; set; }
-        public DbSet<ListingFeature> ListingFeatures { get; set; }
-        public DbSet<Prediction> Predictions { get; set; }
+        public DbSet<User> Users { get; set; } = null!;
+        public DbSet<District> Districts { get; set; } = null!;
+        public DbSet<BuildingType> BuildingTypes { get; set; } = null!;
+        public DbSet<Feature> Features { get; set; } = null!;
+        public DbSet<Listing> Listings { get; set; } = null!;
+        public DbSet<ListingFeature> ListingFeatures { get; set; } = null!;
+        public DbSet<Prediction> Predictions { get; set; } = null!;
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                // App.config'den connection string'i oku
-                var connectionString = ConfigurationManager.ConnectionStrings["HomeRadarConnection"]?.ConnectionString;
-                
-                if (string.IsNullOrEmpty(connectionString))
-                {
-                    throw new InvalidOperationException("Connection string 'HomeRadarConnection' bulunamadı!");
-                }
-
-                optionsBuilder.UseNpgsql(connectionString);
-            }
-        }
+        // ASP.NET Core'da connection string Program.cs'de Dependency Injection ile verilir
+        // OnConfiguring artık gerekli değil
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

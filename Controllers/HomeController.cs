@@ -1,5 +1,4 @@
-using System.Linq;
-using System.Web.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using HomeRadar.Data;
 
 namespace HomeRadar.Controllers
@@ -8,12 +7,12 @@ namespace HomeRadar.Controllers
     {
         private readonly EmlakContext _context;
 
-        public HomeController()
+        public HomeController(EmlakContext context)
         {
-            _context = new EmlakContext();
+            _context = context;
         }
 
-        public ActionResult Index()
+        public IActionResult Index()
         {
             // ViewBag kullanımı (Üye 4 için örnek)
             ViewBag.Message = "HomeRadar - Emlak Değerleme Sistemi";
@@ -35,27 +34,23 @@ namespace HomeRadar.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public IActionResult About()
         {
             ViewBag.Message = "Hakkında";
             ViewBag.Title = "Hakkında";
             return View();
         }
 
-        public ActionResult Contact()
+        public IActionResult Contact()
         {
             ViewBag.Message = "İletişim";
             ViewBag.Title = "İletişim";
+            
+            // ViewData kullanımı örneği
+            ViewData["ContactEmail"] = "info@homeradar.com";
+            ViewData["ContactPhone"] = "+90 555 123 4567";
+            
             return View();
-        }
-
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                _context?.Dispose();
-            }
-            base.Dispose(disposing);
         }
     }
 }

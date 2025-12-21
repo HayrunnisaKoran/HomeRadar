@@ -41,8 +41,15 @@ bld/
 # Sensitive data
 App.config
 !App.config.example
+appsettings.json
+!appsettings.example.json
+appsettings.*.json
+!appsettings.example.json
 *.secrets.json
 *.secrets.config
+
+# ASP.NET Core - User-specific files
+*.csproj.user
 
 # Database
 *.db

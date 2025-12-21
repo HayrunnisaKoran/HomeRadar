@@ -23,10 +23,10 @@ namespace HomeRadar.Models
 
         // Navigation Properties
         [ForeignKey("ListingId")]
-        public virtual Listing Listing { get; set; }
+        public virtual Listing? Listing { get; set; }
 
         [ForeignKey("FeatureId")]
-        public virtual Feature Feature { get; set; }
+        public virtual Feature? Feature { get; set; }
     }
 }
 

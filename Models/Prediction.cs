@@ -55,7 +55,7 @@ namespace HomeRadar.Models
 
         [MaxLength(50)]
         [Column("ModelName")]
-        public string ModelName { get; set; } // "LinearRegression", "DecisionTree"
+        public string? ModelName { get; set; } // "LinearRegression", "DecisionTree"
 
         [Column("ConfidenceScore", TypeName = "decimal(5,2)")]
         public decimal? ConfidenceScore { get; set; }
@@ -65,16 +65,16 @@ namespace HomeRadar.Models
 
         // Navigation Properties
         [ForeignKey("UserId")]
-        public virtual User User { get; set; }
+        public virtual User? User { get; set; }
 
         [ForeignKey("ListingId")]
-        public virtual Listing Listing { get; set; }
+        public virtual Listing? Listing { get; set; }
 
         [ForeignKey("DistrictId")]
-        public virtual District District { get; set; }
+        public virtual District? District { get; set; }
 
         [ForeignKey("BuildingTypeId")]
-        public virtual BuildingType BuildingType { get; set; }
+        public virtual BuildingType? BuildingType { get; set; }
     }
 }
 

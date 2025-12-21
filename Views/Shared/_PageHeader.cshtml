@@ -1,0 +1,27 @@
+@* PartialView - Sayfa başlığı ve mesajları gösterir *@
+@if (ViewBag.Message != null || ViewBag.Title != null)
+{
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card bg-primary text-white">
+                <div class="card-body">
+                    <h2 class="card-title mb-0">
+                        @if (ViewBag.Title != null)
+                        {
+                            @ViewBag.Title
+                        }
+                        else if (ViewBag.Message != null)
+                        {
+                            @ViewBag.Message
+                        }
+                    </h2>
+                    @if (ViewBag.Message != null && ViewBag.Title != null)
+                    {
+                        <p class="card-text mb-0">@ViewBag.Message</p>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

@@ -1,9 +1,7 @@
-using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System.IO;
-using System.Configuration;
 
 namespace HomeRadar.Data
 {
@@ -14,12 +12,18 @@ namespace HomeRadar.Data
     {
         public EmlakContext CreateDbContext(string[] args)
         {
-            // App.config'den connection string'i oku
-            var connectionString = ConfigurationManager.ConnectionStrings["HomeRadarConnection"]?.ConnectionString;
+            // appsettings.json'dan connection string'i oku
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddJsonFile("appsettings.Development.json", optional: true, reloadOnChange: true)
+                .Build();
+
+            var connectionString = configuration.GetConnectionString("HomeRadarConnection");
             
             if (string.IsNullOrEmpty(connectionString))
             {
-                // Eğer App.config'den okunamazsa, varsayılan connection string kullan
+                // Eğer appsettings.json'dan okunamazsa, varsayılan connection string kullan
                 // NOT: Migration için postgres kullanıcısı kullanılıyor (superuser yetkisi gerekli)
                 connectionString = "Host=localhost;Port=5432;Database=HomeRadar_db;Username=postgres;Password=250400";
             }

@@ -17,14 +17,14 @@ namespace HomeRadar.Models
         [Required]
         [MaxLength(100)]
         [Column("Name")]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [MaxLength(50)]
         [Column("City")]
-        public string City { get; set; } = "Manisa";
+        public string? City { get; set; } = "Manisa";
 
         // Navigation Properties
-        public virtual ICollection<Listing> Listings { get; set; }
+        public virtual ICollection<Listing>? Listings { get; set; }
     }
 }
 

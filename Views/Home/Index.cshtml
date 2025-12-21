@@ -2,18 +2,50 @@
     ViewBag.Title = "Ana Sayfa";
 }
 
-<h2>@ViewBag.Message</h2>
-
-<div>
-    <h3>Veritabanı İstatistikleri</h3>
-    <p>Toplam İlan Sayısı: <strong>@ViewBag.ListingCount</strong></p>
-    <p>Toplam İlçe Sayısı: <strong>@ViewBag.DistrictCount</strong></p>
-    <p>Toplam Kullanıcı Sayısı: <strong>@ViewBag.UserCount</strong></p>
+<div class="row">
+    <div class="col-12">
+        <div class="jumbotron bg-light p-5 rounded mb-4">
+            <h1 class="display-4">@ViewBag.Message</h1>
+            <p class="lead">Yapay zeka destekli emlak değerleme sistemine hoş geldiniz.</p>
+            <hr class="my-4">
+            <p>Bu sistem, makine öğrenmesi kullanarak emlak fiyat tahminleri yapmaktadır.</p>
+            <a class="btn btn-primary btn-lg" asp-controller="Listings" asp-action="Index" role="button">
+                <i class="bi bi-list-ul"></i> İlanları Görüntüle
+            </a>
+        </div>
+    </div>
 </div>
 
-<div>
-    <h3>Hoş Geldiniz!</h3>
-    <p>HomeRadar emlak değerleme sistemine hoş geldiniz.</p>
-    <p>Bu sistem, makine öğrenmesi kullanarak emlak fiyat tahminleri yapmaktadır.</p>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card text-white bg-primary">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-house"></i> Toplam İlan
+                </h5>
+                <h2 class="card-text">@ViewBag.ListingCount</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-geo-alt"></i> Toplam İlçe
+                </h5>
+                <h2 class="card-text">@ViewBag.DistrictCount</h2>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-info">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-people"></i> Toplam Kullanıcı
+                </h5>
+                <h2 class="card-text">@ViewBag.UserCount</h2>
+            </div>
+        </div>
+    </div>
 </div>
 

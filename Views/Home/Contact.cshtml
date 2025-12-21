@@ -1,8 +1,31 @@
 @{
     ViewBag.Title = "İletişim";
+    // ViewData kullanımı örneği
+    var email = ViewData["ContactEmail"] as string ?? "info@homeradar.com";
+    var phone = ViewData["ContactPhone"] as string ?? "+90 555 123 4567";
 }
 
-<h2>@ViewBag.Message</h2>
-
-<p>İletişim bilgileri buraya eklenecek.</p>
-
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0"><i class="bi bi-envelope"></i> @ViewBag.Title</h4>
+            </div>
+            <div class="card-body">
+                <h5>Bize Ulaşın</h5>
+                <p>HomeRadar ekibiyle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz.</p>
+                
+                <dl class="row">
+                    <dt class="col-sm-3"><i class="bi bi-envelope"></i> Email:</dt>
+                    <dd class="col-sm-9">@email</dd>
+                    
+                    <dt class="col-sm-3"><i class="bi bi-telephone"></i> Telefon:</dt>
+                    <dd class="col-sm-9">@phone</dd>
+                    
+                    <dt class="col-sm-3"><i class="bi bi-geo-alt"></i> Adres:</dt>
+                    <dd class="col-sm-9">Manisa, Türkiye</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

@@ -17,14 +17,14 @@ namespace HomeRadar.Models
         [Required]
         [MaxLength(50)]
         [Column("Name")]
-        public string Name { get; set; } // "Balkon", "Asansör", "Garaj", "Otopark", "Havuz", "Güvenlik"
+        public string Name { get; set; } = string.Empty; // "Balkon", "Asansör", "Garaj", "Otopark", "Havuz", "Güvenlik"
 
         [MaxLength(200)]
         [Column("Description")]
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         // Navigation Properties - Many-to-Many ilişki için
-        public virtual ICollection<ListingFeature> ListingFeatures { get; set; }
+        public virtual ICollection<ListingFeature>? ListingFeatures { get; set; }
     }
 }
 

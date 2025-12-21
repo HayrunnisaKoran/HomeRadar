@@ -47,7 +47,7 @@ namespace HomeRadar.Models
 
         [MaxLength(50)]
         [Column("Floor")]
-        public string Floor { get; set; } // "Zemin", "5. Kat", "Kot 1"
+        public string? Floor { get; set; } // "Zemin", "5. Kat", "Kot 1"
 
         [Required]
         [Column("BuildingAge")]
@@ -59,27 +59,27 @@ namespace HomeRadar.Models
         // Detay Bilgileri
         [MaxLength(50)]
         [Column("HeatingType")]
-        public string HeatingType { get; set; } // "Doğalgaz", "Kombi", "Soba"
+        public string? HeatingType { get; set; } // "Doğalgaz", "Kombi", "Soba"
 
         [MaxLength(50)]
         [Column("Direction")]
-        public string Direction { get; set; } // "Kuzey", "Güney", "Doğu", "Batı"
+        public string? Direction { get; set; } // "Kuzey", "Güney", "Doğu", "Batı"
 
         [MaxLength(50)]
         [Column("BuildingStatus")]
-        public string BuildingStatus { get; set; } // "Sıfır", "İkinci El", "Yeni"
+        public string? BuildingStatus { get; set; } // "Sıfır", "İkinci El", "Yeni"
 
         [MaxLength(50)]
         [Column("UsageStatus")]
-        public string UsageStatus { get; set; } // "Boş", "Kiracılı"
+        public string? UsageStatus { get; set; } // "Boş", "Kiracılı"
 
         [MaxLength(50)]
         [Column("DeedStatus")]
-        public string DeedStatus { get; set; } // "Kat Mülkiyetli", "Tapu Durumu"
+        public string? DeedStatus { get; set; } // "Kat Mülkiyetli", "Tapu Durumu"
 
         [MaxLength(50)]
         [Column("FurnitureStatus")]
-        public string FurnitureStatus { get; set; } // "Eşyalı", "Boş"
+        public string? FurnitureStatus { get; set; } // "Eşyalı", "Boş"
 
         // Boolean Özellikler (String olarak saklanabilir, ama bool daha iyi)
         [Column("HasBalcony")]
@@ -105,7 +105,7 @@ namespace HomeRadar.Models
 
         [MaxLength(200)]
         [Column("Neighborhood")]
-        public string Neighborhood { get; set; }
+        public string? Neighborhood { get; set; }
 
         [Column("ListingDate")]
         public DateTime ListingDate { get; set; } = DateTime.Now;
@@ -118,13 +118,13 @@ namespace HomeRadar.Models
 
         // Navigation Properties
         [ForeignKey("DistrictId")]
-        public virtual District District { get; set; }
+        public virtual District? District { get; set; }
 
         [ForeignKey("BuildingTypeId")]
-        public virtual BuildingType BuildingType { get; set; }
+        public virtual BuildingType? BuildingType { get; set; }
 
-        public virtual ICollection<ListingFeature> ListingFeatures { get; set; }
-        public virtual ICollection<Prediction> Predictions { get; set; }
+        public virtual ICollection<ListingFeature>? ListingFeatures { get; set; }
+        public virtual ICollection<Prediction>? Predictions { get; set; }
     }
 }
 

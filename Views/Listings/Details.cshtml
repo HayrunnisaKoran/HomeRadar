@@ -1,0 +1,57 @@
+@model HomeRadar.Models.Listing
+
+@{
+    ViewBag.Title = "İlan Detayı";
+    // ViewData kullanımı örneği
+    ViewData["PageType"] = "Detail";
+    ViewData["CanEdit"] = ViewContext.HttpContext.Session.GetString("UserRole") == "Admin";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0"><i class="bi bi-info-circle"></i> İlan Detayları</h4>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">ID:</dt>
+                    <dd class="col-sm-8">@Model.Id</dd>
+
+                    <dt class="col-sm-4">İlçe:</dt>
+                    <dd class="col-sm-8">@ViewData["DistrictName"]</dd>
+
+                    <dt class="col-sm-4">Bina Tipi:</dt>
+                    <dd class="col-sm-8">@(Model.BuildingType?.Name ?? "Bilinmiyor")</dd>
+
+                    <dt class="col-sm-4">Fiyat:</dt>
+                    <dd class="col-sm-8"><strong>@Model.Price.ToString("C0")</strong></dd>
+
+                    <dt class="col-sm-4">Metrekare:</dt>
+                    <dd class="col-sm-8">@Model.SquareMeters m²</dd>
+
+                    <dt class="col-sm-4">Oda Sayısı:</dt>
+                    <dd class="col-sm-8">@Model.RoomCount + @Model.SalonCount</dd>
+
+                    <dt class="col-sm-4">Bina Yaşı:</dt>
+                    <dd class="col-sm-8">@Model.BuildingAge yıl</dd>
+
+                    <dt class="col-sm-4">Oluşturulma Tarihi:</dt>
+                    <dd class="col-sm-8">@Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</dd>
+                </dl>
+            </div>
+            <div class="card-footer">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Geri Dön
+                </a>
+                @if ((bool)ViewData["CanEdit"]!)
+                {
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil"></i> Düzenle
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
