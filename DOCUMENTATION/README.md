@@ -2,7 +2,7 @@
 
 ## 📚 Dokümantasyon İndeksi
 
-Bu klasör, SmartValue projesinin veritabanı kısmıyla ilgili tüm dokümantasyonları içerir.
+Bu klasör, HomeRadar projesinin veritabanı kısmıyla ilgili tüm dokümantasyonları içerir.
 
 ### 📖 Dokümantasyon Dosyaları
 
