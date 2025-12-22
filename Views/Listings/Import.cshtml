@@ -1,0 +1,81 @@
+@{
+    ViewBag.Title = "CSV'den İlan İçe Aktar";
+}
+
+<h3><i class="bi bi-upload"></i> @ViewBag.Title</h3>
+<hr />
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle"></i> <strong>Bilgi:</strong> CSV dosyasından ilanları toplu olarak içe aktarabilirsiniz.
+            <br />CSV dosyası formatı: <code>Ilce,M2,Banyo,Kat,Bina_Yasi,Isinma,Balkon,Asansor,Garaj,Yapı Durumu,Kullanım Durumu,Tapu Durumu,Takas,Eşya Durumu,Fiyat,oda_sayisi,salon_sayisi</code>
+            <br />Örnek dosya yolu: <code>ML/DATA/manisa_satilik_temiz_5_m2_final.csv</code>
+        </div>
+
+        <form asp-action="Import" method="post" id="importForm">
+            @Html.AntiForgeryToken()
+            
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div asp-validation-summary="All" class="alert alert-danger mb-3"></div>
+            }
+            
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    @Html.Raw(TempData["SuccessMessage"])
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    @Html.Raw(TempData["ErrorMessage"])
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+
+            @if (TempData["InfoMessage"] != null)
+            {
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    @Html.Raw(TempData["InfoMessage"])
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            }
+            
+            <div class="mb-3">
+                <label for="csvFilePath" class="form-label">CSV Dosya Yolu</label>
+                <input type="text" class="form-control" id="csvFilePath" name="csvFilePath" 
+                       placeholder="ML/DATA/manisa_satilik_temiz_5_m2_final.csv" 
+                       value="ML/DATA/manisa_satilik_temiz_5_m2_final.csv" />
+                <small class="form-text text-muted">
+                    Proje kök dizininden göreli yol veya tam dosya yolu girebilirsiniz.
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="clearBeforeImport" name="clearBeforeImport" value="true" checked />
+                    <label class="form-check-label" for="clearBeforeImport">
+                        <strong>Önce tüm mevcut ilanları temizle</strong> (Tüm kayıtlar silinip CSV'den yeniden eklenecek)
+                    </label>
+                </div>
+                <small class="form-text text-muted text-warning">
+                    ⚠️ DİKKAT: Bu seçenek işaretliyse, mevcut tüm ilanlar kalıcı olarak silinir!
+                </small>
+            </div>
+
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-upload"></i> İçe Aktar
+                </button>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Geri Dön
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+

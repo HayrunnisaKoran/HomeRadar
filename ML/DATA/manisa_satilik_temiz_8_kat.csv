@@ -1,0 +1,1493 @@
+﻿Ilce,M2,Banyo,Bina_Yasi,Isinma,Balkon,Asansor,Garaj,Yapı Durumu,Kullanım Durumu,Tapu Durumu,Takas,Eşya Durumu,Fiyat,oda_sayisi,salon_sayisi,Kat
+Alasehir,120,1,7 Yaşında,Merkezi,1,1,0,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,3500000.0,3,1,3.0
+Turgutlu,85,1,31 Yaşında,Isıtma Yok,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2150000.0,2,1,4.0
+Akhisar,165,1,21 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3850000.0,3,1,1.0
+Akhisar,150,1,6 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,3,1,3.0
+Yunusemre,110,1,5 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3500000.0,2,1,0.5
+Turgutlu,145,1,17 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,-,3550000.0,3,1,3.0
+Turgutlu,130,1,6 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4600000.0,3,1,2.0
+Alasehir,47,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1700000.0,1,1,2.0
+Turgutlu,107,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3100000.0,2,1,2.0
+Yunusemre,270,3,25 Yaşında,Kombi,0,0,1,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,15500000.0,4,1,3.0
+Yunusemre,130,1,4 Yaşında,Soba,0,0,1,-,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı Değil,4200000.0,4,1,0.0
+Akhisar,120,1,15 Yaşında,Kombi,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2400000.0,2,1,1.0
+Sehzadeler,130,1,16 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4750000.0,3,1,2.0
+Sehzadeler,135,1,21 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3295000.0,3,1,2.0
+Sehzadeler,110,1,16 Yaşında,Kombi,1,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3375000.0,2,1,4.0
+Alasehir,145,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3200000.0,3,1,3.0
+Kirkagac,115,1,28 Yaşında,Kombi,0,0,1,-,-,Müstakil Tapulu,-,-,2075000.0,3,1,3.0
+Sehzadeler,105,1,11 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı,3490000.0,2,1,1.0
+Yunusemre,90,1,5 Yaşında,Kombi,1,1,1,Sıfır,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3695000.0,2,1,3.0
+Yunusemre,130,1,30 Yaşında,Kombi,0,0,1,İkinci El,-,Kat İrtifakı,Evet,Eşyalı Değil,3700000.0,3,1,4.0
+Sehzadeler,300,1,1 Yaşında,Yerden Isıtma,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4650000.0,2,1,1.0
+Kirkagac,115,1,21 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,1190000.0,2,1,4.0
+Sehzadeler,115,1,26 Yaşında,Kombi,0,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3875000.0,3,1,3.0
+Kirkagac,100,1,50 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı,3500000.0,2,1,3.0
+Turgutlu,370,3,6 Yaşında,Yerden Isıtma,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı,24990000.0,6,1,0.0
+Turgutlu,85,1,5 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2750000.0,2,1,3.0
+Yunusemre,80,1,4 Yaşında,Kombi,1,1,0,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,3100000.0,2,1,2.0
+Ahmetli,80,1,5 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1150000.0,1,1,2.0
+Sehzadeler,120,1,25 Yaşında,Kombi,1,1,0,İkinci El,-,Kat İrtifakı,Hayır,Eşyalı Değil,3550000.0,3,1,3.0
+Sehzadeler,120,1,21 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,-,3975000.0,3,1,0.0
+Turgutlu,120,1,26 Yaşında,Isıtma Yok,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,1595000.0,3,1,2.0
+Sehzadeler,120,1,25 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3950000.0,3,1,3.0
+Sehzadeler,130,1,21 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3495000.0,3,1,4.0
+Akhisar,73,1,31 Yaşında,Isıtma Yok,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,565000.0,1,1,0.0
+Akhisar,91,1,40 Yaşında,Soba,0,0,0,İkinci El,Kiracılı,Müstakil Tapulu,Hayır,Eşyalı Değil,1725000.0,3,1,3.0
+Turgutlu,115,1,1 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2680000.0,3,1,3.0
+Yunusemre,160,2,16 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,7100000.0,4,1,5.0
+Salihli,125,1,18 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,-,Eşyalı Değil,3400000.0,3,1,0.5
+Saruhanli,50,1,1 Yaşında,Isıtma Yok,0,0,0,-,-,Müstakil Tapulu,-,-,2700000.0,1,1,0.5
+Akhisar,34,1,10 Yaşında,Soba,0,0,0,İkinci El,Boş,Arsa,-,Eşyalı Değil,750000.0,1,1,3.0
+Yunusemre,125,1,26 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,-,2950000.0,3,1,5.0
+Sehzadeler,135,1,26 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,-,Eşyalı Değil,4650000.0,3,1,4.0
+Turgutlu,90,1,6 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2475000.0,2,1,1.0
+Yunusemre,130,1,8 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,3,1,2.0
+Salihli,345,1,15 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,-,Eşyalı Değil,2000000.0,2,1,3.0
+Yunusemre,70,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı,2340000.0,1,1,3.0
+Sehzadeler,130,1,Sıfır Bina,Klima,0,0,0,Sıfır,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı Değil,3290000.0,2,1,3.0
+Yunusemre,430,1,25 Yaşında,Klima,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3500000.0,3,1,3.0
+Sehzadeler,85,1,25 Yaşında,Klima,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı,2950000.0,2,1,0.5
+Akhisar,140,1,26 Yaşında,Klima,0,1,0,İkinci El,Boş,Kat Mülkiyeti,-,Eşyalı Değil,2100000.0,3,1,1.0
+Sehzadeler,105,1,25 Yaşında,Kombi,1,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,2950000.0,3,1,5.0
+Yunusemre,225,2,16 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,8850000.0,4,1,4.0
+Akhisar,90,1,21 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,1700000.0,2,1,2.0
+Salihli,145,2,1 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2850000.0,2,1,4.0
+Turgutlu,115,1,25 Yaşında,Kombi,1,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2950000.0,2,1,3.0
+Yunusemre,100,1,29 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2850000.0,3,1,5.0
+Akhisar,100,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2500000.0,2,1,3.0
+Yunusemre,135,1,11 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4850000.0,3,1,4.0
+Alasehir,150,1,15 Yaşında,Kombi,0,0,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3000000.0,3,1,5.0
+Yunusemre,160,2,1 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,7950000.0,3,1,0.5
+Turgutlu,100,1,25 Yaşında,Kombi,1,0,0,-,-,Kat Mülkiyeti,-,Eşyalı Değil,2300000.0,2,1,3.0
+Saruhanli,101,1,Sıfır Bina,Kombi,0,0,0,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2300000.0,2,1,3.0
+Sehzadeler,105,2,2 Yaşında,Yerden Isıtma,1,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4150000.0,2,1,0.5
+Yunusemre,65,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2450000.0,1,1,4.0
+Yunusemre,140,1,30 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Müstakil Tapulu,Hayır,Eşyalı Değil,3950000.0,3,1,0.0
+Soma,95,1,5 Yaşında,Merkezi,0,0,1,İkinci El,Mülk Sahibi,Kat İrtifakı,-,-,2650000.0,2,1,3.0
+Sehzadeler,498,1,49 Yaşında,Soba,0,0,1,İkinci El,Boş,Arsa,Hayır,Eşyalı Değil,3950000.0,4,1,3.0
+Akhisar,90,1,31 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,2550000.0,2,1,1.0
+Yunusemre,120,1,21 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4250000.0,3,1,6.0
+Yunusemre,60,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3150000.0,1,1,2.0
+Sehzadeler,100,1,26 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2650000.0,2,1,4.0
+Turgutlu,209,1,11 Yaşında,Doğalgaz Sobası,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,6750000.0,3,1,0.0
+Sehzadeler,115,1,35 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3200000.0,3,1,3.0
+Salihli,52,1,6 Yaşında,Klima,1,1,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2100000.0,1,1,5.0
+Akhisar,110,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3150000.0,2,1,5.0
+Yunusemre,120,1,15 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı,6250000.0,2,1,-3.0
+Turgutlu,130,2,1 Yaşında,Klima,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2550000.0,2,1,0.5
+Gordes,110,1,30 Yaşında,Soba,0,0,0,-,-,Müstakil Tapulu,Hayır,-,4000000.0,3,0,0.0
+Turgutlu,342,1,27 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,16000000.0,4,1,3.0
+Salihli,150,1,25 Yaşında,Klima,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3480000.0,3,1,8.0
+Turgutlu,110,1,20 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2600000.0,2,1,5.0
+Sehzadeler,90,1,35 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,2,1,2.0
+Sehzadeler,70,1,30 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı,2650000.0,2,1,0.0
+Sehzadeler,150,1,31 Yaşında,Soba,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2200000.0,3,1,5.0
+Yunusemre,115,1,3 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3450000.0,2,1,3.0
+Yunusemre,170,2,11 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5750000.0,3,1,4.0
+Salihli,110,1,50 Yaşında,Klima,0,0,0,-,Boş,Kat İrtifakı,-,Eşyalı Değil,2350000.0,3,1,3.0
+Yunusemre,85,1,5 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3350000.0,2,1,0.5
+Salihli,120,1,21 Yaşında,Klima,0,0,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı,2725000.0,3,1,3.0
+Yunusemre,100,1,4 Yaşında,Kombi,0,1,1,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,5750000.0,2,1,5.0
+Yunusemre,130,1,15 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,4700000.0,3,1,3.0
+Akhisar,108,1,1 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2780000.0,2,1,2.0
+Turgutlu,110,1,30 Yaşında,Soba,0,0,0,-,Boş,Kat Mülkiyeti,-,Eşyalı Değil,1750000.0,2,1,3.0
+Turgutlu,102,1,4 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı,2850000.0,2,1,3.0
+Soma,110,1,4 Yaşında,Merkezi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2900000.0,3,1,1.0
+Turgutlu,135,1,15 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2500000.0,3,1,0.0
+Salihli,87,1,5 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,2,1,5.0
+Yunusemre,120,3,Sıfır Bina,Klima,1,0,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5700000.0,3,1,3.0
+Yunusemre,150,2,4 Yaşında,Güneş Enerjisi,0,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,-,10400000.0,3,1,0.5
+Turgutlu,105,1,11 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2900000.0,2,1,0.0
+Akhisar,130,1,26 Yaşında,Kombi,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2100000.0,3,1,1.0
+Akhisar,140,2,26 Yaşında,Kombi,1,1,0,-,Boş,Tapu Yok,Hayır,Eşyalı Değil,2450000.0,3,1,4.0
+Akhisar,130,1,26 Yaşında,Soba,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1750000.0,3,1,0.0
+Sehzadeler,119,1,31 Yaşında,Soba,0,0,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,2100000.0,2,1,0.0
+Akhisar,226,1,32 Yaşında,Soba,0,0,0,İkinci El,Kiracılı,Müstakil Tapulu,Hayır,Eşyalı Değil,810000.0,3,1,3.0
+Akhisar,130,1,26 Yaşında,Soba,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,-,1975000.0,3,1,3.0
+Saruhanli,354,1,32 Yaşında,Klima,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı,1780000.0,2,1,0.5
+Salihli,160,1,21 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2750000.0,3,1,5.0
+Salihli,174,2,3 Yaşında,Belirtilmemiş,0,0,0,İkinci El,Mülk Sahibi,Arsa,Evet,Eşyalı Değil,7300000.0,2,1,3.0
+Turgutlu,100,1,20 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2099000.0,2,1,4.0
+Akhisar,130,1,21 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı,1980000.0,3,1,0.0
+Ahmetli,145,1,5 Yaşında,Kombi,0,1,0,-,-,Kat İrtifakı,-,-,2900000.0,3,1,0.5
+Akhisar,220,2,11 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,5,1,2.0
+Sehzadeler,120,1,26 Yaşında,Kombi,1,0,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,3450000.0,1,1,0.0
+Turgutlu,110,1,7 Yaşında,Kombi,1,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2650000.0,2,1,3.0
+Salihli,60,1,10 Yaşında,Klima,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı,1900000.0,1,1,3.0
+Yunusemre,220,2,2 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,13500000.0,4,1,3.0
+Turgutlu,280,3,Sıfır Bina,Yerden Isıtma,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,8500000.0,5,1,6.0
+Akhisar,140,1,6 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3075000.0,3,1,3.0
+Salihli,90,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3675000.0,2,1,5.0
+Kirkagac,120,2,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,3,1,2.0
+Akhisar,140,1,7 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,3500000.0,3,1,2.0
+Saruhanli,90,1,1 Yaşında,Kombi,0,1,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,2750000.0,2,1,3.0
+Yunusemre,110,1,4 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,0.5
+Yunusemre,60,1,3 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3600000.0,1,1,0.0
+Akhisar,130,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3550000.0,2,1,1.0
+Akhisar,115,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2585000.0,2,1,3.0
+Akhisar,290,1,25 Yaşında,Soba,0,0,0,İkinci El,Kiracılı,Müstakil Tapulu,-,Eşyalı Değil,1580000.0,2,1,3.0
+Sehzadeler,120,1,50 Yaşında,Merkezi,1,1,0,İkinci El,-,Kat Mülkiyeti,Hayır,Eşyalı Değil,3250000.0,3,1,5.0
+Soma,460,1,25 Yaşında,Soba,0,0,1,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,1850000.0,2,1,3.0
+Sehzadeler,231,1,37 Yaşında,Soba,0,0,1,İkinci El,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,4200000.0,3,1,3.0
+Akhisar,280,3,5 Yaşında,Kombi,0,0,1,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı,11000000.0,4,2,3.0
+Soma,300,1,21 Yaşında,Soba,0,1,1,-,Kiracılı,Hisseli Tapu,Hayır,-,3500000.0,2,1,0.0
+Salihli,210,3,2 Yaşında,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5295000.0,3,1,4.0
+Salihli,50,1,8 Yaşında,Klima,0,1,0,-,-,Kat Mülkiyeti,-,-,1925000.0,1,1,3.0
+Yunusemre,85,1,4 Yaşında,Kombi,0,1,1,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3175000.0,2,1,0.5
+Salihli,55,1,10 Yaşında,Klima,0,0,0,-,Boş,Kat Mülkiyeti,-,Eşyalı,1650000.0,1,1,5.0
+Yunusemre,180,2,20 Yaşında,Soba,0,0,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2700000.0,2,1,3.0
+Akhisar,130,2,35 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2150000.0,3,1,2.0
+Salihli,105,1,20 Yaşında,Klima,1,0,0,İkinci El,Kiracılı,Kat İrtifakı,-,Eşyalı Değil,2600000.0,2,1,3.0
+Sehzadeler,200,2,6 Yaşında,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,9650000.0,3,1,4.0
+Yunusemre,185,2,1 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,9750000.0,3,1,5.0
+Turgutlu,160,2,6 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,4,1,4.0
+Yunusemre,46,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2900000.0,1,1,2.0
+Soma,180,1,35 Yaşında,Jeotermal Isıtm...,1,0,0,İkinci El,Boş,Hisseli Tapu,Hayır,Eşyalı Değil,3420000.0,3,1,1.0
+Saruhanli,147,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3100000.0,2,1,4.0
+Yunusemre,85,1,32 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3100000.0,2,1,5.0
+Koprubasi,180,1,40 Yaşında,Soba,0,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1350000.0,3,1,3.0
+Turgutlu,141,1,30 Yaşında,Kat Kaloriferi,1,0,1,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,6500000.0,3,1,3.0
+Salihli,85,1,24 Yaşında,Klima,0,0,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,4600000.0,2,1,3.0
+Yunusemre,70,1,6 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2849000.0,2,1,4.0
+Turgutlu,120,1,6 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2999000.0,3,1,4.0
+Yunusemre,85,1,4 Yaşında,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3175000.0,2,1,3.0
+Akhisar,90,3,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3050000.0,2,1,2.0
+Akhisar,145,1,8 Yaşında,Kombi,1,1,1,-,-,Müstakil Tapulu,Evet,-,2950000.0,3,1,0.5
+Akhisar,70,1,Sıfır Bina,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2590000.0,2,0,1.0
+Yunusemre,75,1,6 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1700000.0,2,1,0.0
+Yunusemre,110,1,15 Yaşında,Kat Kaloriferi,0,0,0,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4750000.0,2,1,3.0
+Soma,100,1,Sıfır Bina,Merkezi,1,1,0,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2750000.0,2,1,0.5
+Saruhanli,285,2,5 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı Değil,8650000.0,6,1,4.0
+Turgutlu,150,1,26 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2650000.0,3,1,3.0
+Akhisar,100,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3350000.0,2,1,3.0
+Yunusemre,240,2,20 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,4,1,5.0
+Salihli,125,1,6 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,4900000.0,3,1,5.0
+Akhisar,135,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,3625000.0,3,1,2.0
+Yunusemre,90,1,8 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4900000.0,2,1,2.0
+Salihli,148,1,15 Yaşında,Soba,0,0,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,6750000.0,3,1,0.0
+Akhisar,150,2,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,6600000.0,5,1,5.0
+Demirci,65,1,9 Yaşında,Kat Kaloriferi,1,0,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,-,1685000.0,2,1,0.0
+Yunusemre,110,1,12 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,-,3300000.0,3,1,5.0
+Salihli,110,1,Sıfır Bina,Kombi,0,0,1,Sıfır,Boş,Kat İrtifakı,-,-,4500000.0,2,1,5.0
+Sehzadeler,135,1,16 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5200000.0,3,1,3.0
+Yunusemre,48,1,1 Yaşında,Merkezi (Pay Öl...,1,0,1,Sıfır,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı,4850000.0,1,1,12.0
+Akhisar,105,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,2,1,3.0
+Yunusemre,200,1,3 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı,5850000.0,3,1,5.0
+Yunusemre,174,2,11 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,11750000.0,4,1,3.0
+Yunusemre,50,1,6 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2350000.0,1,1,2.0
+Turgutlu,155,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6750000.0,3,1,1.0
+Salihli,85,1,Sıfır Bina,Kombi,1,1,1,Yapım Aşamasınd...,Boş,Kat İrtifakı,Evet,-,2800000.0,2,1,1.0
+Salihli,145,1,20 Yaşında,Jeotermal Isıtm...,1,1,1,İkinci El,Boş,Kat Mülkiyeti,-,Eşyalı Değil,4100000.0,3,1,4.0
+Akhisar,90,2,Sıfır Bina,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,3600000.0,2,1,1.0
+Yunusemre,240,2,20 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,4200000.0,4,1,5.0
+Yunusemre,257,3,26 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,16500000.0,4,1,0.0
+Salihli,165,1,20 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3250000.0,3,1,3.0
+Turgutlu,110,1,21 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,2600000.0,2,1,4.0
+Salihli,200,1,12 Yaşında,Klima,0,0,0,İkinci El,Mülk Sahibi,Hisseli Tapu,Evet,Eşyalı Değil,12000000.0,3,1,3.0
+Yunusemre,83,1,12 Yaşında,Kombi,0,0,0,-,Belirtilmemiş,Kat Mülkiyeti,-,Eşyalı Değil,3970000.0,2,1,3.0
+Yunusemre,115,1,11 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6750000.0,3,1,9.0
+Turgutlu,115,1,6 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3250000.0,2,1,0.5
+Sehzadeler,140,1,26 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3700000.0,3,1,4.0
+Turgutlu,160,2,5 Yaşında,Kombi,0,0,0,-,-,Arsa,Hayır,-,9900000.0,1,0,0.0
+Turgutlu,135,1,20 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,-,3300000.0,4,1,3.0
+Yunusemre,50,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,2575000.0,1,1,0.5
+Salihli,300,3,1 Yaşında,Kat Kaloriferi,1,0,1,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,35000000.0,7,1,3.0
+Yunusemre,75,1,Sıfır Bina,Yerden Isıtma,0,0,0,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2990000.0,2,1,0.5
+Yunusemre,75,1,4 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2950000.0,2,1,2.0
+Turgutlu,85,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2300000.0,2,1,3.0
+Yunusemre,250,2,1 Yaşında,Kombi,0,1,0,Sıfır,Boş,Müstakil Tapulu,-,Eşyalı Değil,7900000.0,5,1,4.0
+Sehzadeler,145,1,30 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4100000.0,4,1,0.5
+Turgutlu,130,2,2 Yaşında,Merkezi (Pay Öl...,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5400000.0,3,1,3.0
+Yunusemre,275,2,14 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,-,8980000.0,6,2,0.5
+Turgutlu,120,1,6 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3750000.0,2,1,4.0
+Sehzadeler,75,1,23 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,2,1,3.0
+Yunusemre,120,1,16 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3475000.0,3,1,0.0
+Turgutlu,159,1,25 Yaşında,Kombi,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,2100000.0,2,1,0.0
+Salihli,157,1,10 Yaşında,Soba,1,1,1,İkinci El,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,4800000.0,3,1,0.0
+Yunusemre,160,2,12 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı,4490000.0,4,1,5.0
+Turgutlu,105,1,8 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,-,2350000.0,3,1,3.0
+Akhisar,125,1,Sıfır Bina,Yerden Isıtma,1,1,0,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4150000.0,3,1,2.0
+Yunusemre,145,1,6 Yaşında,Kombi,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4600000.0,3,1,2.0
+Yunusemre,115,1,4 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3950000.0,3,1,4.0
+Yunusemre,100,1,11 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4650000.0,2,1,3.0
+Salihli,145,1,15 Yaşında,Kombi,1,1,1,İkinci El,-,Kat İrtifakı,Hayır,-,4650000.0,3,1,3.0
+Yunusemre,125,1,6 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4550000.0,3,1,1.0
+Turgutlu,280,3,Sıfır Bina,Yerden Isıtma,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,8500000.0,5,1,5.0
+Alasehir,155,2,6 Yaşında,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4750000.0,3,1,8.0
+Salihli,125,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3650000.0,3,1,3.0
+Sehzadeler,145,2,6 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,7700000.0,3,1,5.0
+Koprubasi,110,1,4 Yaşında,Kat Kaloriferi,0,1,0,-,-,Kat Mülkiyeti,Evet,-,3150000.0,2,1,3.0
+Yunusemre,145,1,13 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,6800000.0,3,1,5.0
+Turgutlu,90,2,7 Yaşında,Merkezi (Pay Öl...,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,2800000.0,2,1,5.0
+Sehzadeler,120,1,20 Yaşında,Kombi,0,0,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,3,1,3.0
+Yunusemre,120,2,4 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5700000.0,3,1,2.0
+Salihli,85,1,4 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,2450000.0,2,1,0.0
+Yunusemre,140,1,6 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,4200000.0,3,1,4.0
+Sehzadeler,86,1,2 Yaşında,Merkezi,0,0,1,-,Boş,Tapu Yok,Evet,Eşyalı Değil,1550000.0,2,1,1.0
+Turgutlu,145,1,2 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,3,1,3.0
+Akhisar,103,2,Sıfır Bina,Kombi,0,0,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,2,1,2.0
+Ahmetli,45,1,6 Yaşında,Klima,1,0,0,İkinci El,-,Kat İrtifakı,-,Eşyalı,1800000.0,1,1,0.5
+Yunusemre,80,1,8 Yaşında,Kombi,0,1,1,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3150000.0,2,1,2.0
+Yunusemre,90,1,2 Yaşında,Kombi,0,1,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3550000.0,2,1,3.0
+Salihli,135,1,3 Yaşında,Kombi,0,1,1,İkinci El,-,Kat İrtifakı,Hayır,Eşyalı Değil,6100000.0,3,1,3.0
+Sehzadeler,145,1,27 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3425000.0,3,1,5.0
+Salihli,95,1,5 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3600000.0,2,1,3.0
+Sehzadeler,90,1,34 Yaşında,Klima,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,2340000.0,2,1,5.0
+Salihli,204,2,5 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5400000.0,4,1,4.0
+Akhisar,202,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,4,1,3.0
+Alasehir,170,2,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,3,1,6.0
+Akhisar,100,1,31 Yaşında,Soba,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,1705000.0,2,1,0.0
+Salihli,110,1,16 Yaşında,Isıtma Yok,0,0,1,İkinci El,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı,2650000.0,3,1,-3.0
+Akhisar,130,1,1 Yaşında,Merkezi,0,0,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2890000.0,3,1,0.0
+Turgutlu,90,2,Sıfır Bina,Yerden Isıtma,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3800000.0,2,1,1.0
+Yunusemre,140,1,8 Yaşında,Kombi,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,5500000.0,3,1,5.0
+Turgutlu,160,2,1 Yaşında,Yerden Isıtma,1,0,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,5900000.0,3,1,1.0
+Yunusemre,55,1,10 Yaşında,Kat Kaloriferi,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3250000.0,1,1,0.0
+Salihli,130,1,25 Yaşında,Jeotermal Isıtm...,0,1,1,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,4750000.0,3,1,2.0
+Sehzadeler,130,1,26 Yaşında,Kombi,1,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,3,1,1.0
+Turgutlu,110,2,2 Yaşında,Yerden Isıtma,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6300000.0,2,1,5.0
+Akhisar,600,1,15 Yaşında,Soba,0,1,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,-,Eşyalı Değil,10250000.0,2,0,3.0
+Salihli,90,1,7 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3500000.0,2,1,1.0
+Sehzadeler,125,1,15 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3380000.0,3,1,2.0
+Turgutlu,170,2,Sıfır Bina,Kombi,0,1,1,Yapım Aşamasınd...,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6500000.0,3,1,4.0
+Alasehir,170,2,Sıfır Bina,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5250000.0,3,1,6.0
+Yunusemre,135,1,15 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4050000.0,3,1,2.0
+Akhisar,365,1,25 Yaşında,Soba,0,0,0,İkinci El,Kiracılı,Arsa,Hayır,Eşyalı Değil,3000000.0,2,1,3.0
+Saruhanli,148,1,7 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,5000000.0,3,1,3.0
+Akhisar,150,1,3 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4250000.0,3,1,3.0
+Turgutlu,110,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3850000.0,2,1,2.0
+Turgutlu,165,2,1 Yaşında,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,7000000.0,3,0,1.0
+Yunusemre,65,1,6 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4650000.0,2,0,3.0
+Yunusemre,130,1,6 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4450000.0,3,1,3.0
+Sehzadeler,100,1,30 Yaşında,Kombi,1,1,0,İkinci El,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,3975000.0,2,1,1.0
+Turgutlu,110,1,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4000000.0,2,1,2.0
+Sehzadeler,100,1,6 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,1,1,6.0
+Akhisar,130,1,6 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,3,1,2.0
+Akhisar,85,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,3300000.0,2,0,3.0
+Yunusemre,110,1,4 Yaşında,Kombi,0,0,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,7150000.0,2,1,2.0
+Salihli,135,1,6 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,5670000.0,3,1,3.0
+Sehzadeler,85,1,35 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4300000.0,2,1,1.0
+Salihli,160,1,10 Yaşında,Jeotermal Isıtm...,1,0,0,İkinci El,-,Müstakil Tapulu,-,Eşyalı Değil,3800000.0,3,1,4.0
+Yunusemre,120,1,31 Yaşında,Kombi,1,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3695000.0,2,1,5.0
+Demirci,90,1,40 Yaşında,Soba,0,0,0,İkinci El,Boş,Arsa,Evet,Eşyalı Değil,600000.0,2,1,3.0
+Akhisar,300,3,Sıfır Bina,Kombi,0,1,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,6700000.0,5,1,4.0
+Turgutlu,172,2,5 Yaşında,Merkezi (Pay Öl...,1,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,5250000.0,3,1,4.0
+Yunusemre,130,2,6 Yaşında,Kombi,1,1,0,İkinci El,Kiracılı,Müstakil Tapulu,Evet,Eşyalı Değil,4450000.0,3,1,3.0
+Yunusemre,115,1,28 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3800000.0,3,1,2.0
+Sehzadeler,125,1,40 Yaşında,Merkezi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4299000.0,3,1,2.0
+Turgutlu,125,1,7 Yaşında,Kombi,1,0,0,İkinci El,-,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,3,1,5.0
+Akhisar,125,1,5 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,4.0
+Akhisar,105,1,5 Yaşında,Klima,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı,8250000.0,2,0,3.0
+Akhisar,115,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3600000.0,2,1,2.0
+Yunusemre,95,1,5 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3350000.0,2,1,4.0
+Sehzadeler,125,1,21 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3975000.0,2,1,2.0
+Turgutlu,115,1,21 Yaşında,Klima,1,0,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2550000.0,2,1,4.0
+Akhisar,220,3,Sıfır Bina,Kombi,0,0,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,6500000.0,4,1,3.0
+Sehzadeler,120,1,25 Yaşında,Kombi,1,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3075000.0,3,1,5.0
+Sehzadeler,90,1,31 Yaşında,Klima,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,7750000.0,2,1,1.0
+Yunusemre,138,1,31 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3450000.0,3,1,0.5
+Yunusemre,220,3,Sıfır Bina,Yerden Isıtma,0,0,1,Sıfır,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,17949000.0,5,1,3.0
+Yunusemre,200,2,15 Yaşında,Yerden Isıtma,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,8150000.0,5,1,5.0
+Sehzadeler,120,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,14000.0,3,1,5.0
+Akhisar,260,2,11 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3550000.0,5,1,0.0
+Yunusemre,55,1,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3550000.0,1,1,2.0
+Saruhanli,400,1,11 Yaşında,Soba,0,1,0,-,Boş,Arsa,Evet,Eşyalı,3725000.0,2,1,3.0
+Soma,115,1,7 Yaşında,Merkezi,1,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2550000.0,3,1,2.0
+Yunusemre,110,1,14 Yaşında,Kombi,1,0,1,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,3450000.0,3,1,0.5
+Sehzadeler,135,1,16 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4500000.0,3,1,5.0
+Yunusemre,280,2,6 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6500000.0,6,1,5.0
+Turgutlu,120,1,4 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4650000.0,3,1,3.0
+Salihli,95,1,2 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,2,1,5.0
+Turgutlu,145,1,5 Yaşında,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5500000.0,3,1,5.0
+Yunusemre,165,1,19 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,6500000.0,3,1,3.0
+Turgutlu,280,2,4 Yaşında,Merkezi (Pay Öl...,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4500000.0,3,1,2.0
+Akhisar,125,2,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4500000.0,3,1,2.0
+Yunusemre,185,2,16 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4625000.0,3,1,1.0
+Yunusemre,150,1,15 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5500000.0,3,1,3.0
+Turgutlu,115,2,1 Yaşında,Merkezi (Pay Öl...,0,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,2,1,10.0
+Yunusemre,382,2,5 Yaşında,Soba,1,1,0,-,Boş,Kooperatiften H...,Evet,Eşyalı,6000000.0,4,1,0.0
+Yunusemre,140,1,5 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,6850000.0,3,1,0.5
+Salihli,148,1,9 Yaşında,Soba,0,0,1,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,3,1,0.0
+Salihli,300,2,3 Yaşında,Kombi,1,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,9750000.0,4,2,5.0
+Akhisar,100,1,Sıfır Bina,Kombi,1,0,0,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2435000.0,1,1,0.5
+Yunusemre,120,1,26 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3800000.0,3,1,5.0
+Sehzadeler,45,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3375000.0,1,1,3.0
+Yunusemre,55,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı,4100000.0,1,1,0.5
+Kirkagac,90,1,31 Yaşında,Kombi,1,0,0,-,-,Kat Mülkiyeti,-,Eşyalı Değil,1400000.0,2,1,2.0
+Saruhanli,75,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2450000.0,2,1,2.0
+Yunusemre,112,1,16 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6500000.0,3,1,2.0
+Akhisar,170,2,Sıfır Bina,Kombi,0,0,1,Sıfır,Boş,Kat Mülkiyeti,-,Eşyalı Değil,8250000.0,4,1,5.0
+Turgutlu,135,1,11 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,3,1,4.0
+Yunusemre,135,1,6 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,3,1,1.0
+Salihli,80,1,6 Yaşında,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3150000.0,2,1,0.5
+Akhisar,73,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2950000.0,2,0,1.0
+Sehzadeler,120,1,5 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,7200000.0,2,1,5.0
+Salihli,250,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,7490000.0,5,1,0.0
+Akhisar,142,2,8 Yaşında,Kombi,1,1,1,-,-,Müstakil Tapulu,-,-,3590000.0,3,1,5.0
+Turgutlu,130,2,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4650000.0,3,1,3.0
+Salihli,145,1,13 Yaşında,Kombi,0,0,1,İkinci El,Mülk Sahibi,Kat İrtifakı,-,Eşyalı Değil,5250000.0,3,1,4.0
+Akhisar,138,1,11 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3600000.0,3,1,2.0
+Turgutlu,135,1,25 Yaşında,Kombi,1,0,0,-,-,Kat Mülkiyeti,-,-,3750000.0,3,1,3.0
+Yunusemre,75,1,4 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2950000.0,2,1,2.0
+Kirkagac,134,1,20 Yaşında,Kombi,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2450000.0,3,1,1.0
+Akhisar,120,2,Sıfır Bina,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4150000.0,3,1,3.0
+Salihli,135,1,30 Yaşında,Kombi,0,0,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3600000.0,3,1,0.5
+Sehzadeler,400,3,21 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı,10500000.0,4,1,5.0
+Yunusemre,230,2,1 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5700000.0,3,1,5.0
+Yunusemre,95,1,10 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3150000.0,3,1,0.5
+Yunusemre,125,1,21 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4450000.0,3,1,4.0
+Yunusemre,120,1,25 Yaşında,Kombi,1,0,0,-,-,Kat Mülkiyeti,-,-,3200000.0,3,1,4.0
+Saruhanli,105,1,1 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2995000.0,2,1,3.0
+Akhisar,240,2,1 Yaşında,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4670000.0,4,1,4.0
+Sehzadeler,140,1,31 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3375000.0,3,1,5.0
+Akhisar,148,1,3 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı,4200000.0,3,0,5.0
+Kirkagac,120,2,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3550000.0,3,1,3.0
+Turgutlu,132,1,12 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat Mülkiyeti,-,Eşyalı Değil,2500000.0,2,1,1.0
+Yunusemre,111,1,33 Yaşında,Soba,0,1,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,-,2490000.0,2,1,0.5
+Sehzadeler,340,2,10 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,4550000.0,4,2,0.0
+Yunusemre,200,2,8 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,5300000.0,4,1,5.0
+Akhisar,85,1,19 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı,2900000.0,2,1,1.0
+Akhisar,80,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3000000.0,2,1,1.0
+Saruhanli,55,1,Sıfır Bina,Yerden Isıtma,0,0,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,2650000.0,1,1,2.0
+Salihli,125,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Evet,-,3650000.0,3,1,3.0
+Akhisar,125,1,1 Yaşında,Yerden Isıtma,0,0,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4800000.0,3,1,1.0
+Yunusemre,480,3,11 Yaşında,Yerden Isıtma,0,0,1,İkinci El,Mülk Sahibi,Kat İrtifakı,-,Eşyalı Değil,58900000.0,5,2,3.0
+Turgutlu,175,1,21 Yaşında,Soba,0,0,0,-,Kiracılı,Müstakil Tapulu,Hayır,-,2100000.0,3,1,0.0
+Turgutlu,140,1,7 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2900000.0,3,1,5.0
+Turgutlu,170,3,2 Yaşında,Yerden Isıtma,1,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,5500000.0,3,1,4.0
+Turgutlu,95,1,11 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2700000.0,2,1,1.0
+Yunusemre,220,2,17 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Müstakil Tapulu,-,Eşyalı,6200000.0,4,1,5.0
+Turgutlu,130,1,11 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,-,3500000.0,3,1,1.0
+Turgutlu,255,3,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,-,7500000.0,4,1,4.0
+Salihli,275,1,31 Yaşında,Isıtma Yok,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3250000.0,4,1,0.0
+Akhisar,95,1,5 Yaşında,Kombi,1,1,1,-,-,Müstakil Tapulu,-,-,2980000.0,2,1,3.0
+Salihli,175,2,2 Yaşında,Kombi,0,1,1,-,-,Kat İrtifakı,-,Eşyalı Değil,6250000.0,4,1,4.0
+Yunusemre,105,1,6 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,2,1,4.0
+Yunusemre,60,1,2 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,1,1,0.5
+Sehzadeler,125,1,16 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3750000.0,3,1,1.0
+Saruhanli,140,1,1 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4350000.0,3,1,2.0
+Yunusemre,80,1,6 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı,3050000.0,2,1,3.0
+Yunusemre,115,1,11 Yaşında,Kombi,1,0,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5750000.0,2,1,0.5
+Yunusemre,58,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3000000.0,1,1,2.0
+Yunusemre,160,2,15 Yaşında,Kombi,0,1,1,İkinci El,Kiracılı,Müstakil Tapulu,Hayır,Eşyalı Değil,7500000.0,3,1,10.0
+Turgutlu,135,2,Sıfır Bina,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5800000.0,3,1,3.0
+Turgutlu,100,1,Sıfır Bina,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3750000.0,2,1,3.0
+Yunusemre,60,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2750000.0,1,1,3.0
+Saruhanli,145,2,5 Yaşında,Kombi,1,0,0,İkinci El,Kiracılı,Kat İrtifakı,-,Eşyalı Değil,4300000.0,3,1,1.0
+Akhisar,130,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4250000.0,3,1,1.0
+Akhisar,130,1,25 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,3800000.0,3,1,3.0
+Turgutlu,205,2,16 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4500000.0,3,1,2.0
+Turgutlu,190,2,Sıfır Bina,Yerden Isıtma,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,6500000.0,3,1,1.0
+Turgutlu,157,2,4 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4800000.0,3,1,3.0
+Yunusemre,55,1,15 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Müstakil Tapulu,-,Eşyalı Değil,5500000.0,1,1,3.0
+Turgutlu,85,1,21 Yaşında,Klima,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,1750000.0,2,1,3.0
+Yunusemre,170,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,18500000.0,4,1,0.0
+Akhisar,95,1,28 Yaşında,Kombi,0,0,0,-,-,Müstakil Tapulu,-,-,1350000.0,2,1,5.0
+Yunusemre,125,1,21 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3650000.0,3,1,5.0
+Turgutlu,201,2,11 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Evet,-,2950000.0,2,2,4.0
+Salihli,95,1,4 Yaşında,Jeotermal Isıtm...,0,0,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,-,3250000.0,2,1,4.0
+Akhisar,125,1,30 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1875000.0,3,1,4.0
+Salihli,269,1,16 Yaşında,Doğalgaz Sobası,0,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,6950000.0,3,1,0.0
+Akhisar,175,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6800000.0,3,1,4.0
+Turgutlu,145,1,11 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4499000.0,3,1,0.5
+Akhisar,135,1,9 Yaşında,Kombi,0,1,0,İkinci El,Belirtilmemiş,Kat İrtifakı,Hayır,-,9000000.0,4,2,3.0
+Yunusemre,130,1,5 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4950000.0,3,1,3.0
+Sehzadeler,125,2,28 Yaşında,Kombi,0,1,0,Sıfır,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3750000.0,3,1,5.0
+Turgutlu,160,1,6 Yaşında,Kombi,0,1,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2250000.0,3,1,0.0
+Yunusemre,196,1,11 Yaşında,Klima,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,5000000.0,3,1,3.0
+Soma,135,2,7 Yaşında,Kombi,1,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2975000.0,3,1,2.0
+Yunusemre,90,2,Sıfır Bina,Yerden Isıtma,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,2,1,2.0
+Akhisar,160,2,4 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5500000.0,3,1,1.0
+Akhisar,170,2,3 Yaşında,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4100000.0,4,1,3.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,3550000.0,3,1,3.0
+Turgutlu,135,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5650000.0,3,1,3.0
+Turgutlu,100,1,31 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2500000.0,2,1,2.0
+Salihli,95,1,Sıfır Bina,Kombi,1,1,1,Sıfır,-,Kat Mülkiyeti,Hayır,-,2850000.0,2,1,3.0
+Sehzadeler,130,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,1,3.0
+Turgutlu,130,1,11 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,2,1,4.0
+Sehzadeler,195,3,6 Yaşında,Kat Kaloriferi,1,0,1,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,7650000.0,5,2,1.0
+Saruhanli,55,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,1995000.0,1,1,0.5
+Turgutlu,100,1,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3750000.0,2,1,1.0
+Sehzadeler,180,1,25 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4990000.0,3,1,3.0
+Sehzadeler,115,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3975000.0,2,1,3.0
+Sehzadeler,100,1,31 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,5300000.0,2,1,2.0
+Sehzadeler,155,2,28 Yaşında,Kombi,1,1,0,-,-,Kat Mülkiyeti,-,-,5650000.0,3,1,3.0
+Akhisar,132,2,1 Yaşında,Kombi,0,1,1,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,4425000.0,3,1,3.0
+Turgutlu,120,1,7 Yaşında,Kombi,0,1,0,-,-,Kat Mülkiyeti,Hayır,Eşyalı Değil,2900000.0,3,1,2.0
+Alasehir,190,2,5 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4500000.0,3,1,4.0
+Akhisar,109,1,40 Yaşında,Soba,0,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1150000.0,3,1,3.0
+Yunusemre,115,1,25 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4450000.0,3,1,2.0
+Akhisar,128,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6750000.0,3,1,1.0
+Yunusemre,95,1,5 Yaşında,Kombi,1,0,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3600000.0,2,1,2.0
+Turgutlu,129,1,11 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4300000.0,3,1,4.0
+Yunusemre,170,1,15 Yaşında,Kombi,0,0,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,-,8200000.0,3,1,1.0
+Salihli,130,1,30 Yaşında,Doğalgaz Sobası,0,0,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3000000.0,3,1,0.0
+Turgutlu,110,1,11 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,3,1,4.0
+Akhisar,300,2,3 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,4850000.0,6,1,3.0
+Akhisar,270,3,1 Yaşında,Kombi,0,0,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4800000.0,5,1,3.0
+Salihli,125,1,26 Yaşında,Soba,0,1,1,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,3850000.0,3,1,2.0
+Sehzadeler,125,1,30 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3450000.0,3,1,0.5
+Turgutlu,190,2,26 Yaşında,Doğalgaz Sobası,0,0,0,-,Kiracılı,Müstakil Tapulu,Evet,Eşyalı Değil,2990000.0,5,1,0.0
+Yunusemre,435,1,34 Yaşında,Soba,0,1,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3400000.0,3,1,0.0
+Turgutlu,300,3,5 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,9500000.0,5,1,4.0
+Yunusemre,80,1,4 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,3350000.0,2,1,0.5
+Salihli,145,1,30 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,-,3550000.0,3,1,1.0
+Sehzadeler,120,1,30 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4800000.0,3,1,2.0
+Yunusemre,130,1,25 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4800000.0,3,1,3.0
+Yunusemre,380,2,11 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,15000000.0,5,1,3.0
+Saruhanli,185,1,Sıfır Bina,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5549000.0,5,1,5.0
+Turgutlu,125,2,5 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,-,3950000.0,3,1,0.5
+Turgutlu,135,2,Sıfır Bina,Kombi,1,0,0,Sıfır,Boş,Kat Mülkiyeti,-,Eşyalı Değil,5500000.0,3,1,5.0
+Akhisar,120,1,35 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,1950000.0,3,1,4.0
+Akhisar,282,3,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,16250000.0,6,1,0.0
+Turgutlu,100,1,16 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat Mülkiyeti,Evet,-,1900000.0,1,1,4.0
+Akhisar,135,1,15 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3300000.0,3,1,4.0
+Saruhanli,140,1,15 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı,6500000.0,4,1,3.0
+Akhisar,145,1,30 Yaşında,Klima,0,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3000000.0,3,0,0.5
+Salihli,150,1,25 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,-,3150000.0,3,1,-1.0
+Yunusemre,99,1,2 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3850000.0,2,1,3.0
+Yunusemre,55,1,5 Yaşında,Kombi,0,1,0,İkinci El,Boş,Müstakil Tapulu,-,Eşyalı,2600000.0,1,1,2.0
+Salihli,285,1,40 Yaşında,Klima,0,0,0,-,-,Müstakil Tapulu,-,-,40000.0,3,1,3.0
+Saruhanli,90,1,6 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2600000.0,2,1,3.0
+Akhisar,110,1,15 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı,3200000.0,2,1,2.0
+Akhisar,135,1,-,-,0,0,0,-,-,-,-,-,2350000.0,3,1,3.0
+Akhisar,275,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4000000.0,4,1,3.0
+Sehzadeler,300,1,15 Yaşında,Klima,0,0,0,İkinci El,Boş,Arsa,Hayır,Eşyalı Değil,3050000.0,2,1,3.0
+Yunusemre,125,1,22 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4750000.0,3,1,3.0
+Turgutlu,155,1,30 Yaşında,Soba,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,6300000.0,3,1,3.0
+Turgutlu,130,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,3,1,2.0
+Sehzadeler,130,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,1,3.0
+Turgutlu,120,1,26 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2250000.0,3,1,2.0
+Turgutlu,150,1,21 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3860000.0,3,1,2.0
+Salihli,120,1,20 Yaşında,Kat Kaloriferi,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Evet,-,3350000.0,2,1,3.0
+Yunusemre,100,1,18 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,-,Eşyalı Değil,3750000.0,2,1,0.5
+Yunusemre,135,1,16 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,6450000.0,3,1,5.0
+Turgutlu,170,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5500000.0,3,1,1.0
+Turgutlu,110,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3750000.0,2,1,4.0
+Yunusemre,125,1,16 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3900000.0,3,1,2.0
+Turgutlu,95,1,21 Yaşında,Soba,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1620000.0,2,1,5.0
+Sehzadeler,300,3,5 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,9000000.0,5,1,5.0
+Yunusemre,130,3,Sıfır Bina,Isı Pompası,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,14000000.0,3,1,0.0
+Yunusemre,95,1,6 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3100000.0,2,1,3.0
+Yunusemre,85,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,2,1,3.0
+Saruhanli,116,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,2,1,4.0
+Salihli,140,1,10 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3650000.0,3,1,2.0
+Akhisar,295,3,14 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3750000.0,4,1,4.0
+Akhisar,140,2,6 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3850000.0,3,1,6.0
+Yunusemre,306,1,35 Yaşında,Isıtma Yok,0,0,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı,3500000.0,2,1,3.0
+Sehzadeler,85,1,25 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,2,1,2.0
+Yunusemre,57,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3750000.0,1,1,2.0
+Akhisar,300,2,3 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,4850000.0,6,1,3.0
+Turgutlu,125,1,6 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3350000.0,3,1,4.0
+Turgutlu,160,2,Sıfır Bina,Merkezi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4750000.0,3,1,2.0
+Sehzadeler,115,1,38 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3590000.0,3,1,5.0
+Salihli,99,1,23 Yaşında,Kombi,1,1,0,-,-,Kat Mülkiyeti,Hayır,-,2575000.0,2,1,2.0
+Yunusemre,125,1,21 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4275000.0,3,1,1.0
+Yunusemre,91,1,5 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3750000.0,2,1,2.0
+Yunusemre,80,1,2 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,5800000.0,2,1,0.5
+Salihli,220,2,11 Yaşında,Jeotermal Isıtm...,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4250000.0,4,1,2.0
+Akhisar,135,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3150000.0,2,1,2.0
+Yunusemre,125,2,Sıfır Bina,Yerden Isıtma,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6550000.0,3,1,0.5
+Yunusemre,90,1,16 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,2,1,0.5
+Turgutlu,86,1,Sıfır Bina,Kombi,1,0,1,Sıfır,Boş,Kat İrtifakı,Evet,-,3800000.0,2,1,1.0
+Yunusemre,90,1,11 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3180000.0,2,1,2.0
+Turgutlu,120,1,4 Yaşında,Merkezi (Pay Öl...,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3800000.0,2,1,10.0
+Ahmetli,350,3,14 Yaşında,Soba,0,0,0,-,-,Müstakil Tapulu,Evet,-,6500000.0,7,0,0.0
+Yunusemre,90,1,23 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3740000.0,2,1,3.0
+Alasehir,126,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4500000.0,3,1,0.5
+Yunusemre,480,3,16 Yaşında,Kombi,0,0,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,35000000.0,7,1,3.0
+Akhisar,137,1,25 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1800000.0,3,1,5.0
+Turgutlu,78,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3449000.0,1,1,1.0
+Sehzadeler,160,2,13 Yaşında,Kombi,1,1,0,İkinci El,Belirtilmemiş,Kat Mülkiyeti,Hayır,-,4990000.0,4,1,5.0
+Saruhanli,60,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2250000.0,2,1,0.5
+Turgutlu,90,1,6 Yaşında,Isıtma Yok,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,1950000.0,2,1,0.0
+Salihli,140,1,35 Yaşında,Klima,0,1,0,İkinci El,-,Kat Mülkiyeti,Hayır,Eşyalı Değil,2800000.0,3,1,5.0
+Turgutlu,85,1,6 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1440000.0,2,1,4.0
+Turgutlu,116,1,Sıfır Bina,Yerden Isıtma,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4750000.0,3,1,4.0
+Sehzadeler,145,1,12 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,6300000.0,3,1,6.0
+Salihli,140,1,5 Yaşında,Kombi,0,1,1,-,-,Kat Mülkiyeti,-,Eşyalı Değil,5200000.0,3,1,3.0
+Akhisar,120,2,16 Yaşında,Kombi,0,1,0,-,Boş,Hisseli Tapu,Hayır,Eşyalı Değil,2700000.0,2,1,0.5
+Sehzadeler,110,1,25 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,3,1,2.0
+Sehzadeler,85,1,25 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2849000.0,2,1,2.0
+Yunusemre,50,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,2750000.0,1,1,2.0
+Sehzadeler,40,1,Sıfır Bina,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3350000.0,1,1,4.0
+Akhisar,140,1,4 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3450000.0,3,1,2.0
+Akhisar,140,1,26 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2350000.0,3,1,4.0
+Turgutlu,135,1,16 Yaşında,Kombi,1,0,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,4000000.0,3,1,4.0
+Yunusemre,110,1,21 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3150000.0,2,1,0.0
+Yunusemre,220,2,1 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4500000.0,4,1,5.0
+Turgutlu,170,2,Sıfır Bina,Merkezi (Pay Öl...,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4600000.0,3,1,3.0
+Soma,116,1,30 Yaşında,Soba,0,0,1,-,Boş,Müstakil Tapulu,-,Eşyalı Değil,1375000.0,2,1,3.0
+Turgutlu,155,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,6000000.0,3,1,6.0
+Sehzadeler,120,1,16 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4250000.0,3,1,5.0
+Turgutlu,132,1,11 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2475000.0,2,1,1.0
+Turgutlu,135,1,21 Yaşında,Isıtma Yok,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2395000.0,3,1,1.0
+Turgutlu,112,1,21 Yaşında,Soba,1,0,0,-,Boş,Kat Mülkiyeti,Evet,-,1750000.0,3,1,5.0
+Yunusemre,95,1,6 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6650000.0,3,1,2.0
+Turgutlu,125,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3850000.0,3,1,4.0
+Turgutlu,135,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6500000.0,3,1,2.0
+Sehzadeler,200,1,35 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,-,5500000.0,3,1,2.0
+Salihli,240,2,25 Yaşında,Isıtma Yok,1,0,0,-,-,Kat Mülkiyeti,düşünülmemektedir.,-,2500000.0,5,1,1.0
+Akhisar,176,3,Sıfır Bina,Yerden Isıtma,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,10500000.0,4,1,0.0
+Yunusemre,55,1,1 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı,3600000.0,1,1,2.0
+Sehzadeler,140,1,15 Yaşında,Kombi,1,1,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,4300000.0,3,1,3.0
+Yunusemre,115,1,31 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,4600000.0,2,1,0.5
+Sehzadeler,100,1,30 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2550000.0,2,1,5.0
+Yunusemre,94,2,4 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6200000.0,2,1,2.0
+Turgutlu,130,1,6 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3500000.0,2,1,4.0
+Sehzadeler,170,1,11 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3900000.0,3,1,0.0
+Salihli,85,1,6 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,-,2400000.0,2,1,4.0
+Sehzadeler,105,1,31 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,3,1,4.0
+Akhisar,165,2,11 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,-,5000000.0,4,1,2.0
+Turgutlu,175,1,13 Yaşında,Kombi,0,0,0,İkinci El,-,Kat Mülkiyeti,Hayır,-,4920000.0,3,1,2.0
+Sehzadeler,130,1,15 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3550000.0,3,1,5.0
+Turgutlu,280,3,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,11450000.0,5,2,6.0
+Turgutlu,140,1,21 Yaşında,Isıtma Yok,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2450000.0,3,1,3.0
+Akhisar,115,1,4 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,2,1,5.0
+Turgutlu,140,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4350000.0,3,1,3.0
+Turgutlu,125,1,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5600000.0,3,1,2.0
+Sehzadeler,170,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,8500000.0,3,1,3.0
+Salihli,105,1,25 Yaşında,Soba,0,0,0,İkinci El,Boş,Arsa,-,Eşyalı Değil,4500000.0,2,1,3.0
+Akhisar,258,2,35 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,1750000.0,4,1,3.0
+Yunusemre,80,1,25 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3675000.0,2,1,0.5
+Akhisar,190,2,Sıfır Bina,Yerden Isıtma,0,0,0,-,-,Kat İrtifakı,Hayır,Eşyalı Değil,5600000.0,3,1,4.0
+Yunusemre,50,1,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,1,1,2.0
+Turgutlu,95,1,11 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2650000.0,2,1,1.0
+Turgutlu,95,2,2 Yaşında,Yerden Isıtma,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3700000.0,2,1,2.0
+Sehzadeler,310,2,6 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,11500000.0,6,1,4.0
+Turgutlu,130,1,31 Yaşında,Kombi,1,0,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3100000.0,3,1,5.0
+Turgutlu,160,1,13 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3100000.0,3,1,2.0
+Yunusemre,250,2,6 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5450000.0,5,1,5.0
+Yunusemre,130,1,21 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,3,1,3.0
+Turgutlu,100,1,Sıfır Bina,Kombi,1,0,1,-,Boş — hemen taşınılabilir!,Kat İrtifakı,Evet,Eşyalı Değil,2750000.0,2,1,0.0
+Yunusemre,240,2,6 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4250000.0,4,1,3.0
+Yunusemre,65,1,10 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3725000.0,1,1,2.0
+Akhisar,280,3,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,7500000.0,5,1,3.0
+Yunusemre,105,1,26 Yaşında,Kombi,0,1,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,3790000.0,2,1,6.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4125000.0,3,1,3.0
+Salihli,325,3,20 Yaşında,Kat Kaloriferi,1,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,-,5350000.0,4,1,3.0
+Turgutlu,150,1,27 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3700000.0,3,1,4.0
+Akhisar,145,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4150000.0,3,1,7.0
+Yunusemre,84,1,4 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3100000.0,2,1,2.0
+Saruhanli,115,1,6 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,-,3100000.0,2,1,3.0
+Turgutlu,280,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,10250000.0,5,2,4.0
+Yunusemre,235,3,16 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,13500000.0,5,1,1.0
+Sehzadeler,90,1,30 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,1275000.0,2,0,3.0
+Sehzadeler,160,1,26 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,4000000.0,3,1,2.0
+Salihli,88,1,7 Yaşında,Doğalgaz Sobası,0,0,1,İkinci El,Mülk Sahibi,Kat İrtifakı,-,Eşyalı Değil,3200000.0,2,1,0.0
+Akhisar,135,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5750000.0,3,1,1.0
+Yunusemre,95,1,8 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,-,3350000.0,2,1,5.0
+Sehzadeler,140,1,25 Yaşında,Kombi,1,0,0,İkinci El,Boş,Kat Mülkiyeti,-,Eşyalı Değil,3550000.0,3,1,0.5
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4550000.0,3,1,3.0
+Turgutlu,125,1,3 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4700000.0,3,1,4.0
+Yunusemre,100,1,27 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5200000.0,2,1,6.0
+Akhisar,220,2,5 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4950000.0,2,2,4.0
+Yunusemre,60,1,3 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3300000.0,1,1,0.5
+Ahmetli,250,1,31 Yaşında,Soba,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,2950000.0,3,1,0.0
+Turgutlu,150,1,13 Yaşında,Kombi,1,1,1,-,-,Kat Mülkiyeti,-,-,5950000.0,3,1,5.0
+Akhisar,130,1,Sıfır Bina,Yerden Isıtma,0,0,0,-,-,Kat Mülkiyeti,Evet,Eşyalı Değil,4200000.0,3,1,2.0
+Turgutlu,165,2,2 Yaşında,Yerden Isıtma,1,0,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,7650000.0,3,1,5.0
+Yunusemre,220,2,Sıfır Bina,Yerden Isıtma,0,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,15000000.0,3,1,1.0
+Yunusemre,130,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4999999.0,3,1,2.0
+Akhisar,130,1,Sıfır Bina,Yerden Isıtma,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3870000.0,3,1,1.0
+Sehzadeler,250,2,21 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,5500000.0,5,2,5.0
+Akhisar,145,2,11 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,-,4000000.0,3,1,1.0
+Salihli,145,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2700000.0,3,1,2.0
+Yunusemre,160,3,4 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,7950000.0,4,1,3.0
+Demirci,80,1,1 Yaşında,Isıtma Yok,0,0,0,-,-,Kat Mülkiyeti,Evet,-,350000.0,2,1,3.0
+Yunusemre,260,2,11 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6400000.0,5,2,4.0
+Yunusemre,145,1,6 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4400000.0,3,1,4.0
+Yunusemre,165,2,3 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,8750000.0,3,1,1.0
+Saruhanli,110,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,2,1,2.0
+Turgutlu,180,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,7750000.0,3,1,2.0
+Yunusemre,200,2,5 Yaşında,Doğalgaz Sobası,0,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,6300000.0,4,1,4.0
+Yunusemre,136,2,4 Yaşında,Kombi,1,1,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,5650000.0,3,1,1.0
+Yunusemre,110,2,11 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,5750000.0,2,1,3.0
+Turgutlu,265,1,20 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4150000.0,3,1,0.5
+Salihli,54,1,2 Yaşında,Klima,0,1,0,İkinci El,Belirtilmemiş,Kat İrtifakı,Hayır,Eşyalı,2350000.0,1,1,-3.0
+Turgutlu,120,1,20 Yaşında,Kombi,0,0,0,İkinci El,Boş,-,Hayır,Eşyalı,3200000.0,2,1,5.0
+Yunusemre,160,1,26 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6350000.0,3,1,2.0
+Yunusemre,50,1,2 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2500000.0,1,1,0.5
+Yunusemre,120,1,16 Yaşında,Kombi,1,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3400000.0,3,1,3.0
+Yunusemre,140,1,12 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,-,6970000.0,3,1,3.0
+Turgutlu,70,1,8 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı,2500000.0,2,1,2.0
+Turgutlu,80,1,6 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,1625000.0,2,1,3.0
+Sehzadeler,130,2,28 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4950000.0,3,1,3.0
+Salihli,170,2,7 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı,5400000.0,3,1,5.0
+Akhisar,130,2,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,-,4000000.0,3,1,2.0
+Turgutlu,80,1,8 Yaşında,Kombi,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,1650000.0,2,1,3.0
+Saruhanli,200,2,8 Yaşında,Kombi,1,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5250000.0,4,1,4.0
+Akhisar,165,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4100000.0,3,1,7.0
+Yunusemre,60,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,1,1,5.0
+Yunusemre,130,1,16 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3550000.0,3,1,0.5
+Yunusemre,95,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3450000.0,2,1,2.0
+Salihli,95,1,5 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3495000.0,2,1,5.0
+Yunusemre,75,1,5 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2850000.0,2,1,0.5
+Saruhanli,95,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,2,1,3.0
+Yunusemre,210,2,5 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,7650000.0,5,2,6.0
+Yunusemre,100,1,11 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3900000.0,3,1,0.5
+Yunusemre,96,1,Sıfır Bina,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3800000.0,2,1,2.0
+Akhisar,115,1,26 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1675000.0,3,1,4.0
+Yunusemre,95,1,1 Yaşında,Merkezi (Pay Öl...,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3900000.0,2,1,0.5
+Yunusemre,110,1,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3600000.0,3,1,0.5
+Akhisar,95,1,Sıfır Bina,Kombi,0,0,0,Yapım Aşamasınd...,Boş,Kat Mülkiyeti,-,-,3650000.0,2,1,1.0
+Turgutlu,45,1,28 Yaşında,Klima,0,0,0,-,-,Müstakil Tapulu,-,-,2900000.0,1,0,0.0
+Salihli,175,2,5 Yaşında,Klima,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5100000.0,1,1,5.0
+Alasehir,450,1,10 Yaşında,Soba,0,0,0,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5300000.0,4,1,3.0
+Yunusemre,160,2,5 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,-,-,4200000.0,3,1,0.5
+Yunusemre,70,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3795000.0,1,1,6.0
+Alasehir,110,1,31 Yaşında,Soba,0,0,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,2090000.0,2,1,4.0
+Turgutlu,255,2,11 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,16500000.0,4,1,1.0
+Yunusemre,125,1,16 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4750000.0,3,1,2.0
+Turgutlu,120,1,1 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3100000.0,3,1,0.0
+Saruhanli,100,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3100000.0,2,1,3.0
+Sehzadeler,200,2,21 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,5500000.0,3,1,1.0
+Yunusemre,200,1,16 Yaşında,Soba,0,0,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3750000.0,2,1,0.0
+Akhisar,140,1,11 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,3,1,2.0
+Salihli,280,3,3 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,11000000.0,5,1,5.0
+Yunusemre,50,1,4 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı,2270000.0,1,1,0.5
+Sehzadeler,165,1,26 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,3725000.0,3,1,5.0
+Turgutlu,110,1,16 Yaşında,Kombi,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2450000.0,3,0,4.0
+Saruhanli,135,1,-,-,0,0,0,-,-,-,-,-,2250000.0,3,1,3.0
+Turgutlu,125,1,15 Yaşında,Kombi,1,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3300000.0,3,1,5.0
+Yunusemre,135,1,26 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4000000.0,3,1,4.0
+Yunusemre,110,1,25 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3650000.0,2,1,5.0
+Sehzadeler,120,1,35 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4950000.0,3,1,1.0
+Ahmetli,136,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3350000.0,3,1,7.0
+Sehzadeler,135,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3800000.0,3,1,3.0
+Akhisar,350,3,6 Yaşında,Kombi,0,0,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,7550000.0,5,1,0.0
+Akhisar,140,1,5 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2375000.0,2,1,2.0
+Yunusemre,120,1,16 Yaşında,Kombi,1,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3000000.0,3,1,5.0
+Yunusemre,100,1,4 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,4450000.0,2,1,0.0
+Akhisar,95,2,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,1.0
+Akhisar,170,2,2 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,4,1,3.0
+Akhisar,105,1,11 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3000000.0,2,1,0.0
+Yunusemre,125,1,Sıfır Bina,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3799000.0,3,1,-1.0
+Yunusemre,50,1,6 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2350000.0,1,1,2.0
+Yunusemre,145,2,2 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5650000.0,4,1,4.0
+Saruhanli,205,1,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5750000.0,5,1,5.0
+Yunusemre,165,2,4 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4800000.0,4,1,3.0
+Yunusemre,115,1,16 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4250000.0,2,1,2.0
+Yunusemre,85,1,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,2,1,3.0
+Turgutlu,130,2,Sıfır Bina,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,-,6300000.0,3,1,3.0
+Yunusemre,130,2,8 Yaşında,Kombi,0,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4250000.0,3,1,4.0
+Akhisar,145,1,30 Yaşında,Kombi,0,0,0,-,-,Kat Mülkiyeti,Evet,Eşyalı,3050000.0,3,1,2.0
+Yunusemre,180,2,16 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,7500000.0,4,2,2.0
+Yunusemre,115,2,1 Yaşında,Yerden Isıtma,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4750000.0,2,1,1.0
+Turgutlu,120,1,26 Yaşında,Klima,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2250000.0,2,1,3.0
+Sehzadeler,320,2,15 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Arsa,Evet,Eşyalı Değil,5500000.0,5,2,3.0
+Salihli,90,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4150000.0,2,1,3.0
+Salihli,340,1,15 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı,5750000.0,3,0,3.0
+Turgutlu,145,2,1 Yaşında,Yerden Isıtma,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,5250000.0,4,1,4.0
+Yunusemre,260,2,11 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5450000.0,5,1,5.0
+Turgutlu,120,1,21 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2950000.0,2,1,1.0
+Yunusemre,90,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4600000.0,2,1,0.5
+Kirkagac,210,1,20 Yaşında,Merkezi,1,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,-,Eşyalı Değil,19800000.0,6,2,3.0
+Saruhanli,95,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2949000.0,2,1,3.0
+Yunusemre,140,1,16 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,8200000.0,3,1,2.0
+Akhisar,100,1,31 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2750000.0,2,1,1.0
+Yunusemre,175,2,1 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,4650000.0,4,1,1.0
+Salihli,140,1,6 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5650000.0,3,1,3.0
+Sehzadeler,120,1,26 Yaşında,Kombi,1,0,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4400000.0,3,1,2.0
+Sehzadeler,125,1,40 Yaşında,Doğalgaz Sobası,1,1,0,İkinci El,Kiracılı,Kat İrtifakı,-,Eşyalı Değil,3500000.0,3,1,3.0
+Sehzadeler,185,1,34 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,1150000.0,1,1,3.0
+Salihli,140,1,25 Yaşında,Belirtilmemiş,0,0,1,İkinci El,Belirtilmemiş,Kat Mülkiyeti,Hayır,Eşyalı,3200000.0,3,1,-2.0
+Akhisar,130,1,26 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1975000.0,2,1,2.0
+Salihli,145,1,10 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3300000.0,3,1,5.0
+Turgutlu,165,1,6 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3350000.0,4,1,4.0
+Sehzadeler,125,1,34 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2550000.0,3,1,6.0
+Sehzadeler,125,1,31 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4250000.0,3,1,2.0
+Yunusemre,90,1,21 Yaşında,Isıtma Yok,0,0,0,İkinci El,-,Kat Mülkiyeti,-,Eşyalı Değil,2950000.0,2,1,0.0
+Turgutlu,135,2,7 Yaşında,Kombi,0,0,0,-,-,Kat Mülkiyeti,-,-,3000000.0,3,1,5.0
+Yunusemre,250,2,16 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,8500000.0,4,1,5.0
+Sehzadeler,100,1,30 Yaşında,Klima,0,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,2450000.0,2,1,5.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4000000.0,3,1,3.0
+Saruhanli,85,1,8 Yaşında,Kombi,1,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2400000.0,2,0,0.5
+Akhisar,180,3,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,4,1,3.0
+Sehzadeler,95,1,30 Yaşında,Kombi,0,1,1,-,-,Müstakil Tapulu,Evet,Eşyalı Değil,3050000.0,2,1,3.0
+Akhisar,130,1,21 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,-,2250000.0,3,1,3.0
+Turgutlu,65,1,11 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2900000.0,1,1,5.0
+Yunusemre,80,1,5 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,2750000.0,2,1,4.0
+Saruhanli,145,1,4 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3850000.0,3,1,3.0
+Yunusemre,200,2,11 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,9300000.0,5,1,10.0
+Yunusemre,170,2,6 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5250000.0,3,1,4.0
+Yunusemre,95,1,Sıfır Bina,Yerden Isıtma,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,8000000.0,2,1,6.0
+Yunusemre,110,1,10 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,-,Eşyalı Değil,3450000.0,3,1,2.0
+Alasehir,170,2,Sıfır Bina,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,3,1,4.0
+Yunusemre,240,2,4 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5600000.0,4,2,5.0
+Yunusemre,85,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,2,1,3.0
+Turgutlu,80,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,2,1,2.0
+Turgutlu,150,2,1 Yaşında,Yerden Isıtma,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6500000.0,3,1,2.0
+Yunusemre,105,1,5 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3550000.0,2,1,2.0
+Saruhanli,140,1,Sıfır Bina,Kombi,1,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4300000.0,3,1,2.0
+Akhisar,150,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4500000.0,4,1,3.0
+Akhisar,150,1,11 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3550000.0,3,1,1.0
+Akhisar,135,2,1 Yaşında,Yerden Isıtma,0,1,0,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,0,2.0
+Yunusemre,145,1,16 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,8150000.0,3,1,6.0
+Yunusemre,240,2,21 Yaşında,Yerden Isıtma,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,8150000.0,4,1,4.0
+Turgutlu,130,1,Sıfır Bina,Kombi,0,0,0,-,-,Kat İrtifakı,-,-,6000000.0,3,1,2.0
+Akhisar,115,2,1 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2920000.0,2,1,4.0
+Turgutlu,300,3,5 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,10020000.0,4,2,15.0
+Yunusemre,75,1,11 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,2350000.0,2,1,0.0
+Soma,95,1,Sıfır Bina,Merkezi,0,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2650000.0,2,1,2.0
+Yunusemre,553,2,2 Yaşında,Kat Kaloriferi,0,1,0,-,Boş,Tapu Yok,Hayır,Eşyalı Değil,8600000.0,3,2,0.0
+Yunusemre,95,1,5 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3650000.0,2,1,3.0
+Akhisar,145,1,20 Yaşında,Kombi,0,0,1,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3000000.0,3,1,3.0
+Yunusemre,115,1,4 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,-,3480000.0,3,1,3.0
+Yunusemre,120,1,16 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3700000.0,3,1,2.0
+Sehzadeler,125,1,36 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,-,3750000.0,3,1,4.0
+Sehzadeler,89,1,50 Yaşında,Kombi,1,1,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3250000.0,2,1,4.0
+Turgutlu,140,2,6 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,-,4450000.0,3,1,3.0
+Akhisar,130,1,2 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3450000.0,3,1,3.0
+Turgutlu,140,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5400000.0,3,1,1.0
+Yunusemre,85,1,4 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2950000.0,2,1,3.0
+Sehzadeler,120,1,16 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4950000.0,3,1,2.0
+Akhisar,150,2,4 Yaşında,Kombi,0,1,1,-,-,Müstakil Tapulu,Evet,-,4160000.0,3,1,3.0
+Yunusemre,95,1,Sıfır Bina,Yerden Isıtma,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,8000000.0,2,1,6.0
+Turgutlu,135,1,10 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4350000.0,3,1,3.0
+Yunusemre,70,1,5 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı,2600000.0,1,1,2.0
+Akhisar,300,3,2 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,8500000.0,5,1,3.0
+Turgutlu,130,2,5 Yaşında,Yerden Isıtma,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4950000.0,3,1,4.0
+Yunusemre,85,1,6 Yaşında,Kombi,1,0,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı,4150000.0,1,1,2.0
+Akhisar,130,2,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,3950000.0,3,1,3.0
+Yunusemre,320,2,20 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,8500000.0,5,1,5.0
+Yunusemre,60,1,1 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4600000.0,1,1,3.0
+Yunusemre,80,1,5 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,3.0
+Saruhanli,75,1,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2300000.0,2,1,3.0
+Turgutlu,90,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2850000.0,2,1,1.0
+Sehzadeler,160,2,3 Yaşında,Soba,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı,6700000.0,4,1,0.0
+Akhisar,126,2,6 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3500000.0,3,1,2.0
+Yunusemre,185,2,4 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4600000.0,4,1,3.0
+Salihli,100,1,Sıfır Bina,Soba,0,1,0,-,Boş,Arsa,Hayır,Eşyalı,7500000.0,1,1,0.0
+Yunusemre,145,2,20 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,7900000.0,3,1,2.0
+Turgutlu,170,2,Sıfır Bina,Merkezi (Pay Öl...,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6250000.0,3,1,3.0
+Yunusemre,71,1,1 Yaşında,Merkezi (Pay Öl...,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,7760000.0,2,1,4.0
+Yunusemre,200,2,9 Yaşında,Kombi,1,0,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,14750000.0,4,1,7.0
+Salihli,290,3,11 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı Değil,8400000.0,5,1,4.0
+Yunusemre,120,1,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5150000.0,3,1,2.0
+Soma,120,1,20 Yaşında,Soba,0,0,1,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,1350000.0,2,1,3.0
+Salihli,143,1,25 Yaşında,Soba,0,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,3.0
+Akhisar,267,3,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5500000.0,4,2,3.0
+Saruhanli,125,1,1 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3750000.0,3,1,5.0
+Yunusemre,80,1,21 Yaşında,Isıtma Yok,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,2300000.0,1,1,0.5
+Sehzadeler,150,1,21 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3895000.0,3,1,0.5
+Salihli,95,1,5 Yaşında,Doğalgaz Sobası,1,1,1,-,-,Kat Mülkiyeti,-,-,3250000.0,2,1,-1.0
+Akhisar,135,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,3,1,1.0
+Turgutlu,140,1,11 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,-,4200000.0,3,1,3.0
+Turgutlu,157,2,4 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4750000.0,3,1,3.0
+Yunusemre,75,1,5 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2790000.0,2,1,0.5
+Yunusemre,135,1,6 Yaşında,Klima,0,1,1,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,6495000.0,2,0,0.0
+Yunusemre,60,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3350000.0,1,1,5.0
+Sehzadeler,130,1,20 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4250000.0,3,1,1.0
+Turgutlu,150,1,18 Yaşında,Kombi,1,0,0,Yapım Aşamasınd...,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2500000.0,3,1,4.0
+Yunusemre,103,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5250000.0,2,1,1.0
+Turgutlu,300,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,9100000.0,5,1,4.0
+Akhisar,140,1,40 Yaşında,Klima,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,1200000.0,2,0,4.0
+Akhisar,140,2,16 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3750000.0,3,1,2.0
+Yunusemre,200,1,6 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,3,1,0.5
+Akhisar,100,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,2,0,3.0
+Saruhanli,105,1,Sıfır Bina,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,-,3100000.0,2,1,2.0
+Yunusemre,115,2,6 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,7000000.0,3,1,2.0
+Turgutlu,145,2,4 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,5750000.0,3,1,1.0
+Akhisar,140,2,1 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3500000.0,3,1,1.0
+Turgutlu,60,1,Sıfır Bina,Merkezi (Pay Öl...,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3575000.0,1,1,0.0
+Yunusemre,134,2,1 Yaşında,Merkezi (Pay Öl...,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,11950000.0,3,1,13.0
+Yunusemre,110,1,Sıfır Bina,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,6850000.0,2,1,0.5
+Yunusemre,105,1,21 Yaşında,Kombi,1,1,1,İkinci El,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,3950000.0,2,1,4.0
+Yunusemre,150,2,5 Yaşında,Kombi,0,0,1,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,9095000.0,3,1,0.5
+Salihli,100,1,20 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Arsa,Evet,Eşyalı Değil,2045000.0,2,1,3.0
+Sehzadeler,110,1,28 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3200000.0,3,1,5.0
+Yunusemre,65,1,5 Yaşında,Yerden Isıtma,0,0,1,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,4575000.0,1,1,1.0
+Yunusemre,95,1,5 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3870000.0,2,1,3.0
+Yunusemre,105,1,1 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3650000.0,2,1,3.0
+Akhisar,125,1,28 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2475000.0,3,1,3.0
+Yunusemre,76,1,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2700000.0,2,1,0.5
+Saruhanli,132,1,Sıfır Bina,Kombi,1,1,0,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,3,1,5.0
+Saruhanli,85,1,Sıfır Bina,Kombi,0,0,0,Sıfır,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,2900000.0,2,1,3.0
+Yunusemre,155,1,16 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,5000000.0,3,1,0.0
+Turgutlu,180,1,6 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,5150000.0,3,1,1.0
+Salihli,145,1,20 Yaşında,Jeotermal Isıtm...,0,0,0,-,-,Kat Mülkiyeti,-,-,3900000.0,3,1,4.0
+Akhisar,130,1,11 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3150000.0,3,1,4.0
+Yunusemre,85,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2780000.0,2,1,0.5
+Turgutlu,130,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4150000.0,3,1,3.0
+Yunusemre,95,1,5 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2925000.0,2,1,0.5
+Turgutlu,102,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3800000.0,2,1,1.0
+Turgutlu,140,1,21 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4500000.0,3,1,3.0
+Salihli,567,1,1 Yaşında,Klima,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,6000000.0,2,1,3.0
+Soma,105,2,17 Yaşında,Merkezi,1,0,0,İkinci El,Mülk Sahibi,Arsa,Evet,Eşyalı Değil,4750000.0,2,1,3.0
+Yunusemre,60,1,1 Yaşında,Yerden Isıtma,1,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3400000.0,1,1,1.0
+Turgutlu,95,2,Sıfır Bina,Yerden Isıtma,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5500000.0,2,1,2.0
+Akhisar,150,2,6 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4600000.0,3,1,1.0
+Sehzadeler,140,1,31 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3575000.0,3,1,1.0
+Turgutlu,134,1,25 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3499000.0,3,1,3.0
+Akhisar,130,2,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,3,1,3.0
+Akhisar,200,2,3 Yaşında,Yerden Isıtma,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı Değil,15750000.0,4,1,0.0
+Salihli,145,2,1 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5175000.0,3,1,3.0
+Turgutlu,135,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6500000.0,3,1,2.0
+Akhisar,300,3,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,7000000.0,5,1,3.0
+Turgutlu,155,2,1 Yaşında,Yerden Isıtma,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6050000.0,3,1,5.0
+Turgutlu,120,1,5 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3050000.0,3,1,4.0
+Kirkagac,125,1,5 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3600000.0,3,1,4.0
+Saruhanli,400,1,11 Yaşında,Soba,0,1,0,-,Boş,Arsa,Hayır,Eşyalı,3725000.0,2,1,0.0
+Yunusemre,150,2,Sıfır Bina,Kombi,0,0,1,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,9095000.0,3,1,0.5
+Yunusemre,70,1,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2950000.0,1,1,0.5
+Yunusemre,100,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4000000.0,2,1,1.0
+Turgutlu,202,1,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,-,9750000.0,3,1,3.0
+Yunusemre,90,1,6 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3100000.0,2,1,2.0
+Turgutlu,120,2,11 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3090000.0,3,1,3.0
+Salihli,125,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3900000.0,3,1,-2.0
+Yunusemre,230,2,5 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6250000.0,6,2,4.0
+Yunusemre,230,2,26 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,11500000.0,5,1,0.0
+Yunusemre,95,1,4 Yaşında,Kombi,0,0,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,2910000.0,2,1,0.5
+Turgutlu,120,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2800000.0,3,1,4.0
+Saruhanli,100,1,4 Yaşında,Kombi,1,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2650000.0,2,1,0.5
+Akhisar,130,1,3 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,3,1,1.0
+Turgutlu,155,1,6 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,-,3800000.0,3,1,3.0
+Turgutlu,250,2,6 Yaşında,Kombi,1,0,0,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,4100000.0,5,1,4.0
+Saruhanli,125,1,25 Yaşında,Klima,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2750000.0,2,1,3.0
+Saruhanli,153,1,8 Yaşında,Kombi,1,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,3,1,2.0
+Turgutlu,90,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3200000.0,2,1,2.0
+Yunusemre,115,1,11 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,3,1,3.0
+Akhisar,240,3,2 Yaşında,Yerden Isıtma,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,10000000.0,4,1,0.0
+Salihli,110,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3675000.0,2,1,1.0
+Turgutlu,185,2,2 Yaşında,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5500000.0,4,1,4.0
+Turgutlu,110,1,21 Yaşında,Isıtma Yok,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,1850000.0,2,1,4.0
+Sehzadeler,150,2,40 Yaşında,Kombi,0,0,1,İkinci El,Kiracılı,Müstakil Tapulu,Hayır,Eşyalı Değil,4400000.0,4,2,3.0
+Akhisar,90,2,1 Yaşında,Yerden Isıtma,0,0,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,2,1,1.0
+Sehzadeler,96,1,30 Yaşında,Kombi,1,1,0,İkinci El,-,Kat İrtifakı,-,Eşyalı Değil,2100000.0,2,1,5.0
+Yunusemre,50,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2670000.0,1,1,3.0
+Akhisar,100,1,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,2,1,2.0
+Yunusemre,85,1,7 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,-,Eşyalı Değil,2750000.0,2,1,4.0
+Yunusemre,185,1,11 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,8250000.0,3,1,1.0
+Turgutlu,175,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,7000000.0,3,1,4.0
+Yunusemre,145,1,5 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5250000.0,3,1,3.0
+Yunusemre,70,1,1 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3300000.0,2,1,2.0
+Yunusemre,90,1,6 Yaşında,Kombi,0,0,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,2,1,2.0
+Salihli,150,1,16 Yaşında,Jeotermal Isıtma,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2600000.0,3,1,4.0
+Akhisar,135,2,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4250000.0,3,1,1.0
+Saruhanli,105,1,5 Yaşında,Kombi,1,0,0,-,-,Kat İrtifakı,-,-,2950000.0,2,1,0.5
+Salihli,135,1,-,-,0,0,0,-,-,-,-,-,3300000.0,3,1,3.0
+Turgutlu,110,1,4 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2850000.0,2,1,3.0
+Sehzadeler,215,1,26 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6200000.0,2,1,1.0
+Sehzadeler,70,1,Sıfır Bina,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3600000.0,2,1,3.0
+Soma,180,2,11 Yaşında,Jeotermal Isıtma,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3750000.0,4,1,3.0
+Akhisar,105,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3075000.0,2,1,1.0
+Salihli,92,1,1 Yaşında,Doğalgaz Sobası,1,0,1,-,-,Kat Mülkiyeti,-,Eşyalı Değil,4000000.0,2,1,5.0
+Turgutlu,110,1,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3500000.0,2,1,3.0
+Salihli,155,1,26 Yaşında,Klima,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2675000.0,3,1,4.0
+Akhisar,225,3,1 Yaşında,Yerden Isıtma,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,15000000.0,5,1,0.0
+Turgutlu,125,1,31 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3350000.0,3,1,4.0
+Yunusemre,85,1,Sıfır Bina,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,2,1,2.0
+Turgutlu,170,2,5 Yaşında,Merkezi (Pay Ölçer),1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6500000.0,3,1,3.0
+Akhisar,180,1,21 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3750000.0,4,1,3.0
+Yunusemre,165,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5195000.0,3,1,3.0
+Sehzadeler,110,1,30 Yaşında,Kombi,1,0,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3975000.0,3,1,3.0
+Akhisar,90,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2950000.0,2,1,1.0
+Yunusemre,125,1,21 Yaşında,Kombi,1,0,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,4100000.0,3,1,5.0
+Yunusemre,90,1,3 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,4900000.0,2,1,3.0
+Turgutlu,140,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Evet,-,6250000.0,3,1,3.0
+Yunusemre,115,1,23 Yaşında,Kombi,0,1,1,İkinci El,-,Kat İrtifakı,Hayır,Eşyalı Değil,4150000.0,3,1,3.0
+Turgutlu,165,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,7000000.0,3,1,4.0
+Yunusemre,115,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4600000.0,3,1,1.0
+Yunusemre,60,1,1 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,2499999.0,1,1,5.0
+Salihli,140,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5650000.0,3,1,2.0
+Saruhanli,135,1,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4750000.0,3,1,3.0
+Turgutlu,120,1,6 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3750000.0,2,1,5.0
+Akhisar,140,2,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4200000.0,3,1,1.0
+Sehzadeler,135,1,20 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3375000.0,3,1,0.0
+Salihli,178,2,1 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,6625000.0,3,1,1.0
+Turgutlu,160,2,Sıfır Bina,Merkezi (Pay Ölçer),0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4450000.0,3,1,3.0
+Sehzadeler,100,1,13 Yaşında,Kombi,0,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3150000.0,3,1,-0.5
+Saruhanli,105,1,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3650000.0,2,1,3.0
+Sehzadeler,180,1,18 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,3250000.0,2,1,3.0
+Yunusemre,210,3,Sıfır Bina,Isı Pompası,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,16000000.0,4,1,3.0
+Akhisar,100,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3450000.0,2,1,1.0
+Selendi,130,1,5 Yaşında,Soba,0,0,0,Sıfır,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,3000000.0,3,1,3.0
+Yunusemre,110,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4200000.0,2,1,4.0
+Turgutlu,145,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5500000.0,3,1,4.0
+Turgutlu,135,1,26 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,-,4000000.0,3,1,3.0
+Yunusemre,115,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,2,1,2.0
+Yunusemre,220,2,8 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4900000.0,5,1,5.0
+Sehzadeler,90,1,31 Yaşında,Klima,1,1,1,-,Kiracılı,Müstakil Tapulu,Evet,Eşyalı Değil,3750000.0,2,1,4.0
+Turgutlu,110,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3300000.0,2,1,4.0
+Turgutlu,120,1,6 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4980000.0,2,1,4.0
+Akhisar,110,1,4 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,2,1,1.0
+Sehzadeler,95,1,30 Yaşında,Kombi,1,1,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3050000.0,2,1,3.0
+Yunusemre,100,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4800000.0,2,1,0.5
+Salihli,108,1,1 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,3850000.0,2,1,4.0
+Akhisar,152,2,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4800000.0,3,1,1.0
+Turgutlu,140,2,Sıfır Bina,Merkezi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,12.0
+Akhisar,175,2,3 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3950000.0,3,1,5.0
+Yunusemre,300,2,10 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,4,1,5.0
+Akhisar,321,1,31 Yaşında,Soba,0,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,6000000.0,2,1,0.0
+Turgutlu,198,2,15 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,-,4950000.0,4,1,4.0
+Soma,250,1,30 Yaşında,Soba,0,0,0,-,-,Müstakil Tapulu,-,Eşyalı Değil,2600000.0,2,1,3.0
+Salihli,150,1,21 Yaşında,Isıtma Yok,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3000000.0,3,1,5.0
+Sehzadeler,200,2,16 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6950000.0,3,1,5.0
+Saruhanli,130,1,1 Yaşında,Kombi,1,1,0,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3375000.0,3,1,5.0
+Yunusemre,180,1,21 Yaşında,Soba,0,0,0,-,Mülk Sahibi,Tapu Yok,Hayır,Eşyalı,22500000.0,3,1,0.0
+Sehzadeler,140,1,27 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,4.0
+Alasehir,58,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2100000.0,1,1,3.0
+Salihli,145,1,25 Yaşında,Soba,1,0,0,Sıfır,Belirtilmemiş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5750000.0,3,1,3.0
+Akhisar,140,1,4 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3350000.0,3,1,2.0
+Yunusemre,250,2,11 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,6500000.0,4,1,5.0
+Turgutlu,104,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3750000.0,2,1,3.0
+Yunusemre,250,2,10 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,-,Eşyalı Değil,7700000.0,6,1,3.0
+Soma,90,1,9 Yaşında,Merkezi,0,0,0,-,Kiracılı,Kat İrtifakı,-,Eşyalı Değil,1775000.0,2,1,5.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4200000.0,3,1,3.0
+Yunusemre,170,1,16 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,5800000.0,3,2,1.0
+Yunusemre,135,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,11450000.0,3,1,3.0
+Yunusemre,95,1,Sıfır Bina,Kombi,0,1,0,Yapım Aşamasınd...,Boş,Kat İrtifakı,-,Eşyalı Değil,4200000.0,2,1,2.0
+Turgutlu,142,1,3 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,-,6300000.0,3,1,4.0
+Sehzadeler,300,2,16 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,9500000.0,6,1,6.0
+Yunusemre,585,1,6 Yaşında,Klima,0,1,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,-,Eşyalı,10700000.0,2,1,0.0
+Yunusemre,55,1,Sıfır Bina,Yerden Isıtma,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2600000.0,1,1,0.0
+Turgutlu,120,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4500000.0,3,1,2.0
+Yunusemre,95,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,-,3180000.0,2,1,3.0
+Yunusemre,250,2,1 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,11850000.0,4,1,5.0
+Salihli,185,2,14 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4500000.0,3,1,3.0
+Sehzadeler,220,1,35 Yaşında,Soba,0,0,0,-,-,Müstakil Tapulu,-,-,2750000.0,3,1,3.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,3150000.0,3,1,3.0
+Akhisar,140,2,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,3,1,1.0
+Koprubasi,150,1,30 Yaşında,Soba,0,0,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı,2700000.0,4,2,3.0
+Akhisar,362,1,12 Yaşında,Klima,0,1,1,Sıfır,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,2500000.0,3,1,1.0
+Turgutlu,120,1,Sıfır Bina,Isıtma Yok,0,1,0,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3800000.0,3,1,3.0
+Yunusemre,120,1,30 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3100000.0,3,1,5.0
+Akhisar,230,1,21 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,5,1,4.0
+Turgutlu,160,2,Sıfır Bina,Yerden Isıtma,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6250000.0,3,1,3.0
+Akhisar,130,1,10 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2950000.0,3,1,5.0
+Turgutlu,150,1,26 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3100000.0,3,1,4.0
+Sehzadeler,130,1,26 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4950000.0,3,1,2.0
+Ahmetli,240,2,3 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,5,1,3.0
+Alasehir,110,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4400000.0,2,1,3.0
+Sehzadeler,90,1,5 Yaşında,Klima,0,0,0,İkinci El,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,2980000.0,2,1,3.0
+Turgutlu,120,2,2 Yaşında,Merkezi (Pay Öl...,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,5.0
+Akhisar,380,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6200000.0,5,1,4.0
+Yunusemre,114,2,Sıfır Bina,Kombi,1,1,0,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4750000.0,2,1,2.0
+Yunusemre,75,1,5 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3150000.0,2,1,-2.0
+Saruhanli,90,1,9 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,2870000.0,2,1,-2.0
+Salihli,185,1,20 Yaşında,Kombi,0,1,1,-,-,Kat Mülkiyeti,Hayır,Eşyalı Değil,4650000.0,3,1,3.0
+Turgutlu,110,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3350000.0,2,1,1.0
+Yunusemre,145,2,11 Yaşında,Merkezi (Pay Öl...,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,6390000.0,3,1,11.0
+Yunusemre,160,1,11 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6750000.0,3,1,0.5
+Turgutlu,130,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5350000.0,3,1,1.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4400000.0,3,1,3.0
+Turgutlu,140,1,16 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,3,1,4.0
+Yunusemre,115,1,21 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3190000.0,3,1,0.0
+Akhisar,92,1,1 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2550000.0,2,0,4.0
+Sehzadeler,90,1,20 Yaşında,Klima,1,0,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,2750000.0,2,1,3.0
+Yunusemre,90,1,11 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3080000.0,2,1,3.0
+Yunusemre,80,1,25 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,-,3000000.0,1,1,3.0
+Sehzadeler,130,1,15 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3285000.0,3,1,4.0
+Turgutlu,152,1,31 Yaşında,Soba,0,0,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,350000.0,3,1,0.0
+Turgutlu,145,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3300000.0,3,1,1.0
+Turgutlu,130,1,11 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3000000.0,3,1,0.0
+Saruhanli,105,2,1 Yaşında,Kombi,1,1,1,-,Boş,Hisseli Tapu,Hayır,Eşyalı Değil,4200000.0,2,1,1.0
+Turgutlu,429,1,16 Yaşında,Isıtma Yok,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,2500000.0,2,1,0.0
+Soma,130,1,11 Yaşında,Jeotermal Isıtm...,1,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3150000.0,3,1,3.0
+Yunusemre,150,1,31 Yaşında,Isıtma Yok,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,14500000.0,3,1,3.0
+Akhisar,103,1,33 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,1275000.0,1,1,3.0
+Salihli,110,1,25 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,3000000.0,3,1,0.0
+Sehzadeler,135,1,-,-,0,0,0,-,-,-,-,-,4200000.0,3,1,3.0
+Sehzadeler,120,1,11 Yaşında,Soba,0,0,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,985000.0,1,1,0.0
+Turgutlu,155,1,25 Yaşında,Kombi,0,1,1,-,-,Kat Mülkiyeti,Hayır,-,4600000.0,3,1,0.0
+Akhisar,90,1,31 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1350000.0,2,1,4.0
+Yunusemre,140,1,5 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,3,1,2.0
+Saruhanli,260,2,5 Yaşında,Kombi,1,0,0,İkinci El,Belirtilmemiş,Kat Mülkiyeti,Evet,Eşyalı Değil,4200000.0,6,2,5.0
+Turgutlu,130,1,16 Yaşında,Soba,0,1,1,-,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,2900000.0,2,1,0.0
+Yunusemre,96,1,26 Yaşında,Soba,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,2,1,2.0
+Sehzadeler,140,1,11 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4650000.0,3,1,3.0
+Yunusemre,90,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3600000.0,2,1,3.0
+Yunusemre,85,1,Sıfır Bina,Kombi,0,0,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,2,1,3.0
+Turgutlu,300,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,11500000.0,6,1,3.0
+Salihli,150,3,31 Yaşında,Isıtma Yok,0,0,0,-,Boş,Tapu Yok,Hayır,Eşyalı Değil,3450000.0,7,2,0.0
+Yunusemre,128,2,1 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,13400000.0,3,1,2.0
+Yunusemre,105,1,1 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı,3420000.0,2,1,2.0
+Akhisar,95,1,35 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1600000.0,1,1,1.0
+Saruhanli,55,1,Sıfır Bina,Yerden Isıtma,0,0,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı,2650000.0,1,1,0.5
+Sehzadeler,250,3,Sıfır Bina,Belirtilmemiş,0,0,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,29980000.0,5,1,3.0
+Yunusemre,100,1,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5500000.0,2,1,2.0
+Turgutlu,85,1,6 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,1650000.0,2,1,0.0
+Turgutlu,95,1,21 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2050000.0,2,1,1.0
+Yunusemre,200,2,3 Yaşında,Yerden Isıtma,0,0,1,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,12495000.0,3,1,5.0
+Yunusemre,60,1,1 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2650000.0,1,1,1.0
+Akhisar,85,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,2900000.0,2,1,2.0
+Yunusemre,350,2,21 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,12000000.0,5,1,0.0
+Yunusemre,85,1,21 Yaşında,Kombi,0,1,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,2650000.0,2,1,0.5
+Akhisar,100,1,6 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2750000.0,2,1,3.0
+Soma,90,1,27 Yaşında,Jeotermal Isıtm...,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,-,1550000.0,2,1,3.0
+Yunusemre,54,1,Sıfır Bina,Isı Pompası,0,1,1,Sıfır,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,2500000.0,1,0,0.5
+Sehzadeler,120,1,26 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3950000.0,3,1,0.5
+Salihli,115,1,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3475000.0,2,1,4.0
+Turgutlu,125,1,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,2,1,1.0
+Salihli,145,1,1 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,6500000.0,3,1,4.0
+Salihli,115,1,30 Yaşında,Soba,0,0,0,İkinci El,Boş,Arsa,Evet,Eşyalı Değil,820000.0,2,1,3.0
+Turgutlu,150,2,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3749000.0,3,1,4.0
+Turgutlu,130,1,1 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2250000.0,3,1,0.0
+Turgutlu,100,1,21 Yaşında,Soba,0,0,0,-,Boş,Kat İrtifakı,Hayır,-,550000.0,2,1,0.0
+Salihli,100,1,21 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,1550000.0,2,1,3.0
+Sehzadeler,115,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3485000.0,3,1,3.0
+Soma,68,1,15 Yaşında,Soba,0,0,1,-,Boş,Müstakil Tapulu,Evet,-,2250000.0,1,1,3.0
+Akhisar,115,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3400000.0,2,1,3.0
+Turgutlu,95,1,5 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2600000.0,2,1,4.0
+Yunusemre,125,1,21 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4275000.0,3,1,4.0
+Akhisar,130,1,26 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2225000.0,3,1,4.0
+Akhisar,105,1,18 Yaşında,Merkezi,0,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,2350000.0,2,1,0.0
+Yunusemre,100,1,26 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3150000.0,2,1,0.5
+Yunusemre,92,1,2 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5000000.0,2,1,4.0
+Yunusemre,100,1,21 Yaşında,Kombi,0,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,2850000.0,2,1,0.5
+Akhisar,130,1,1 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3200000.0,3,1,3.0
+Akhisar,135,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,-,3150000.0,3,1,3.0
+Turgutlu,295,1,10 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,4600000.0,3,1,3.0
+Alasehir,100,1,35 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,1200000.0,2,1,3.0
+Kirkagac,140,2,10 Yaşında,Kombi,0,1,1,-,-,Kat İrtifakı,Hayır,Eşyalı Değil,3800000.0,3,1,5.0
+Akhisar,140,1,21 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2750000.0,3,1,4.0
+Akhisar,181,1,26 Yaşında,Soba,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,1900000.0,2,1,0.0
+Sehzadeler,110,1,21 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3250000.0,2,1,3.0
+Sehzadeler,120,1,26 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4200000.0,3,1,6.0
+Turgutlu,130,1,22 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat Mülkiyeti,-,Eşyalı Değil,3100000.0,3,1,5.0
+Turgutlu,140,1,1 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,2990000.0,3,1,3.0
+Soma,105,1,Sıfır Bina,Merkezi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2750000.0,2,1,2.0
+Salihli,530,1,25 Yaşında,Soba,0,0,0,-,-,Müstakil Tapulu,-,-,2350000.0,2,1,3.0
+Akhisar,150,2,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5200000.0,3,1,3.0
+Turgutlu,135,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,3,1,1.0
+Salihli,130,1,11 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6250000.0,3,1,2.0
+Yunusemre,110,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4100000.0,2,1,4.0
+Sehzadeler,130,1,11 Yaşında,Klima,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4750000.0,3,1,2.0
+Sehzadeler,130,1,26 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3125000.0,3,1,5.0
+Akhisar,170,1,Sıfır Bina,Yerden Isıtma,0,0,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4100000.0,3,1,3.0
+Yunusemre,135,1,-,-,1,0,0,-,-,-,-,-,4100000.0,3,1,3.0
+Yunusemre,95,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3900000.0,2,1,2.0
+Akhisar,350,3,11 Yaşında,Kat Kaloriferi,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,9500000.0,6,1,0.0
+Salihli,200,1,Sıfır Bina,Merkezi,0,0,0,Sıfır,Boş,Kat Mülkiyeti,-,Eşyalı Değil,5300000.0,3,1,3.0
+Yunusemre,105,1,4 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3250000.0,2,1,5.0
+Yunusemre,120,1,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5250000.0,3,1,3.0
+Yunusemre,160,1,5 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4250000.0,3,1,0.5
+Yunusemre,130,1,21 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4100000.0,3,1,3.0
+Akhisar,320,3,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,8250000.0,5,1,3.0
+Yunusemre,240,2,11 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6850000.0,5,1,3.0
+Sehzadeler,125,1,31 Yaşında,Klima,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5300000.0,3,1,3.0
+Akhisar,120,1,6 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3850000.0,3,1,2.0
+Turgutlu,130,1,16 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3150000.0,3,1,2.0
+Akhisar,180,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı,3150000.0,3,1,3.0
+Turgutlu,140,1,Sıfır Bina,Yerden Isıtma,0,0,0,-,-,Kat İrtifakı,Evet,-,5250.0,3,1,3.0
+Akhisar,105,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2850000.0,2,1,2.0
+Salihli,141,1,23 Yaşında,Isıtma Yok,1,0,0,-,-,Kat Mülkiyeti,-,-,4900000.0,3,1,3.0
+Akhisar,135,1,20 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1850000.0,2,1,5.0
+Akhisar,125,1,30 Yaşında,Soba,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2500000.0,3,1,0.0
+Yunusemre,189,1,45 Yaşında,Soba,0,0,0,İkinci El,Boş,Arsa,Hayır,Eşyalı Değil,1650000.0,2,1,3.0
+Akhisar,55,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2390000.0,1,1,1.0
+Salihli,50,1,2 Yaşında,Soba,0,0,0,İkinci El,-,Arsa,Hayır,-,3200000.0,1,1,0.5
+Turgutlu,110,1,21 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2290000.0,3,1,4.0
+Saruhanli,100,1,35 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,1650000.0,2,1,3.0
+Yunusemre,80,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4250000.0,2,1,3.0
+Akhisar,130,1,7 Yaşında,Kombi,0,1,1,-,-,Kat İrtifakı,-,-,3180000.0,3,1,3.0
+Turgutlu,55,1,Sıfır Bina,Merkezi (Pay Öl...,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3125000.0,1,1,5.0
+Turgutlu,120,1,16 Yaşında,Isıtma Yok,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1950000.0,3,1,1.0
+Turgutlu,70,1,21 Yaşında,Soba,0,0,0,-,Boş,Arsa,Hayır,Eşyalı Değil,1500000.0,2,0,0.0
+Sehzadeler,175,2,5 Yaşında,Kat Kaloriferi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,8150000.0,4,1,0.0
+Salihli,160,1,7 Yaşında,Kat Kaloriferi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,1,0.0
+Turgutlu,179,2,5 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,6500000.0,4,1,8.0
+Yunusemre,150,2,1 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4350000.0,3,1,2.0
+Yunusemre,58,1,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2900000.0,1,1,3.0
+Turgutlu,110,2,Sıfır Bina,Merkezi (Pay Öl...,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3950000.0,2,1,9.0
+Turgutlu,162,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Tapu Yok,Evet,Eşyalı Değil,8000000.0,3,1,1.0
+Sehzadeler,160,1,34 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3875000.0,3,1,0.0
+Turgutlu,153,1,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Evet,-,5250000.0,3,1,3.0
+Sehzadeler,130,2,26 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3500000.0,3,0,2.0
+Yunusemre,100,1,6 Yaşında,Kombi,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2685000.0,2,1,0.5
+Yunusemre,125,1,8 Yaşında,Kombi,1,1,1,İkinci El,-,Kat İrtifakı,Hayır,Eşyalı Değil,4100000.0,3,1,2.0
+Turgutlu,130,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3450000.0,3,1,5.0
+Salihli,117,1,25 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3300000.0,3,1,1.0
+Yunusemre,110,1,5 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,6575000.0,2,1,2.0
+Yunusemre,95,1,5 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,2,1,4.0
+Yunusemre,60,1,1 Yaşında,Klima,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,2500000.0,2,1,3.0
+Turgutlu,95,1,30 Yaşında,Klima,0,0,0,-,-,Kat Mülkiyeti,-,-,1950000.0,2,1,4.0
+Turgutlu,135,1,-,-,0,0,0,-,-,-,-,-,2550000.0,3,1,3.0
+Akhisar,118,1,21 Yaşında,Kombi,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1875000.0,3,1,4.0
+Turgutlu,115,1,11 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2380000.0,3,1,0.0
+Saruhanli,75,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3050000.0,2,1,3.0
+Salihli,150,1,15 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4250000.0,3,1,4.0
+Yunusemre,95,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5475000.0,2,1,2.0
+Turgutlu,110,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3800000.0,2,1,2.0
+Turgutlu,140,2,1 Yaşında,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5350000.0,3,1,1.0
+Akhisar,135,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3100000.0,3,1,3.0
+Salihli,190,2,Sıfır Bina,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,7750000.0,3,1,3.0
+Turgutlu,142,1,26 Yaşında,Soba,0,0,0,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,2250000.0,2,1,1.0
+Akhisar,135,1,28 Yaşında,Kombi,1,0,1,İkinci El,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı Değil,2850000.0,3,1,3.0
+Sehzadeler,130,1,18 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,3,1,0.5
+Koprubasi,130,1,7 Yaşında,Soba,0,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2200000.0,3,1,5.0
+Turgutlu,380,3,5 Yaşında,Isıtma Yok,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,12500000.0,3,1,0.0
+Akhisar,85,2,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3100000.0,2,1,1.0
+Salihli,95,1,4 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3425000.0,2,1,3.0
+Turgutlu,185,2,Sıfır Bina,Kombi,0,1,0,-,Boş,Tapu Yok,Evet,Eşyalı Değil,4390000.0,3,1,4.0
+Salihli,140,1,25 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,3,2,2.0
+Akhisar,130,1,26 Yaşında,Soba,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1750000.0,3,1,0.0
+Akhisar,67,1,24 Yaşında,Klima,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,1550000.0,2,1,3.0
+Yunusemre,95,2,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,2950000.0,2,0,0.5
+Sehzadeler,130,1,25 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4800000.0,3,1,-2.0
+Sehzadeler,100,1,5 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2450000.0,2,1,1.0
+Turgutlu,114,1,6 Yaşında,Kombi,0,1,0,İkinci El,-,Kat Mülkiyeti,-,Eşyalı Değil,3850000.0,3,1,4.0
+Yunusemre,280,3,2 Yaşında,Yerden Isıtma,0,0,0,İkinci El,-,Kat Mülkiyeti,Evet,-,22000000.0,5,1,3.0
+Akhisar,145,2,1 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4350000.0,3,1,4.0
+Salihli,135,1,-,-,0,0,0,-,-,-,-,-,2045000.0,3,1,3.0
+Sehzadeler,135,1,-,-,0,0,0,-,-,-,-,-,4300000.0,3,1,3.0
+Saruhanli,140,1,1 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı,3600000.0,3,1,4.0
+Salihli,190,2,8 Yaşında,Kombi,1,1,1,-,-,Kat Mülkiyeti,-,-,7750000.0,3,1,3.0
+Sehzadeler,55,1,25 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,2750000.0,1,1,0.0
+Yunusemre,55,1,1 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2950000.0,1,1,2.0
+Salihli,200,1,5 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,5900000.0,3,1,3.0
+Yunusemre,120,1,26 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5100000.0,3,1,5.0
+Sehzadeler,130,1,20 Yaşında,Kombi,1,1,1,-,-,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,3,1,3.0
+Sarigol,300,1,26 Yaşında,Soba,0,0,0,-,Mülk Sahibi,Hisseli Tapu,Hayır,Eşyalı Değil,340000.0,2,1,3.0
+Turgutlu,100,1,7 Yaşında,Kombi,1,0,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3500000.0,2,1,4.0
+Yunusemre,95,1,3 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2850000.0,2,1,0.5
+Sehzadeler,105,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3590000.0,3,1,3.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4500000.0,3,1,3.0
+Turgutlu,95,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,-,3150000.0,2,1,4.0
+Turgutlu,152,2,1 Yaşında,Merkezi (Pay Öl...,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4650000.0,3,1,4.0
+Salihli,210,2,6 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4400000.0,4,1,4.0
+Turgutlu,127,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4500000.0,3,1,4.0
+Turgutlu,155,2,15 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4500000.0,3,1,5.0
+Akhisar,200,2,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,3850000.0,4,1,5.0
+Yunusemre,110,1,Sıfır Bina,Kombi,0,0,0,Sıfır,-,Müstakil Tapulu,Evet,Eşyalı Değil,3500000.0,3,0,0.5
+Akhisar,105,1,7 Yaşında,Kombi,0,0,1,İkinci El,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,4750000.0,2,1,3.0
+Sehzadeler,130,1,30 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4450000.0,3,1,0.5
+Yunusemre,135,1,13 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6875000.0,3,1,5.0
+Yunusemre,130,1,7 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3950000.0,3,1,1.0
+Yunusemre,245,1,3 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,5250000.0,4,1,3.0
+Akhisar,90,1,27 Yaşında,Soba,0,0,0,-,-,Müstakil Tapulu,Evet,-,1685000.0,2,1,5.0
+Turgutlu,135,1,-,-,0,0,0,-,-,-,-,-,2900000.0,3,1,3.0
+Yunusemre,100,1,4 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,-,3300000.0,2,1,1.0
+Turgutlu,110,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,2,1,1.0
+Salihli,110,1,Sıfır Bina,Yerden Isıtma,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3800000.0,2,1,2.0
+Salihli,120,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3425000.0,3,1,3.0
+Akhisar,125,1,2 Yaşında,Kombi,0,1,0,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,3.0
+Akhisar,130,1,1 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,3,1,1.0
+Salihli,120,1,15 Yaşında,Soba,0,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,7000000.0,3,1,3.0
+Salihli,135,1,Sıfır Bina,Isıtma Yok,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5700000.0,3,1,4.0
+Yunusemre,140,2,5 Yaşında,Kombi,0,1,0,İkinci El,-,Müstakil Tapulu,Evet,-,4600000.0,3,1,2.0
+Alasehir,58,1,4 Yaşında,Klima,1,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı,2100000.0,1,1,2.0
+Turgutlu,135,1,16 Yaşında,Kombi,0,0,0,-,Kiracılı,Müstakil Tapulu,Hayır,Eşyalı Değil,3750000.0,3,1,4.0
+Akhisar,140,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4550000.0,3,1,3.0
+Akhisar,132,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4100000.0,3,1,1.0
+Turgutlu,150,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,6000000.0,3,1,2.0
+Akhisar,95,1,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2950000.0,2,1,4.0
+Turgutlu,100,1,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3490000.0,2,1,3.0
+Yunusemre,130,1,21 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4150000.0,3,1,3.0
+Turgutlu,180,2,15 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Hayır,Eşyalı,4750000.0,3,1,3.0
+Sehzadeler,115,1,26 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3875000.0,3,1,3.0
+Turgutlu,200,1,21 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5400000.0,4,1,1.0
+Sehzadeler,127,1,15 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,5450000.0,3,1,6.0
+Soma,135,1,11 Yaşında,Jeotermal Isıtm...,1,0,1,-,-,Kat Mülkiyeti,Evet,Eşyalı Değil,3875000.0,3,1,0.5
+Yunusemre,85,1,1 Yaşında,Yerden Isıtma,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,2,1,2.0
+Turgutlu,125,1,6 Yaşında,Kombi,1,0,1,-,Kiracılı,Kat Mülkiyeti,Evet,Eşyalı Değil,3500000.0,3,1,4.0
+Yunusemre,80,1,3 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5750000.0,2,1,0.0
+Salihli,135,2,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4150000.0,3,1,5.0
+Akhisar,105,1,5 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,3900000.0,2,1,2.0
+Turgutlu,135,1,6 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4600000.0,3,1,2.0
+Turgutlu,115,1,16 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3950000.0,2,1,3.0
+Turgutlu,102,2,Sıfır Bina,Yerden Isıtma,0,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4100000.0,2,1,5.0
+Salihli,175,1,12 Yaşında,Kombi,0,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6500000.0,3,1,2.0
+Yunusemre,95,1,4 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3700000.0,2,1,0.5
+Salihli,160,2,5 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,5500000.0,3,1,-2.0
+Turgutlu,200,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4440000.0,4,1,4.0
+Turgutlu,134,2,Sıfır Bina,Kombi,0,1,1,-,-,Kat Mülkiyeti,Hayır,Eşyalı Değil,5600000.0,3,1,3.0
+Sehzadeler,125,1,25 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4700000.0,3,1,3.0
+Yunusemre,95,1,1 Yaşında,Yerden Isıtma,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,2,1,2.0
+Yunusemre,280,3,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,5,1,5.0
+Turgutlu,130,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4750000.0,3,1,2.0
+Turgutlu,130,1,6 Yaşında,Kombi,0,0,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3490000.0,3,1,4.0
+Turgutlu,155,2,11 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4500000.0,3,1,4.0
+Yunusemre,250,3,4 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,5000000.0,5,1,4.0
+Yunusemre,130,1,21 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4500000.0,3,1,3.0
+Yunusemre,95,1,11 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,4250000.0,2,1,0.5
+Sehzadeler,60,1,25 Yaşında,Doğalgaz Sobası,0,0,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2550000.0,1,1,0.0
+Yunusemre,85,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3050000.0,2,1,0.5
+Turgutlu,75,1,4 Yaşında,Klima,0,0,0,-,Boş,Kooperatiften H...,Hayır,Eşyalı,2500000.0,2,1,0.0
+Yunusemre,120,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4350000.0,3,1,3.0
+Yunusemre,85,1,1 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2900000.0,2,1,0.5
+Yunusemre,135,1,1 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4250000.0,3,1,3.0
+Yunusemre,180,2,1 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,6700000.0,4,1,2.0
+Yunusemre,50,1,7 Yaşında,Kombi,0,0,1,İkinci El,Boş,Kat İrtifakı,-,Eşyalı,2650000.0,1,1,2.0
+Yunusemre,90,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,2,1,2.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4650000.0,3,1,3.0
+Yunusemre,280,2,22 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6000000.0,4,1,4.0
+Akhisar,92,1,1 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2550000.0,2,0,4.0
+Sehzadeler,80,1,21 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2950000.0,2,1,2.0
+Akhisar,90,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3600000.0,2,1,2.0
+Akhisar,225,2,Sıfır Bina,Yerden Isıtma,1,0,1,-,-,Müstakil Tapulu,Hayır,Eşyalı Değil,14950000.0,5,1,3.0
+Turgutlu,130,2,Sıfır Bina,Kombi,1,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,1,3.0
+Salihli,145,1,20 Yaşında,Kombi,0,1,1,İkinci El,-,Kat Mülkiyeti,Hayır,-,4600000.0,3,1,3.0
+Turgutlu,130,1,1 Yaşında,Yerden Isıtma,1,1,0,-,Boş,Kat İrtifakı,Hayır,-,4250000.0,3,1,3.0
+Salihli,160,1,21 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3500000.0,3,1,6.0
+Turgutlu,310,3,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5500000.0,5,1,5.0
+Yunusemre,250,2,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4740000.0,4,2,4.0
+Sehzadeler,120,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4800000.0,3,1,3.0
+Yunusemre,100,1,21 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3650000.0,3,1,5.0
+Turgutlu,130,1,16 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3600000.0,3,1,3.0
+Yunusemre,115,2,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,3,1,0.5
+Yunusemre,125,1,26 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4150000.0,3,1,3.0
+Yunusemre,95,1,1 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3450000.0,2,1,1.0
+Turgutlu,141,1,11 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Hayır,-,2500000.0,3,1,3.0
+Yunusemre,125,1,4 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4250000.0,3,1,2.0
+Yunusemre,125,1,5 Yaşında,Kombi,0,1,1,İkinci El,Mülk Sahibi,Müstakil Tapulu,Evet,Eşyalı Değil,4500000.0,3,1,2.0
+Akhisar,230,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4600000.0,5,1,3.0
+Salihli,116,1,5 Yaşında,Soba,0,1,1,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,7200000.0,2,1,3.0
+Salihli,231,1,10 Yaşında,Kombi,0,1,0,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,3600000.0,3,1,5.0
+Salihli,135,2,Sıfır Bina,Kombi,1,0,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,6200000.0,3,1,3.0
+Turgutlu,100,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4200000.0,2,1,2.0
+Yunusemre,110,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4100000.0,2,1,4.0
+Yunusemre,85,1,Sıfır Bina,Yerden Isıtma,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3600000.0,2,1,4.0
+Yunusemre,100,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,2,1,0.5
+Turgutlu,125,2,1 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3950000.0,3,1,3.0
+Turgutlu,105,1,Sıfır Bina,Kombi,0,0,0,Sıfır,Boş,Kat Mülkiyeti,-,Eşyalı Değil,4000000.0,2,1,2.0
+Yunusemre,140,2,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4100000.0,3,1,0.5
+Sehzadeler,140,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3900000.0,3,1,1.0
+Turgutlu,75,1,11 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1600000.0,2,1,2.0
+Akhisar,135,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3250000.0,3,1,1.0
+Sehzadeler,195,1,Sıfır Bina,Kombi,1,1,0,Sıfır,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5200000.0,5,1,3.0
+Yunusemre,140,1,6 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4300000.0,3,1,2.0
+Yunusemre,105,1,5 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,2,1,4.0
+Turgutlu,90,1,7 Yaşında,Kombi,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2690000.0,2,1,3.0
+Salihli,100,1,25 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,3300000.0,2,1,2.0
+Turgutlu,120,1,5 Yaşında,Kombi,0,1,1,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3750000.0,3,1,2.0
+Saruhanli,120,1,1 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3695000.0,3,1,3.0
+Yunusemre,158,1,30 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6600000.0,3,1,2.0
+Yunusemre,114,1,Sıfır Bina,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,8600000.0,3,1,6.0
+Saruhanli,140,1,6 Yaşında,Soba,0,0,0,-,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı,2750000.0,3,1,0.0
+Yunusemre,160,1,25 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,3,1,0.5
+Akhisar,140,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,2.0
+Akhisar,96,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı,3550000.0,2,1,2.0
+Akhisar,210,2,3 Yaşında,Kombi,1,0,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,6500000.0,4,1,3.0
+Yunusemre,95,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3850000.0,2,1,0.5
+Yunusemre,145,1,3 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,1,3.0
+Yunusemre,83,1,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı,3400000.0,2,1,4.0
+Akhisar,250,2,5 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,5,1,4.0
+Yunusemre,145,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5000000.0,3,1,3.0
+Yunusemre,130,1,4 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4350000.0,3,1,4.0
+Yunusemre,105,1,21 Yaşında,Kombi,0,1,1,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,3890000.0,2,1,4.0
+Yunusemre,95,1,1 Yaşında,Kombi,0,1,0,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3200000.0,2,1,4.0
+Yunusemre,80,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,2,1,2.0
+Koprubasi,188,1,20 Yaşında,Kombi,0,0,0,-,-,Müstakil Tapulu,-,-,870000.0,2,2,3.0
+Yunusemre,180,2,4 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4400000.0,4,1,5.0
+Turgutlu,135,1,21 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2500000.0,3,1,3.0
+Yunusemre,150,2,4 Yaşında,Kombi,1,1,0,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,5750000.0,3,1,2.0
+Yunusemre,60,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,-,3500000.0,1,1,3.0
+Turgutlu,130,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4250000.0,3,1,4.0
+Akhisar,140,1,1 Yaşında,Yerden Isıtma,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4100000.0,3,1,2.0
+Yunusemre,100,2,Sıfır Bina,Yerden Isıtma,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,2,1,2.0
+Yunusemre,85,1,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3650000.0,2,1,0.5
+Yunusemre,90,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3500000.0,2,1,3.0
+Turgutlu,105,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4000000.0,2,1,2.0
+Yunusemre,65,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2800000.0,1,1,2.0
+Turgutlu,140,2,Sıfır Bina,Yerden Isıtma,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6800000.0,3,1,2.0
+Turgutlu,130,1,11 Yaşında,Kombi,1,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2350000.0,3,1,4.0
+Turgutlu,155,1,5 Yaşında,Yerden Isıtma,1,0,0,-,Mülk Sahibi,Tapu Yok,Hayır,Eşyalı Değil,5500000.0,3,1,1.0
+Turgutlu,115,1,25 Yaşında,Soba,0,0,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2000000.0,2,1,5.0
+Sehzadeler,140,2,26 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5700000.0,3,1,4.0
+Yunusemre,100,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3850000.0,3,1,1.0
+Yunusemre,150,1,6 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,5150000.0,3,1,4.0
+Akhisar,125,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4000000.0,3,1,1.0
+Yunusemre,115,1,25 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3800000.0,3,1,2.0
+Yunusemre,130,1,25 Yaşında,Kombi,0,1,1,-,-,Kat İrtifakı,Evet,-,4275000.0,3,1,4.0
+Yunusemre,90,1,6 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3350000.0,2,1,4.0
+Yunusemre,120,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4150000.0,3,1,3.0
+Yunusemre,95,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3450000.0,2,1,0.5
+Salihli,140,1,4 Yaşında,Kombi,0,1,1,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,6000000.0,3,1,3.0
+Yunusemre,85,1,Sıfır Bina,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,2,1,3.0
+Turgutlu,150,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5250000.0,3,1,3.0
+Turgutlu,157,1,6 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4300000.0,3,1,2.0
+Turgutlu,130,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4000000.0,3,1,4.0
+Yunusemre,85,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3650000.0,2,1,2.0
+Turgutlu,135,1,12 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3750000.0,3,1,5.0
+Turgutlu,120,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3750000.0,3,1,2.0
+Yunusemre,240,2,16 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,8250000.0,5,2,2.0
+Turgutlu,95,1,11 Yaşında,Doğalgaz Sobası,0,0,0,-,Kiracılı,Kat İrtifakı,Evet,-,2495000.0,2,1,0.5
+Yunusemre,80,1,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3400000.0,2,1,3.0
+Sehzadeler,110,1,21 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3050000.0,2,1,5.0
+Yunusemre,105,1,1 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4100000.0,2,1,3.0
+Yunusemre,135,1,21 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4295000.0,3,1,4.0
+Turgutlu,130,1,1 Yaşında,Yerden Isıtma,1,1,0,-,Boş,Kat İrtifakı,Hayır,-,4250000.0,3,1,3.0
+Akhisar,110,1,Sıfır Bina,Kombi,0,0,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,1.0
+Yunusemre,140,1,1 Yaşında,Yerden Isıtma,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5000000.0,3,1,2.0
+Yunusemre,125,1,Sıfır Bina,Yerden Isıtma,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4950000.0,3,1,2.0
+Salihli,125,1,16 Yaşında,Klima,0,0,1,-,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,2625000.0,2,1,2.0
+Salihli,600,1,5 Yaşında,Kat Kaloriferi,0,0,0,-,Kiracılı,Kat Mülkiyeti,-,-,65000000.0,3,1,3.0
+Sehzadeler,130,2,21 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,6.0
+Yunusemre,125,1,4 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3995000.0,3,1,0.5
+Turgutlu,100,1,21 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı,2550000.0,2,1,0.0
+Yunusemre,95,1,1 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3125000.0,2,1,4.0
+Turgutlu,80,1,21 Yaşında,Klima,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,1480000.0,2,1,4.0
+Akhisar,130,1,26 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,2700000.0,3,1,3.0
+Kirkagac,95,1,23 Yaşında,Kombi,1,0,0,İkinci El,Kiracılı,Kat Mülkiyeti,Hayır,Eşyalı Değil,1350000.0,2,1,4.0
+Akhisar,95,2,Sıfır Bina,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4000000.0,2,1,1.0
+Salihli,143,2,3 Yaşında,Kombi,0,1,1,Sıfır,-,Kat İrtifakı,Hayır,Eşyalı Değil,6500000.0,3,0,4.0
+Turgutlu,150,2,9 Yaşında,Merkezi,0,0,1,-,Kiracılı,Kat Mülkiyeti,-,-,6350000.0,3,1,3.0
+Turgutlu,160,1,1 Yaşında,Merkezi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,3,1,5.0
+Turgutlu,150,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5250000.0,3,1,1.0
+Turgutlu,120,1,Sıfır Bina,Yerden Isıtma,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4750000.0,2,1,4.0
+Yunusemre,135,1,4 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5175000.0,3,1,3.0
+Turgutlu,178,2,6 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,4550000.0,3,1,2.0
+Turgutlu,130,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5250000.0,2,1,1.0
+Sehzadeler,110,1,Sıfır Bina,Yerden Isıtma,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,8600000.0,2,1,2.0
+Turgutlu,110,1,5 Yaşında,Soba,0,0,0,-,-,Müstakil Tapulu,Evet,-,6500000.0,2,0,0.0
+Turgutlu,100,1,1 Yaşında,Kombi,0,1,1,Sıfır,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3800000.0,3,0,3.0
+Yunusemre,165,2,3 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,8750000.0,3,1,3.0
+Akhisar,115,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3750000.0,3,1,1.0
+Yunusemre,125,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4750000.0,3,1,3.0
+Turgutlu,90,1,11 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2950000.0,2,1,0.0
+Turgutlu,155,2,4 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,5450000.0,3,1,5.0
+Turgutlu,170,1,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,6500000.0,4,1,3.0
+Turgutlu,115,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3650000.0,2,1,2.0
+Yunusemre,95,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3400000.0,2,1,3.0
+Akhisar,227,3,1 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,14500000.0,5,1,0.0
+Turgutlu,130,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5490000.0,3,1,3.0
+Turgutlu,140,2,1 Yaşında,Merkezi (Pay Öl...,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4475000.0,3,1,11.0
+Yunusemre,140,1,16 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4350000.0,3,1,3.0
+Yunusemre,85,1,1 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3495000.0,2,1,5.0
+Turgutlu,120,1,21 Yaşında,Soba,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,1900000.0,3,1,5.0
+Turgutlu,115,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3650000.0,2,1,2.0
+Yunusemre,120,1,5 Yaşında,Kombi,0,1,1,-,-,Kat İrtifakı,-,Eşyalı Değil,4975000.0,3,1,3.0
+Yunusemre,140,1,8 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,5450000.0,3,1,5.0
+Turgutlu,145,1,6 Yaşında,Kombi,1,0,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3850000.0,3,1,1.0
+Turgutlu,140,1,21 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4500000.0,3,1,0.0
+Sehzadeler,125,1,34 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4350000.0,3,1,3.0
+Yunusemre,100,2,Sıfır Bina,Yerden Isıtma,1,1,1,Sıfır,Boş,Kat İrtifakı,-,Eşyalı Değil,4500000.0,2,1,0.5
+Yunusemre,75,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4250000.0,2,1,2.0
+Yunusemre,160,1,5 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4100000.0,3,1,0.5
+Turgutlu,150,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5250000.0,3,1,3.0
+Yunusemre,120,1,21 Yaşında,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,6800000.0,3,1,2.0
+Akhisar,275,2,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4000000.0,4,1,3.0
+Yunusemre,125,1,1 Yaşında,Kombi,0,0,1,-,Kiracılı,Kat İrtifakı,Evet,Eşyalı Değil,3550000.0,3,1,0.5
+Yunusemre,120,2,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5250000.0,3,1,3.0
+Yunusemre,125,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4700000.0,3,1,2.0
+Turgutlu,130,1,11 Yaşında,Soba,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6500000.0,3,1,2.0
+Yunusemre,135,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,1,5.0
+Yunusemre,145,1,6 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4100000.0,3,1,4.0
+Yunusemre,100,1,Sıfır Bina,Kombi,1,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı,4100000.0,2,1,4.0
+Yunusemre,92,1,1 Yaşında,Yerden Isıtma,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,2,1,1.0
+Yunusemre,135,1,1 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5300000.0,3,1,2.0
+Turgutlu,100,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4100000.0,2,1,2.0
+Turgutlu,150,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5000000.0,3,1,3.0
+Turgutlu,180,2,1 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,4250000.0,4,1,4.0
+Sehzadeler,136,1,21 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4950000.0,3,1,4.0
+Turgutlu,250,2,6 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,10250000.0,4,1,5.0
+Turgutlu,125,2,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4150000.0,3,1,3.0
+Saruhanli,64,1,5 Yaşında,Soba,0,0,0,Sıfır,Mülk Sahibi,Hisseli Tapu,Hayır,-,12500000.0,1,1,3.0
+Yunusemre,100,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5495000.0,2,1,2.0
+Yunusemre,125,1,21 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,3,1,4.0
+Yunusemre,200,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6250000.0,5,1,5.0
+Turgutlu,150,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3900000.0,3,1,2.0
+Yunusemre,130,1,21 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4575000.0,3,1,4.0
+Turgutlu,105,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3350000.0,2,1,2.0
+Saruhanli,65,1,1 Yaşında,Kombi,0,0,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,2100000.0,1,1,1.0
+Yunusemre,180,2,11 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,8300000.0,4,1,4.0
+Turgutlu,145,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Arsa,Hayır,Eşyalı Değil,5000000.0,3,1,3.0
+Salihli,357,1,25 Yaşında,Soba,0,1,1,İkinci El,Kiracılı,Arsa,Hayır,Eşyalı Değil,7500000.0,3,1,3.0
+Akhisar,200,2,1 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,4500000.0,4,1,4.0
+Turgutlu,140,1,11 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı,3599000.0,3,1,4.0
+Turgutlu,140,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3300000.0,3,1,1.0
+Turgutlu,160,2,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6750000.0,3,1,1.0
+Yunusemre,90,1,5 Yaşında,Kombi,1,1,0,İkinci El,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,3350000.0,2,1,0.5
+Sehzadeler,125,1,25 Yaşında,Kombi,0,0,0,-,-,Kat İrtifakı,-,Eşyalı Değil,3680000.0,3,1,4.0
+Sehzadeler,140,1,16 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,4350000.0,3,1,5.0
+Turgutlu,130,2,Sıfır Bina,Yerden Isıtma,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4250000.0,2,1,3.0
+Turgutlu,125,1,26 Yaşında,Isıtma Yok,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2350000.0,3,1,3.0
+Sehzadeler,125,1,34 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3350000.0,3,1,4.0
+Saruhanli,480,1,30 Yaşında,Soba,0,0,0,İkinci El,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,2550000.0,2,1,3.0
+Turgutlu,135,1,21 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,2950000.0,3,1,6.0
+Yunusemre,60,1,Sıfır Bina,Merkezi (Pay Öl...,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2650000.0,1,1,2.0
+Akhisar,145,1,31 Yaşında,Kombi,0,0,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2950000.0,3,1,3.0
+Yunusemre,89,2,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3470000.0,3,1,0.5
+Akhisar,280,1,19 Yaşında,Kombi,1,0,0,İkinci El,-,Kat İrtifakı,Evet,Eşyalı Değil,14000000.0,4,1,3.0
+Turgutlu,105,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4150000.0,2,1,2.0
+Turgutlu,105,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3650000.0,2,1,1.0
+Turgutlu,95,1,25 Yaşında,Kombi,1,0,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2550000.0,2,1,3.0
+Soma,316,1,35 Yaşında,Soba,0,0,0,İkinci El,Boş,Arsa,Hayır,Eşyalı Değil,1500000.0,2,1,3.0
+Yunusemre,135,1,-,-,0,0,0,-,-,-,-,-,4650000.0,3,1,3.0
+Sehzadeler,135,1,4 Yaşında,Kombi,0,0,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4950000.0,3,1,2.0
+Yunusemre,180,2,11 Yaşında,Merkezi (Pay Öl...,1,0,1,-,Mülk Sahibi,Kat İrtifakı,Güzelyurt’tan daire ile takas düşünülür,Eşyalı Değil,8000000.0,4,1,4.0
+Saruhanli,200,1,3 Yaşında,Klima,0,0,0,-,-,Müstakil Tapulu,Evet,-,29900000.0,3,0,0.0
+Turgutlu,100,1,31 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2700000.0,2,1,0.0
+Turgutlu,110,1,Sıfır Bina,Yerden Isıtma,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4750000.0,2,1,4.0
+Sehzadeler,250,2,5 Yaşında,Kat Kaloriferi,0,1,0,-,Mülk Sahibi,Tapu Yok,Evet,Eşyalı Değil,8500000.0,3,2,0.0
+Kula,360,1,31 Yaşında,Isıtma Yok,0,0,0,-,Boş,Tapu Yok,Hayır,Eşyalı Değil,650000.0,2,0,1.0
+Yunusemre,90,1,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3650000.0,2,1,0.5
+Turgutlu,150,1,16 Yaşında,Kombi,0,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,3225000.0,3,1,4.0
+Yunusemre,85,1,4 Yaşında,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3450000.0,2,1,2.0
+Saruhanli,135,1,1 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3800000.0,3,1,2.0
+Akhisar,150,1,11 Yaşında,Kombi,1,0,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3000000.0,3,1,2.0
+Yunusemre,140,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,7500000.0,3,1,3.0
+Akhisar,135,1,-,-,0,0,0,-,-,-,-,-,16250000.0,3,1,3.0
+Turgutlu,100,1,5 Yaşında,Kombi,0,0,0,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2500000.0,2,1,3.0
+Sehzadeler,140,1,16 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,0.5
+Saruhanli,135,1,1 Yaşında,Kombi,1,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3950000.0,3,1,4.0
+Sehzadeler,130,1,21 Yaşında,Kombi,0,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3950000.0,2,1,2.0
+Turgutlu,95,1,1 Yaşında,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3100000.0,2,1,1.0
+Sehzadeler,125,1,26 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4220000.0,3,1,2.0
+Turgutlu,102,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3800000.0,2,1,2.0
+Akhisar,115,1,26 Yaşında,Kombi,1,1,0,İkinci El,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,2450000.0,3,1,2.0
+Salihli,300,2,10 Yaşında,Klima,0,0,0,-,-,Müstakil Tapulu,Evet,-,23500000.0,4,0,0.0
+Yunusemre,110,1,23 Yaşında,Kombi,0,1,0,İkinci El,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4650000.0,3,1,2.0
+Sehzadeler,130,1,20 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3750000.0,3,1,2.0
+Turgutlu,130,1,26 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2400000.0,2,1,4.0
+Sehzadeler,100,1,21 Yaşında,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,2950000.0,2,1,5.0
+Yunusemre,120,1,25 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,3750000.0,3,1,1.0
+Turgutlu,135,1,21 Yaşında,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,3,1,3.0
+Yunusemre,140,1,6 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3975000.0,3,1,1.0
+Turgutlu,150,2,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,5500000.0,3,1,2.0
+Kula,200,1,25 Yaşında,Soba,0,0,0,İkinci El,-,Arsa,Hayır,Eşyalı,1950000.0,2,1,3.0
+Turgutlu,200,2,Sıfır Bina,Yerden Isıtma,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,6000000.0,4,1,3.0
+Turgutlu,200,2,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,6149000.0,3,1,4.0
+Akhisar,103,1,26 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,2700000.0,2,1,2.0
+Turgutlu,104,2,Sıfır Bina,Kombi,1,0,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,2,1,3.0
+Yunusemre,58,1,1 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2900000.0,1,1,3.0
+Yunusemre,65,1,4 Yaşında,Kombi,1,0,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4450000.0,1,1,0.5
+Turgutlu,160,2,5 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,4900000.0,3,1,2.0
+Turgutlu,135,1,25 Yaşında,Doğalgaz Sobası,0,0,0,-,-,Kat Mülkiyeti,Hayır,-,2500000.0,3,1,3.0
+Turgutlu,165,2,4 Yaşında,Yerden Isıtma,0,1,0,-,Boş,Kat İrtifakı,Evet,Eşyalı,7650000.0,3,1,2.0
+Yunusemre,125,2,24 Yaşında,Kombi,1,1,1,İkinci El,Mülk Sahibi,Kat Mülkiyeti,-,Eşyalı Değil,4150000.0,3,1,3.0
+Salihli,90,1,Sıfır Bina,Kombi,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,3400000.0,2,1,3.0
+Turgutlu,120,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3500000.0,2,1,3.0
+Turgutlu,110,1,1 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Hayır,Eşyalı Değil,3630000.0,2,1,2.0
+Yunusemre,190,2,Sıfır Bina,Merkezi (Pay Öl...,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4650000.0,4,1,5.0
+Akhisar,230,1,27 Yaşında,Soba,0,0,0,-,-,Kat İrtifakı,-,-,5450000.0,3,1,3.0
+Yunusemre,140,1,11 Yaşında,Kombi,0,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı,2980000.0,2,1,0.5
+Sehzadeler,130,2,21 Yaşında,Kombi,0,1,1,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,0.0
+Turgutlu,130,2,Sıfır Bina,Kombi,0,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,5950000.0,3,1,3.0
+Sehzadeler,120,2,5 Yaşında,Soba,0,1,1,-,Mülk Sahibi,Tapu Yok,Evet,Eşyalı Değil,6500000.0,4,1,0.0
+Akhisar,95,1,1 Yaşında,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3200000.0,2,1,2.0
+Turgutlu,400,3,Sıfır Bina,Yerden Isıtma,0,1,0,-,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,15000000.0,6,2,4.0
+Akhisar,140,1,26 Yaşında,Soba,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,2300000.0,3,1,1.0
+Saruhanli,130,1,1 Yaşında,Kombi,1,1,0,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,3375000.0,3,1,4.0
+Turgutlu,160,2,Sıfır Bina,Kombi,1,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,8000000.0,3,1,4.0
+Yunusemre,140,1,6 Yaşında,Kombi,1,0,0,-,Kiracılı,Kat İrtifakı,Hayır,Eşyalı Değil,4450000.0,3,1,4.0
+Sehzadeler,116,2,26 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat İrtifakı,Evet,Eşyalı Değil,4500000.0,3,1,5.0
+Salihli,130,1,20 Yaşında,Kombi,0,1,0,İkinci El,-,Kat İrtifakı,Hayır,Eşyalı Değil,4450000.0,3,1,3.0
+Akhisar,191,3,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,8500000.0,5,1,3.0
+Turgutlu,100,1,11 Yaşında,Kombi,1,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,2199000.0,2,1,4.0
+Turgutlu,130,1,7 Yaşında,Kombi,0,1,0,İkinci El,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3150000.0,3,1,0.0
+Yunusemre,240,2,5 Yaşında,Kombi,1,1,1,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,12600000.0,4,1,4.0
+Saruhanli,120,1,6 Yaşında,Kombi,0,1,0,-,Boş,Müstakil Tapulu,Hayır,Eşyalı Değil,3600000.0,3,1,4.0
+Turgutlu,230,2,5 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,5980000.0,3,1,2.0
+Yunusemre,200,1,15 Yaşında,Kombi,0,1,1,-,-,Kat İrtifakı,-,-,5500000.0,4,1,5.0
+Turgutlu,130,1,Sıfır Bina,Kombi,0,1,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,4700000.0,3,1,4.0
+Akhisar,90,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,2550000.0,2,1,1.0
+Turgutlu,145,2,15 Yaşında,Kombi,1,1,0,-,-,Kat Mülkiyeti,-,-,4500000.0,3,1,5.0
+Yunusemre,106,2,1 Yaşında,Merkezi (Pay Öl...,1,0,1,-,Boş,Kat Mülkiyeti,Hayır,Eşyalı Değil,9980000.0,2,1,4.0
+Turgutlu,130,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,6000000.0,3,1,2.0
+Salihli,210,2,Sıfır Bina,Kombi,1,1,1,Sıfır,Boş,Kat İrtifakı,Evet,-,9400000.0,4,1,-1.0
+Turgutlu,170,1,16 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Kat Mülkiyeti,Hayır,Eşyalı Değil,3140000.0,3,1,3.0
+Turgutlu,160,1,16 Yaşında,Kombi,1,1,1,-,Mülk Sahibi,Kat Mülkiyeti,Evet,Eşyalı Değil,3100000.0,3,1,4.0
+Yunusemre,100,1,4 Yaşında,Kombi,0,0,0,İkinci El,Boş,Kat İrtifakı,-,Eşyalı Değil,4950000.0,2,1,0.5
+Yunusemre,120,1,1 Yaşında,Kombi,0,1,0,-,Mülk Sahibi,Müstakil Tapulu,Hayır,Eşyalı Değil,4250000.0,3,0,1.0
+Turgutlu,115,1,Sıfır Bina,Kombi,0,1,0,Sıfır,Boş,Kat Mülkiyeti,-,Eşyalı Değil,3600000.0,2,1,3.0
+Sehzadeler,120,1,21 Yaşında,Kombi,0,1,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3850000.0,3,1,0.5
+Yunusemre,80,1,Sıfır Bina,Kombi,0,0,0,-,Boş,Kat İrtifakı,Hayır,Eşyalı Değil,3150000.0,2,1,-3.0
+Sehzadeler,130,1,20 Yaşında,Kombi,1,1,0,İkinci El,Boş,Kat Mülkiyeti,Evet,Eşyalı Değil,4800000.0,3,1,4.0
+Akhisar,390,3,Sıfır Bina,Yerden Isıtma,1,0,1,-,Boş,Müstakil Tapulu,Evet,Eşyalı Değil,13500000.0,4,1,0.0
+Turgutlu,100,1,6 Yaşında,Isıtma Yok,0,1,1,-,Kiracılı,Kat Mülkiyeti,Hayır,-,2500000.0,2,1,4.0
+Yunusemre,140,1,1 Yaşında,Kombi,0,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,5950000.0,3,1,2.0
+Turgutlu,105,1,Sıfır Bina,Yerden Isıtma,1,1,1,-,Boş,Kat İrtifakı,Evet,Eşyalı Değil,4250000.0,2,1,1.0

@@ -1,0 +1,72 @@
+@model HomeRadar.Models.District
+
+@{
+    ViewBag.Title = "İlçe Detayı";
+    ViewData["ListingCount"] = Model.Listings?.Count(l => l.IsActive) ?? 0;
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0"><i class="bi bi-geo-alt"></i> @Model.Name</h4>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">ID:</dt>
+                    <dd class="col-sm-8">@Model.Id</dd>
+
+                    <dt class="col-sm-4">İlçe Adı:</dt>
+                    <dd class="col-sm-8">@Model.Name</dd>
+
+                    <dt class="col-sm-4">Şehir:</dt>
+                    <dd class="col-sm-8">@Model.City</dd>
+
+                    <dt class="col-sm-4">Toplam İlan:</dt>
+                    <dd class="col-sm-8"><strong>@ViewData["ListingCount"]</strong></dd>
+                </dl>
+
+                @if (Model.Listings != null && Model.Listings.Any(l => l.IsActive))
+                {
+                    <hr />
+                    <h5>İlanlar</h5>
+                    <div class="table-responsive">
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th>Fiyat</th>
+                                    <th>m²</th>
+                                    <th>Oda</th>
+                                    <th>Bina Tipi</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var listing in Model.Listings.Where(l => l.IsActive).Take(10))
+                                {
+                                    <tr>
+                                        <td>@listing.Price.ToString("C0")</td>
+                                        <td>@listing.SquareMeters m²</td>
+                                        <td>@listing.RoomCount + @listing.SalonCount</td>
+                                        <td>@(listing.BuildingType?.Name ?? "N/A")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+            <div class="card-footer">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Geri Dön
+                </a>
+                @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Admin")
+                {
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil"></i> Düzenle
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,46 @@
+@model HomeRadar.Models.District
+
+@{
+    ViewBag.Title = "İlçe Sil";
+}
+
+<h3><i class="bi bi-exclamation-triangle text-danger"></i> @ViewBag.Title</h3>
+<hr />
+
+<div class="alert alert-warning">
+    <i class="bi bi-exclamation-triangle"></i> Bu ilçeyi silmek istediğinizden emin misiniz?
+    @if (Model.Listings != null && Model.Listings.Any(l => l.IsActive))
+    {
+        var activeCount = Model.Listings.Count(l => l.IsActive);
+        <text>
+            <br /><strong>Uyarı:</strong> Bu ilçeye ait @activeCount aktif ilan bulunmaktadır.
+        </text>
+    }
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">ID:</dt>
+            <dd class="col-sm-8">@Model.Id</dd>
+
+            <dt class="col-sm-4">İlçe Adı:</dt>
+            <dd class="col-sm-8">@Model.Name</dd>
+
+            <dt class="col-sm-4">Şehir:</dt>
+            <dd class="col-sm-8">@Model.City</dd>
+        </dl>
+    </div>
+    <div class="card-footer">
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-trash"></i> Sil
+            </button>
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> İptal
+            </a>
+        </form>
+    </div>
+</div>
+

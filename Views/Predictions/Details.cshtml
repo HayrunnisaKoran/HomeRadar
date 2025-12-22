@@ -1,0 +1,58 @@
+@model HomeRadar.Models.Prediction
+
+@{
+    ViewBag.Title = "Tahmin Detayı";
+    ViewData["PriceRange"] = $"{Model.PredictedPriceMin:C0} - {Model.PredictedPriceMax:C0}";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0"><i class="bi bi-graph-up"></i> Tahmin Detayları</h4>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">ID:</dt>
+                    <dd class="col-sm-8">@Model.Id</dd>
+
+                    <dt class="col-sm-4">Kullanıcı:</dt>
+                    <dd class="col-sm-8">@(Model.User != null ? $"{Model.User.FirstName} {Model.User.LastName}" : "Misafir")</dd>
+
+                    <dt class="col-sm-4">İlçe:</dt>
+                    <dd class="col-sm-8">@(Model.District?.Name ?? "Bilinmiyor")</dd>
+
+                    <dt class="col-sm-4">Bina Tipi:</dt>
+                    <dd class="col-sm-8">@(Model.BuildingType?.Name ?? "Belirtilmemiş")</dd>
+
+                    <dt class="col-sm-4">Oda Sayısı:</dt>
+                    <dd class="col-sm-8">@Model.RoomCount</dd>
+
+                    <dt class="col-sm-4">Metrekare:</dt>
+                    <dd class="col-sm-8">@Model.SquareMeters m²</dd>
+
+                    <dt class="col-sm-4">Bina Yaşı:</dt>
+                    <dd class="col-sm-8">@Model.BuildingAge yıl</dd>
+
+                    <dt class="col-sm-4">Fiyat Aralığı:</dt>
+                    <dd class="col-sm-8"><strong>@ViewData["PriceRange"]</strong></dd>
+
+                    <dt class="col-sm-4">Ortalama Fiyat:</dt>
+                    <dd class="col-sm-8">@Model.PredictedPriceAvg.ToString("C0")</dd>
+
+                    <dt class="col-sm-4">Model:</dt>
+                    <dd class="col-sm-8">@(Model.ModelName ?? "N/A")</dd>
+
+                    <dt class="col-sm-4">Tarih:</dt>
+                    <dd class="col-sm-8">@Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</dd>
+                </dl>
+            </div>
+            <div class="card-footer">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left"></i> Geri Dön
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
