@@ -41,7 +41,7 @@ namespace HomeRadar.Models
         public string Role { get; set; } = string.Empty; // "Admin" veya "User"
 
         [Column("CreatedAt")]
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         [Column("IsActive")]
         public bool IsActive { get; set; } = true;

@@ -26,19 +26,10 @@ ON CONFLICT DO NOTHING;
 -- =============================================
 -- 2. İLÇELER (Districts) - Manisa İlçeleri
 -- =============================================
-INSERT INTO "Districts" ("Name", "City")
-VALUES 
-    ('Yunusemre', 'Manisa'),
-    ('Şehzadeler', 'Manisa'),
-    ('Akhisar', 'Manisa'),
-    ('Salihli', 'Manisa'),
-    ('Turgutlu', 'Manisa'),
-    ('Soma', 'Manisa'),
-    ('Alaşehir', 'Manisa'),
-    ('Saruhanlı', 'Manisa'),
-    ('Kula', 'Manisa'),
-    ('Demirci', 'Manisa')
-ON CONFLICT DO NOTHING;
+-- NOT: Districts INSERT komutu kaldırıldı!
+-- Districts tablosunu doldurmak için SQL/15_Insert_Districts_Clean.sql kullanın
+-- Bu script artık Districts tablosuna veri eklemiyor (encoding sorunlarını önlemek için)
+-- Eğer Districts tablosunda encoding sorunu varsa, SQL/13_Fix_Districts_Encoding_Final.sql kullanın
 
 -- =============================================
 -- 3. BİNA TİPLERİ (BuildingTypes)

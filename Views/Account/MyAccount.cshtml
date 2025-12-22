@@ -1,0 +1,87 @@
+@model HomeRadar.Models.User
+
+@{
+    ViewBag.Title = "Hesabım";
+    Layout = "_Layout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header bg-info text-white">
+                <h4 class="mb-0"><i class="bi bi-person-gear"></i> @ViewBag.Title</h4>
+            </div>
+            <div class="card-body">
+                @if (ViewBag.ErrorMessage != null)
+                {
+                    <div class="alert alert-danger">
+                        <i class="bi bi-exclamation-triangle"></i> @ViewBag.ErrorMessage
+                    </div>
+                }
+
+                <form asp-action="MyAccount" method="post">
+                    <input type="hidden" asp-for="Id" />
+                    <input type="hidden" asp-for="Role" />
+                    <input type="hidden" asp-for="CreatedAt" />
+                    <input type="hidden" asp-for="IsActive" />
+                    
+                    <h5 class="mb-3">Kişisel Bilgiler</h5>
+                    
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="firstName" class="form-label">Ad</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" value="@Model.FirstName" required />
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label for="lastName" class="form-label">Soyad</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" value="@Model.LastName" required />
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" value="@Model.Email" required />
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label">Rol</label>
+                        <input type="text" class="form-control" value="@Model.Role" disabled />
+                        <small class="form-text text-muted">Rol değiştirilemez.</small>
+                    </div>
+                    
+                    <hr />
+                    
+                    <h5 class="mb-3">Şifre Değiştir (Opsiyonel)</h5>
+                    <p class="text-muted small">Şifrenizi değiştirmek istemiyorsanız bu alanları boş bırakın.</p>
+                    
+                    <div class="mb-3">
+                        <label for="currentPassword" class="form-label">Mevcut Şifre</label>
+                        <input type="password" class="form-control" id="currentPassword" name="currentPassword" />
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="newPassword" class="form-label">Yeni Şifre</label>
+                        <input type="password" class="form-control" id="newPassword" name="newPassword" minlength="6" />
+                        <small class="form-text text-muted">Şifre en az 6 karakter olmalıdır.</small>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="confirmPassword" class="form-label">Yeni Şifre Tekrar</label>
+                        <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" minlength="6" />
+                    </div>
+                    
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="submit" class="btn btn-primary">
+                            <i class="bi bi-save"></i> Kaydet
+                        </button>
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left"></i> İptal
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

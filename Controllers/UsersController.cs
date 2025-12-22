@@ -1,6 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using HomeRadar.Data;
 using HomeRadar.Models;
 using HomeRadar.Attributes;
 using HomeRadar.Services;
@@ -10,27 +8,24 @@ namespace HomeRadar.Controllers
     [AuthorizeRole("Admin")] // Sadece Admin erişebilir
     public class UsersController : Controller
     {
-        private readonly EmlakContext _context;
+        private readonly IUserService _userService;
         private readonly AuthService _authService;
 
-        public UsersController(EmlakContext context, AuthService authService)
+        public UsersController(IUserService userService, AuthService authService)
         {
-            _context = context;
+            _userService = userService;
             _authService = authService;
         }
 
         // GET: Users - READ işlemi
         public async Task<IActionResult> Index()
         {
-            var users = await _context.Users
-                .OrderBy(u => u.LastName)
-                .ThenBy(u => u.FirstName)
-                .ToListAsync();
+            var users = await _userService.GetAllUsersAsync();
 
             ViewBag.Message = "Kullanıcı Yönetimi";
-            ViewBag.TotalUsers = users.Count;
-            ViewBag.AdminCount = users.Count(u => u.Role == "Admin");
-            ViewBag.UserCount = users.Count(u => u.Role == "User");
+            ViewBag.TotalUsers = users.Count();
+            ViewBag.AdminCount = await _userService.GetAdminCountAsync();
+            ViewBag.UserCount = await _userService.GetRegularUserCountAsync();
 
             return View(users);
         }
@@ -43,9 +38,7 @@ namespace HomeRadar.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users
-                .Include(u => u.Predictions)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var user = await _userService.GetUserWithPredictionsAsync(id.Value);
 
             if (user == null)
             {
@@ -74,11 +67,7 @@ namespace HomeRadar.Controllers
         {
             if (ModelState.IsValid)
             {
-                user.CreatedAt = DateTime.Now;
-                user.IsActive = true;
-
-                _context.Add(user);
-                await _context.SaveChangesAsync();
+                await _userService.CreateUserAsync(user);
 
                 TempData["SuccessMessage"] = "Kullanıcı başarıyla eklendi!";
                 return RedirectToAction(nameof(Index));
@@ -97,7 +86,7 @@ namespace HomeRadar.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users.FindAsync(id);
+            var user = await _userService.GetUserByIdAsync(id.Value);
             if (user == null)
             {
                 return NotFound();
@@ -123,14 +112,13 @@ namespace HomeRadar.Controllers
             {
                 try
                 {
-                    _context.Update(user);
-                    await _context.SaveChangesAsync();
+                    await _userService.UpdateUserAsync(user);
 
                     TempData["SuccessMessage"] = "Kullanıcı başarıyla güncellendi!";
                 }
-                catch (DbUpdateConcurrencyException)
+                catch
                 {
-                    if (!UserExists(user.Id))
+                    if (!await _userService.UserExistsAsync(user.Id))
                     {
                         return NotFound();
                     }
@@ -155,7 +143,7 @@ namespace HomeRadar.Controllers
                 return NotFound();
             }
 
-            var user = await _context.Users.FirstOrDefaultAsync(m => m.Id == id);
+            var user = await _userService.GetUserByIdAsync(id.Value);
 
             if (user == null)
             {
@@ -170,23 +158,11 @@ namespace HomeRadar.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var user = await _context.Users.FindAsync(id);
-            if (user != null)
-            {
-                // Soft delete
-                user.IsActive = false;
-                _context.Update(user);
-                await _context.SaveChangesAsync();
+            await _userService.DeleteUserAsync(id);
 
-                TempData["SuccessMessage"] = "Kullanıcı başarıyla silindi!";
-            }
+            TempData["SuccessMessage"] = "Kullanıcı başarıyla silindi!";
 
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool UserExists(int id)
-        {
-            return _context.Users.Any(e => e.Id == id);
         }
     }
 }

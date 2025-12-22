@@ -59,9 +59,12 @@
                 <a asp-action="Index" class="btn btn-secondary">
                     <i class="bi bi-arrow-left"></i> Geri Dön
                 </a>
-                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
-                    <i class="bi bi-pencil"></i> Düzenle
-                </a>
+                @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Admin")
+                {
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">
+                        <i class="bi bi-pencil"></i> Düzenle
+                    </a>
+                }
             </div>
         </div>
     </div>

@@ -1,31 +1,28 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using HomeRadar.Data;
 using HomeRadar.Models;
+using HomeRadar.Services;
+using HomeRadar.Attributes;
 
 namespace HomeRadar.Controllers
 {
     public class DistrictsController : Controller
     {
-        private readonly EmlakContext _context;
+        private readonly IDistrictService _districtService;
 
-        public DistrictsController(EmlakContext context)
+        public DistrictsController(IDistrictService districtService)
         {
-            _context = context;
+            _districtService = districtService;
         }
 
         // GET: Districts - READ işlemi
         public async Task<IActionResult> Index()
         {
-            var districts = await _context.Districts
-                .Include(d => d.Listings)
-                .OrderBy(d => d.Name)
-                .ToListAsync();
+            var districts = await _districtService.GetDistrictsWithListingsAsync();
 
             // ViewBag ile istatistikler
             ViewBag.Message = "İlçe Yönetimi";
-            ViewBag.TotalDistricts = districts.Count;
-            ViewBag.TotalListings = districts.Sum(d => d.Listings?.Count(l => l.IsActive) ?? 0);
+            ViewBag.TotalDistricts = districts.Count();
+            ViewBag.TotalListings = await _districtService.GetTotalActiveListingsCountAsync();
 
             return View(districts);
         }
@@ -38,10 +35,7 @@ namespace HomeRadar.Controllers
                 return NotFound();
             }
 
-            var district = await _context.Districts
-                .Include(d => d.Listings!)
-                    .ThenInclude(l => l.BuildingType)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var district = await _districtService.GetDistrictWithListingsAsync(id.Value);
 
             if (district == null)
             {
@@ -55,6 +49,7 @@ namespace HomeRadar.Controllers
         }
 
         // GET: Districts/Create - CREATE işlemi (form)
+        [AuthorizeRole("Admin")]
         public IActionResult Create()
         {
             ViewBag.Message = "Yeni İlçe Ekle";
@@ -64,12 +59,12 @@ namespace HomeRadar.Controllers
         // POST: Districts/Create - CREATE işlemi (kaydet)
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AuthorizeRole("Admin")]
         public async Task<IActionResult> Create([Bind("Name,City")] District district)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(district);
-                await _context.SaveChangesAsync();
+                await _districtService.CreateDistrictAsync(district);
 
                 TempData["SuccessMessage"] = "İlçe başarıyla eklendi!";
                 return RedirectToAction(nameof(Index));
@@ -79,6 +74,7 @@ namespace HomeRadar.Controllers
         }
 
         // GET: Districts/Edit/5 - UPDATE işlemi (form)
+        [AuthorizeRole("Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -86,7 +82,7 @@ namespace HomeRadar.Controllers
                 return NotFound();
             }
 
-            var district = await _context.Districts.FindAsync(id);
+            var district = await _districtService.GetDistrictByIdAsync(id.Value);
             if (district == null)
             {
                 return NotFound();
@@ -99,6 +95,7 @@ namespace HomeRadar.Controllers
         // POST: Districts/Edit/5 - UPDATE işlemi (kaydet)
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [AuthorizeRole("Admin")]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Name,City")] District district)
         {
             if (id != district.Id)
@@ -110,14 +107,13 @@ namespace HomeRadar.Controllers
             {
                 try
                 {
-                    _context.Update(district);
-                    await _context.SaveChangesAsync();
+                    await _districtService.UpdateDistrictAsync(district);
 
                     TempData["SuccessMessage"] = "İlçe başarıyla güncellendi!";
                 }
-                catch (DbUpdateConcurrencyException)
+                catch
                 {
-                    if (!DistrictExists(district.Id))
+                    if (!await _districtService.DistrictExistsAsync(district.Id))
                     {
                         return NotFound();
                     }
@@ -133,6 +129,7 @@ namespace HomeRadar.Controllers
         }
 
         // GET: Districts/Delete/5 - DELETE işlemi (onay)
+        [AuthorizeRole("Admin")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -140,9 +137,7 @@ namespace HomeRadar.Controllers
                 return NotFound();
             }
 
-            var district = await _context.Districts
-                .Include(d => d.Listings)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var district = await _districtService.GetDistrictWithListingsAsync(id.Value);
 
             if (district == null)
             {
@@ -155,23 +150,14 @@ namespace HomeRadar.Controllers
         // POST: Districts/Delete/5 - DELETE işlemi (sil)
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [AuthorizeRole("Admin")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var district = await _context.Districts.FindAsync(id);
-            if (district != null)
-            {
-                _context.Districts.Remove(district);
-                await _context.SaveChangesAsync();
+            await _districtService.DeleteDistrictAsync(id);
 
-                TempData["SuccessMessage"] = "İlçe başarıyla silindi!";
-            }
+            TempData["SuccessMessage"] = "İlçe başarıyla silindi!";
 
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool DistrictExists(int id)
-        {
-            return _context.Districts.Any(e => e.Id == id);
         }
     }
 }

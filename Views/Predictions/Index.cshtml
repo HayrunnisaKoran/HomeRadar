@@ -43,7 +43,6 @@
                     <th>Oda</th>
                     <th>m²</th>
                     <th>Fiyat Aralığı</th>
-                    <th>Model</th>
                     <th>Tarih</th>
                     <th>İşlemler</th>
                 </tr>
@@ -58,15 +57,17 @@
                         <td>@item.RoomCount</td>
                         <td>@item.SquareMeters m²</td>
                         <td>@item.PredictedPriceMin.ToString("C0") - @item.PredictedPriceMax.ToString("C0")</td>
-                        <td>@(item.ModelName ?? "N/A")</td>
                         <td>@item.CreatedAt.ToString("dd.MM.yyyy")</td>
                         <td>
                             <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info">
                                 <i class="bi bi-eye"></i>
                             </a>
-                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">
-                                <i class="bi bi-trash"></i>
-                            </a>
+                            @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Admin")
+                            {
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">
+                                    <i class="bi bi-trash"></i>
+                                </a>
+                            }
                         </td>
                     </tr>
                 }

@@ -143,7 +143,7 @@ namespace HomeRadar.Data
 
                 entity.Property(e => e.PredictedPriceMin).IsRequired().HasColumnType("decimal(18,2)");
                 entity.Property(e => e.PredictedPriceMax).IsRequired().HasColumnType("decimal(18,2)");
-                entity.Property(e => e.PredictedPriceAvg).HasColumnType("decimal(18,2)");
+                entity.Property(e => e.PredictedPriceAvg).IsRequired().HasColumnType("decimal(18,2)");
             });
         }
     }

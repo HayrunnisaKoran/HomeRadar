@@ -1,38 +1,70 @@
-// 📄 application-layer/services/PredictionService.js (GÜNCELLE)
+// 📄 application-layer/services/PredictionService.js
+// ML servisini kullanarak gerçek tahmin yapan servis
+const mlService = require('../../infrastructure-layer/external-apis/services/mlService');
+
 class PredictionService {
+  // Controller'dan çağrılan ana metod
+  async predict(input) {
+    return this.predictPrice(input);
+  }
+
   async predictPrice(input) {
     try {
-      const { district, rooms, squareMeters, buildingAge } = input;
+      // DEBUG: Validasyon öncesi input'u logla
+      console.log('[DEBUG] PredictionService - Validasyon öncesi input:');
+      console.log('  district:', input.district, `(type: ${typeof input.district}, empty: ${!input.district}, trim: '${input.district ? input.district.trim() : ''}')`);
+      console.log('  square_meters:', input.square_meters, `(type: ${typeof input.square_meters}, isNaN: ${isNaN(input.square_meters)})`);
+      console.log('  rooms:', input.rooms, `(type: ${typeof input.rooms}, isNaN: ${isNaN(input.rooms)})`);
+      console.log('  building_age:', input.building_age, `(type: ${typeof input.building_age}, isNaN: ${isNaN(input.building_age)})`);
       
-      // Basit validasyon
-      if (!district || !rooms || !squareMeters || !buildingAge) {
-        throw new Error('Tüm alanlar gereklidir');
+      // Validasyon - 0 değerlerini de kabul et, sadece null/undefined/NaN/boş string kontrolü yap
+      if (!input.district || typeof input.district !== 'string' || input.district.trim() === '') {
+        console.error('[DEBUG] PredictionService - District validasyonu başarısız!');
+        throw new Error('Tüm alanlar gereklidir: district, square_meters, rooms, building_age');
       }
-      if (squareMeters < 20) throw new Error('Metrekare en az 20 olmalıdır');
+      if (input.square_meters === null || input.square_meters === undefined || isNaN(input.square_meters)) {
+        console.error('[DEBUG] PredictionService - square_meters validasyonu başarısız!');
+        throw new Error('Tüm alanlar gereklidir: district, square_meters, rooms, building_age');
+      }
+      if (input.rooms === null || input.rooms === undefined || isNaN(input.rooms)) {
+        console.error('[DEBUG] PredictionService - rooms validasyonu başarısız!');
+        throw new Error('Tüm alanlar gereklidir: district, square_meters, rooms, building_age');
+      }
+      if (input.building_age === null || input.building_age === undefined || isNaN(input.building_age)) {
+        console.error('[DEBUG] PredictionService - building_age validasyonu başarısız!');
+        throw new Error('Tüm alanlar gereklidir: district, square_meters, rooms, building_age');
+      }
       
-      // Hesaplama
-      const basePrice = 7500;
-      const districtFactor = district === 'Yunusemre' ? 1.3 : 
-                            district === 'Şehzadeler' ? 1.2 : 1.0;
-      const roomFactor = rooms === '3+1' ? 1.4 : 
-                        rooms === '2+1' ? 1.0 : 0.8;
-      const ageFactor = Math.max(0.7, 1 - (buildingAge * 0.015));
-      const sizeFactor = squareMeters / 80;
+      console.log('[DEBUG] PredictionService - Validasyon başarılı!');
+      if (input.square_meters < 20) {
+        throw new Error('Metrekare en az 20 olmalıdır');
+      }
       
-      const estimated = basePrice * districtFactor * roomFactor * ageFactor * sizeFactor;
+      // ML servisini çağır (Python script'i çağıran servis)
+      const mlResult = await mlService.predict(input);
+      
+      // ML sonucunu formatla
+      if (mlResult.status === 'error') {
+        throw new Error(mlResult.message || 'ML tahmini başarısız');
+      }
+      
+      // Python'dan gelen sonuç formatı: { status: 'success', price: 3500000, currency: 'TL' }
+      const predictedPrice = mlResult.price || 0;
       
       return {
         success: true,
         prediction: {
-          minPrice: Math.round(estimated * 0.88),
-          maxPrice: Math.round(estimated * 1.12),
-          averagePrice: Math.round(estimated),
-          confidence: 0.82,
-          currency: 'TRY'
+          price: predictedPrice,
+          minPrice: Math.round(predictedPrice * 0.9),
+          maxPrice: Math.round(predictedPrice * 1.1),
+          averagePrice: predictedPrice,
+          confidence: 0.85, // ML modelinden confidence gelirse buraya eklenebilir
+          currency: mlResult.currency || 'TL'
         },
         metadata: {
-          modelVersion: 'v1.0-mock',
+          modelVersion: 'XGBoost',
           timestamp: new Date().toISOString(),
+          source: mlResult.status === 'mock' ? 'mock_calculation' : 'ml_model',
           input: input
         }
       };
@@ -44,7 +76,7 @@ class PredictionService {
   }
   
   async predictWithGrpc(input) {
-    // Şimdilik aynı hesaplamayı döndür
+    // gRPC ile tahmin yapılabilir, şimdilik aynı servisi kullan
     return this.predictPrice(input);
   }
 }

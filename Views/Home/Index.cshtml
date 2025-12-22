@@ -2,33 +2,35 @@
     ViewBag.Title = "Ana Sayfa";
 }
 
-<div class="row">
+<!-- Hero Section -->
+<div class="row mb-4">
     <div class="col-12">
-        <div class="jumbotron bg-light p-5 rounded mb-4">
-            <h1 class="display-4">@ViewBag.Message</h1>
-            <p class="lead">Yapay zeka destekli emlak değerleme sistemine hoş geldiniz.</p>
-            <hr class="my-4">
-            <p>Bu sistem, makine öğrenmesi kullanarak emlak fiyat tahminleri yapmaktadır.</p>
-            <a class="btn btn-primary btn-lg" asp-controller="Listings" asp-action="Index" role="button">
-                <i class="bi bi-list-ul"></i> İlanları Görüntüle
+        <div class="jumbotron p-5 rounded mb-4 shadow" style="background-color: #ffe9f4;">
+            <h1 class="display-4 fw-bold" style="color: #333;">@ViewBag.Message</h1>
+            <p class="lead" style="color: #555;">Yapay zeka destekli emlak değerleme sistemine hoş geldiniz.</p>
+            <hr class="my-4" style="border-color: rgba(0,0,0,0.1);">
+            <p class="mb-4" style="color: #555;">Bu sistem, makine öğrenmesi kullanarak emlak fiyat tahminleri yapmaktadır.</p>
+            <a class="btn btn-primary btn-lg shadow" asp-controller="Predictions" asp-action="Create" role="button">
+                <i class="bi bi-calculator"></i> Fiyat Tahmini Yap
             </a>
         </div>
     </div>
 </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <div class="card text-white bg-primary">
+<!-- İstatistik Kartları -->
+<div class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-primary shadow-sm h-100">
             <div class="card-body">
                 <h5 class="card-title">
-                    <i class="bi bi-house"></i> Toplam İlan
+                    <i class="bi bi-graph-up-arrow"></i> Toplam Tahmin
                 </h5>
-                <h2 class="card-text">@ViewBag.ListingCount</h2>
+                <h2 class="card-text">@ViewBag.PredictionCount</h2>
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-success">
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-success shadow-sm h-100">
             <div class="card-body">
                 <h5 class="card-title">
                     <i class="bi bi-geo-alt"></i> Toplam İlçe
@@ -37,8 +39,8 @@
             </div>
         </div>
     </div>
-    <div class="col-md-4">
-        <div class="card text-white bg-info">
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-info shadow-sm h-100">
             <div class="card-body">
                 <h5 class="card-title">
                     <i class="bi bi-people"></i> Toplam Kullanıcı
@@ -47,5 +49,503 @@
             </div>
         </div>
     </div>
+    <div class="col-md-3 mb-3">
+        <div class="card text-white bg-warning shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <i class="bi bi-currency-exchange"></i> Ortalama Fiyat
+                </h5>
+                <h2 class="card-text">@(((decimal)(ViewBag.AverageListingPrice ?? 0)).ToString("C0"))</h2>
+            </div>
+        </div>
+    </div>
 </div>
+
+<!-- Harita ve İstatistikler -->
+<div class="row mb-4">
+    <!-- Harita Bölümü -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0"><i class="bi bi-map"></i> İlçe Haritası</h5>
+            </div>
+            <div class="card-body">
+                <div id="districtMap" style="height: 400px; border-radius: 5px;"></div>
+                <small class="text-muted d-block mt-2">
+                    <i class="bi bi-info-circle"></i> İlçeler üzerine tıklayarak ilan sayılarını ve ortalama fiyatları görebilirsiniz.
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- En Çok İlan Bulunan İlçeler -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0"><i class="bi bi-bar-chart"></i> En Çok İlan Bulunan İlçeler</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="topDistrictsChart" style="max-height: 350px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Grafikler Satırı 1 -->
+<div class="row mb-4">
+    <!-- Zaman İçinde Tahmin Trendi -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-header bg-info text-white">
+                <h5 class="mb-0"><i class="bi bi-graph-up"></i> Son 30 Günlük Tahmin Trendi</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="predictionsTrendChart" style="max-height: 300px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- İlçelere Göre Ortalama Fiyat -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-header bg-warning text-white">
+                <h5 class="mb-0"><i class="bi bi-currency-exchange"></i> İlçelere Göre Ortalama Fiyat</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="averagePriceByDistrictChart" style="max-height: 300px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Grafikler Satırı 2 -->
+<div class="row mb-4">
+    <!-- Oda Sayısına Göre Dağılım -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-header bg-secondary text-white">
+                <h5 class="mb-0"><i class="bi bi-bar-chart-fill"></i> Oda Sayısına Göre Dağılım</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="roomCountChart" style="max-height: 350px;"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fiyat Aralığına Göre Dağılım -->
+    <div class="col-lg-6 mb-4">
+        <div class="card shadow-sm h-100">
+            <div class="card-header bg-dark text-white">
+                <h5 class="mb-0"><i class="bi bi-graph-up"></i> Fiyat Aralığına Göre Dağılım</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="priceRangeChart" style="max-height: 350px;"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <!-- Leaflet.js for Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script>
+        // Chart.js yüklenene kadar bekle, sonra grafikleri oluştur
+        function waitForChartAndInitialize() {
+            if (typeof Chart === 'undefined') {
+                console.warn('Chart.js henüz yüklenmedi, 100ms sonra tekrar denenecek...');
+                setTimeout(waitForChartAndInitialize, 100);
+                return;
+            }
+            
+            // Chart.js yüklendi, şimdi DOM yüklendikten sonra grafikleri oluştur
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', initializeAllCharts);
+            } else {
+                initializeAllCharts();
+            }
+        }
+        
+        function initializeAllCharts() {
+            // Verileri JavaScript'e aktar
+            const topDistricts = @Html.Raw(Json.Serialize(ViewBag.TopDistricts ?? new Dictionary<string, int>()));
+            const averagePriceByDistrict = @Html.Raw(Json.Serialize(ViewBag.AveragePriceByDistrict ?? new Dictionary<string, decimal>()));
+            const predictionsByDate = @Html.Raw(Json.Serialize(ViewBag.PredictionsByDate ?? new Dictionary<string, int>()));
+            const listingsByRoomCount = @Html.Raw(Json.Serialize(ViewBag.ListingsByRoomCount ?? new Dictionary<string, int>()));
+            const priceRangeDistribution = @Html.Raw(Json.Serialize(ViewBag.PriceRangeDistribution ?? new Dictionary<string, int>()));
+            const districtStatistics = @Html.Raw(Json.Serialize(ViewBag.DistrictStatistics ?? new Dictionary<string, object>()));
+
+            // Debug: Verilerin JavaScript'e aktarıldığını kontrol et
+            console.log('=== VERİ KONTROLÜ ===');
+            console.log('topDistricts:', topDistricts);
+            console.log('topDistricts keys:', Object.keys(topDistricts));
+            console.log('topDistricts values:', Object.values(topDistricts));
+            console.log('averagePriceByDistrict:', averagePriceByDistrict);
+            console.log('listingsByRoomCount:', listingsByRoomCount);
+            console.log('priceRangeDistribution:', priceRangeDistribution);
+            console.log('districtStatistics:', districtStatistics);
+            console.log('Chart.js yüklü mü?', typeof Chart !== 'undefined');
+
+        // Chart.js renk paleti
+        const chartColors = {
+            primary: 'rgba(13, 110, 253, 0.8)',
+            success: 'rgba(25, 135, 84, 0.8)',
+            info: 'rgba(13, 202, 240, 0.8)',
+            warning: 'rgba(255, 193, 7, 0.8)',
+            danger: 'rgba(220, 53, 69, 0.8)',
+            secondary: 'rgba(108, 117, 125, 0.8)',
+            dark: 'rgba(33, 37, 41, 0.8)'
+        };
+
+        // En Çok İlan Bulunan İlçeler (Bar Chart) - Listings tablosundan
+        const topDistrictsCtx = document.getElementById('topDistrictsChart');
+        if (topDistrictsCtx) {
+            console.log('topDistrictsChart canvas bulundu');
+            console.log('topDistricts verisi:', topDistricts);
+            console.log('topDistricts keys:', Object.keys(topDistricts));
+            console.log('topDistricts values:', Object.values(topDistricts));
+            
+            if (!topDistricts || Object.keys(topDistricts).length === 0) {
+                console.warn('UYARI: topDistricts boş!');
+            }
+            
+            if (typeof Chart === 'undefined') {
+                console.error('HATA: Chart.js yüklenmemiş!');
+                return;
+            }
+            
+            new Chart(topDistrictsCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(topDistricts),
+                    datasets: [{
+                        label: 'İlan Sayısı',
+                        data: Object.values(topDistricts),
+                        backgroundColor: chartColors.success,
+                        borderColor: 'rgba(25, 135, 84, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Zaman İçinde Tahmin Trendi (Line Chart)
+        const trendCtx = document.getElementById('predictionsTrendChart');
+        if (trendCtx) {
+            const sortedDates = Object.keys(predictionsByDate).sort();
+            new Chart(trendCtx, {
+                type: 'line',
+                data: {
+                    labels: sortedDates,
+                    datasets: [{
+                        label: 'Günlük Tahmin Sayısı',
+                        data: sortedDates.map(date => predictionsByDate[date]),
+                        borderColor: chartColors.info,
+                        backgroundColor: 'rgba(13, 202, 240, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // İlçelere Göre Ortalama Fiyat (Bar Chart)
+        const avgPriceCtx = document.getElementById('averagePriceByDistrictChart');
+        if (avgPriceCtx) {
+            const districts = Object.keys(averagePriceByDistrict);
+            new Chart(avgPriceCtx, {
+                type: 'bar',
+                data: {
+                    labels: districts,
+                    datasets: [{
+                        label: 'Ortalama Fiyat (₺)',
+                        data: Object.values(averagePriceByDistrict).map(price => price / 1000000), // Milyon TL olarak göster
+                        backgroundColor: chartColors.warning,
+                        borderColor: 'rgba(255, 193, 7, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return 'Ortalama: ' + (context.parsed.y * 1000000).toLocaleString('tr-TR', { style: 'currency', currency: 'TRY', maximumFractionDigits: 0 });
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + 'M ₺';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Oda Sayısına Göre Dağılım (Bar Chart) - Listings tablosundan
+        const roomCountCtx = document.getElementById('roomCountChart');
+        if (roomCountCtx) {
+            const sortedRooms = Object.keys(listingsByRoomCount).sort();
+            new Chart(roomCountCtx, {
+                type: 'bar',
+                data: {
+                    labels: sortedRooms,
+                    datasets: [{
+                        label: 'İlan Sayısı',
+                        data: sortedRooms.map(room => listingsByRoomCount[room]),
+                        backgroundColor: chartColors.secondary,
+                        borderColor: 'rgba(108, 117, 125, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // Fiyat Aralığına Göre Dağılım (Bar Chart) - Listings tablosundan
+        const priceRangeCtx = document.getElementById('priceRangeChart');
+        if (priceRangeCtx) {
+            new Chart(priceRangeCtx, {
+                type: 'bar',
+                data: {
+                    labels: Object.keys(priceRangeDistribution),
+                    datasets: [{
+                        label: 'İlan Sayısı',
+                        data: Object.values(priceRangeDistribution),
+                        backgroundColor: chartColors.dark,
+                        borderColor: 'rgba(33, 37, 41, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                stepSize: 1
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+            // Harita yükleme fonksiyonu - Leaflet.js yüklendikten sonra çalışacak
+            function initializeMap() {
+                const mapDiv = document.getElementById('districtMap');
+                if (!mapDiv) {
+                    console.error('Harita div\'i bulunamadı.');
+                    return;
+                }
+
+                // Leaflet.js yüklenene kadar bekle
+                if (typeof L === 'undefined') {
+                    console.warn('Leaflet.js henüz yüklenmedi, 500ms sonra tekrar denenecek...');
+                    setTimeout(initializeMap, 500);
+                    return;
+                }
+
+                try {
+                    // Manisa merkez koordinatları
+                    const map = L.map('districtMap').setView([38.6142, 27.4296], 10);
+                    
+                    // OpenStreetMap tile layer
+                    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                        attribution: '© OpenStreetMap contributors',
+                        maxZoom: 18
+                    }).addTo(map);
+
+                    // Manisa ilçelerinin yaklaşık koordinatları
+                    // Not: Encoding farklılıkları için hem Türkçe karakterli hem karaktersiz versiyonlar eklendi
+                    const districtCoordinates = {
+                        // Manisa merkez ilçeleri (farklı koordinatlar - üst üste binmemesi için)
+                        'Şehzadeler': [38.6100, 27.4250],      // Manisa merkez - güneybatı
+                        'Sehzadeler': [38.6100, 27.4250],      // Ş olmadan (encoding alternatifi)
+                        'Yunusemre': [38.6250, 27.4450],      // Manisa merkez - kuzeydoğu
+                        // Diğer ilçeler
+                        'Akhisar': [38.9186, 27.8367],
+                        'Salihli': [38.4833, 28.1333],
+                        'Turgutlu': [38.5000, 27.7000],
+                        'Soma': [39.1833, 27.6167],
+                        'Alaşehir': [38.3500, 28.5167],
+                        'Alasehir': [38.3500, 28.5167],        // ş olmadan
+                        'Saruhanlı': [38.7333, 27.5667],
+                        'Saruhanli': [38.7333, 27.5667],      // ı olmadan
+                        'Kula': [38.5500, 28.6500],
+                        'Kırkağaç': [39.1000, 27.6667],
+                        'Kirkagac': [39.1000, 27.6667],       // ğ ve ç olmadan
+                        'Gördes': [39.0500, 28.6500],
+                        'Gordes': [39.0500, 28.6500],         // ö olmadan
+                        'Demirci': [39.0500, 28.6500],
+                        'Gölmarmara': [38.7167, 27.9167],
+                        'Golmarmara': [38.7167, 27.9167],     // ö olmadan
+                        'Köprübaşı': [38.7500, 28.4000],
+                        'Koprubasi': [38.7500, 28.4000],      // ö ve ş olmadan
+                        'Ahmetli': [38.5167, 27.9333],
+                        'Selendi': [38.7500, 28.8667],
+                        'Sarıgöl': [38.7167, 27.9167],
+                        'Sarigol': [38.7167, 27.9167]         // ı ve ö olmadan
+                    };
+                    
+                    console.log('=== HARİTA VERİ KONTROLÜ ===');
+                    console.log('Koordinat tanımlı ilçeler:', Object.keys(districtCoordinates).length, 'ilçe');
+                    console.log('averagePriceByDistrict ilçeler:', Object.keys(averagePriceByDistrict).length, 'ilçe');
+                    console.log('averagePriceByDistrict ilçe isimleri:', Object.keys(averagePriceByDistrict));
+
+                    // İlçe verilerini haritaya ekle - TÜM ilçeler için (averagePriceByDistrict kullan)
+                    // averagePriceByDistrict tüm ilçeler için ortalama fiyat içerir (topDistricts sadece top 10)
+                    if (averagePriceByDistrict && Object.keys(averagePriceByDistrict).length > 0) {
+                        let markerCount = 0;
+                        let missingCoordinates = [];
+                        
+                        Object.entries(averagePriceByDistrict).forEach(([district, avgPrice]) => {
+                            // İlçe ismini normalize et (boşlukları temizle, büyük/küçük harf duyarsız)
+                            const normalizedDistrict = district.trim();
+                            
+                            // Önce tam eşleşme dene
+                            let coords = districtCoordinates[normalizedDistrict];
+                            
+                            // Tam eşleşme yoksa, case-insensitive arama yap
+                            if (!coords) {
+                                const districtKey = Object.keys(districtCoordinates).find(
+                                    key => key.toLowerCase() === normalizedDistrict.toLowerCase()
+                                );
+                                if (districtKey) {
+                                    coords = districtCoordinates[districtKey];
+                                    console.log(`İlçe ismi normalize edildi: "${district}" -> "${districtKey}"`);
+                                }
+                            }
+                            
+                            if (coords) {
+                                const [lat, lng] = coords;
+                                const marker = L.marker([lat, lng]).addTo(map);
+                                
+                                // İlan sayısını topDistricts'ten al (varsa), yoksa districtStatistics'ten
+                                const listingCount = topDistricts[district] || 
+                                                   (districtStatistics[district] ? districtStatistics[district].Count : 0);
+                                
+                                marker.bindPopup(`
+                                    <strong>${district}</strong><br>
+                                    İlan Sayısı: ${listingCount}<br>
+                                    Ortalama Fiyat: ${avgPrice > 0 ? ((avgPrice / 1000000).toFixed(2) + 'M ₺') : 'N/A'}
+                                `);
+                                markerCount++;
+                                console.log(`✓ ${district} marker eklendi (${listingCount} ilan, ${(avgPrice / 1000000).toFixed(2)}M ₺)`);
+                            } else {
+                                missingCoordinates.push(district);
+                                console.warn(`✗ İlçe koordinatı bulunamadı: "${district}" (normalize: "${normalizedDistrict}")`);
+                            }
+                        });
+                        
+                        if (missingCoordinates.length > 0) {
+                            console.warn(`Koordinatı eksik ilçeler (${missingCoordinates.length}):`, missingCoordinates);
+                        }
+                        
+                        console.log(`Harita başarıyla yüklendi: ${markerCount} ilçe için marker eklendi, ${missingCoordinates.length} ilçe için koordinat eksik.`);
+                    } else if (topDistricts && Object.keys(topDistricts).length > 0) {
+                        // Fallback: Eğer averagePriceByDistrict yoksa topDistricts kullan
+                        console.warn('averagePriceByDistrict boş, topDistricts kullanılıyor.');
+                        Object.entries(topDistricts).forEach(([district, count]) => {
+                            if (districtCoordinates[district]) {
+                                const [lat, lng] = districtCoordinates[district];
+                                const marker = L.marker([lat, lng]).addTo(map);
+                                const avgPrice = averagePriceByDistrict[district] || 0;
+                                marker.bindPopup(`
+                                    <strong>${district}</strong><br>
+                                    İlan Sayısı: ${count}<br>
+                                    Ortalama Fiyat: ${avgPrice > 0 ? ((avgPrice / 1000000).toFixed(2) + 'M ₺') : 'N/A'}
+                                `);
+                            }
+                        });
+                    } else {
+                        console.log('Harita verisi bulunamadı, harita boş gösteriliyor.');
+                    }
+                } catch (error) {
+                    console.error('Harita yüklenirken hata oluştu:', error);
+                    mapDiv.innerHTML = '<p class="text-danger">Harita yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin.</p>';
+                }
+            }
+
+            // Haritayı başlat (Leaflet.js yüklendikten sonra)
+            if (typeof L !== 'undefined') {
+                initializeMap();
+            } else {
+                // Leaflet.js yüklenene kadar bekle
+                window.addEventListener('load', function() {
+                    setTimeout(initializeMap, 100);
+                });
+            }
+        }
+        
+        // Chart.js yüklenene kadar bekle ve başlat
+        waitForChartAndInitialize();
+    </script>
+}
 

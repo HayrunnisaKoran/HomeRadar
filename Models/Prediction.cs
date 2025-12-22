@@ -22,19 +22,23 @@ namespace HomeRadar.Models
         public int? ListingId { get; set; } // Nullable - yeni bir ev için tahmin yapılabilir
 
         // Kullanıcı Girdileri
-        [Required]
+        [Required(ErrorMessage = "İlçe seçimi zorunludur.")]
+        [Display(Name = "İlçe")]
         [Column("DistrictId")]
         public int DistrictId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Oda sayısı zorunludur.")]
+        [Display(Name = "Oda Sayısı")]
         [Column("RoomCount")]
         public int RoomCount { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Metrekare bilgisi zorunludur.")]
+        [Display(Name = "Metrekare")]
         [Column("SquareMeters", TypeName = "decimal(10,2)")]
         public decimal SquareMeters { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Bina yaşı zorunludur.")]
+        [Display(Name = "Bina Yaşı")]
         [Column("BuildingAge")]
         public int BuildingAge { get; set; }
 
@@ -50,6 +54,7 @@ namespace HomeRadar.Models
         [Column("PredictedPriceMax", TypeName = "decimal(18,2)")]
         public decimal PredictedPriceMax { get; set; }
 
+        [Required]
         [Column("PredictedPriceAvg", TypeName = "decimal(18,2)")]
         public decimal PredictedPriceAvg { get; set; }
 
@@ -61,7 +66,7 @@ namespace HomeRadar.Models
         public decimal? ConfidenceScore { get; set; }
 
         [Column("CreatedAt")]
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation Properties
         [ForeignKey("UserId")]

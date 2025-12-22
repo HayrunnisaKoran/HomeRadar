@@ -108,10 +108,10 @@ namespace HomeRadar.Models
         public string? Neighborhood { get; set; }
 
         [Column("ListingDate")]
-        public DateTime ListingDate { get; set; } = DateTime.Now;
+        public DateTime ListingDate { get; set; } = DateTime.UtcNow;
 
         [Column("CreatedAt")]
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         [Column("IsActive")]
         public bool IsActive { get; set; } = true;

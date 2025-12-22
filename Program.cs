@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using HomeRadar.Data;
 using HomeRadar.Services;
+using HomeRadar.Repositories;
+using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,12 +21,31 @@ builder.Services.AddSession(options =>
 // HttpContextAccessor (AuthService için)
 builder.Services.AddHttpContextAccessor();
 
-// Custom Services
-builder.Services.AddScoped<AuthService>();
-
 // Entity Framework ve PostgreSQL bağlantısı
 builder.Services.AddDbContext<EmlakContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("HomeRadarConnection")));
+
+// Repositories - Scoped lifetime (her HTTP request için yeni instance)
+builder.Services.AddScoped<IListingRepository, ListingRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IDistrictRepository, DistrictRepository>();
+builder.Services.AddScoped<IPredictionRepository, PredictionRepository>();
+builder.Services.AddScoped<IBuildingTypeRepository, BuildingTypeRepository>();
+builder.Services.AddScoped<IFeatureRepository, FeatureRepository>();
+
+// HTTP Client for ML Service
+builder.Services.AddHttpClient<IMLService, MLService>(client =>
+{
+    client.Timeout = TimeSpan.FromSeconds(30);
+});
+
+// Services - Scoped lifetime
+builder.Services.AddScoped<IListingService, ListingService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IDistrictService, DistrictService>();
+builder.Services.AddScoped<IPredictionService, PredictionService>();
+builder.Services.AddScoped<IHomeService, HomeService>();
+builder.Services.AddScoped<AuthService>();
 
 var app = builder.Build();
 

@@ -3,3 +3,61 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@4.0.0/dist/jquery.validate.unobtrusive.min.js"></script>
 
+@* Türkçe validation mesajları *@
+<script>
+    // jQuery Validation default mesajlarını Türkçe'ye çevir
+    $.validator.setDefaults({
+        messages: {
+            required: "Bu alan zorunludur.",
+            email: "Geçerli bir e-posta adresi giriniz.",
+            url: "Geçerli bir URL giriniz.",
+            date: "Geçerli bir tarih giriniz.",
+            number: "Geçerli bir sayı giriniz.",
+            digits: "Sadece rakam giriniz.",
+            equalTo: "Aynı değeri tekrar giriniz.",
+            maxlength: $.validator.format("En fazla {0} karakter girebilirsiniz."),
+            minlength: $.validator.format("En az {0} karakter girmelisiniz."),
+            rangelength: $.validator.format("En az {0} ve en fazla {1} karakter girmelisiniz."),
+            range: $.validator.format("{0} ile {1} arasında bir değer giriniz."),
+            max: $.validator.format("En fazla {0} değerini girebilirsiniz."),
+            min: $.validator.format("En az {0} değerini girmelisiniz.")
+        }
+    });
+
+    // Model property'lerine özel mesajlar
+    $(document).ready(function() {
+        // ASP.NET Core'un oluşturduğu data-val-required mesajlarını override et
+        $('form').each(function() {
+            var $form = $(this);
+            
+            // Her input için özel mesaj ayarla
+            $form.find('[data-val-required]').each(function() {
+                var $input = $(this);
+                var fieldName = $input.attr('name');
+                var customMessage = '';
+                
+                // Field name'e göre özel mesaj
+                if (fieldName === 'DistrictId') {
+                    customMessage = 'İlçe seçimi zorunludur.';
+                } else if (fieldName === 'RoomCount') {
+                    customMessage = 'Oda sayısı zorunludur.';
+                } else if (fieldName === 'SquareMeters') {
+                    customMessage = 'Metrekare bilgisi zorunludur.';
+                } else if (fieldName === 'BuildingAge') {
+                    customMessage = 'Bina yaşı zorunludur.';
+                } else {
+                    customMessage = 'Bu alan zorunludur.';
+                }
+                
+                // data-val-required attribute'unu güncelle
+                $input.attr('data-val-required', customMessage);
+            });
+        });
+        
+        // jQuery Validation'un mesajlarını override et
+        if ($.validator && $.validator.unobtrusive) {
+            $.validator.unobtrusive.parse(document);
+        }
+    });
+</script>
+

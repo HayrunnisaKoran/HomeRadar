@@ -6,18 +6,14 @@
 
 <div class="d-flex justify-content-between align-items-center mb-3">
     <h3><i class="bi bi-list-ul"></i> İlanlar</h3>
-    @if (ViewBag.CanCreate == true)
-    {
-        <a asp-action="Create" class="btn btn-primary">
-            <i class="bi bi-plus-circle"></i> Yeni İlan Ekle
-        </a>
-    }
-    else
-    {
-        <a asp-controller="Account" asp-action="Login" class="btn btn-outline-primary">
-            <i class="bi bi-box-arrow-in-right"></i> Giriş Yap (İlan Eklemek İçin)
-        </a>
-    }
+    <div>
+        @if (ViewBag.IsAdmin == true)
+        {
+            <a asp-action="Import" class="btn btn-success me-2">
+                <i class="bi bi-upload"></i> CSV İçe Aktar
+            </a>
+        }
+    </div>
 </div>
 
 @if (Model != null && Model.Any())
@@ -72,7 +68,6 @@ else
 {
     <div class="alert alert-info">
         <i class="bi bi-info-circle"></i> Henüz ilan bulunmamaktadır.
-        <a asp-action="Create" class="alert-link">İlk ilanı eklemek için tıklayın.</a>
     </div>
 }
 

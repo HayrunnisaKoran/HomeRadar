@@ -8,86 +8,241 @@
 <hr />
 
 <div class="row">
-    <div class="col-md-8">
-        <form asp-action="Create">
+    <div class="col-md-10">
+        <form asp-action="Create" id="predictionForm">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <label asp-for="DistrictId" class="form-label">İlçe</label>
-                    <select asp-for="DistrictId" class="form-select" asp-items="ViewBag.Districts">
-                        <option value="">-- İlçe Seçin --</option>
-                    </select>
-                    <span asp-validation-for="DistrictId" class="text-danger"></span>
+            <!-- Temel Bilgiler -->
+            <div class="card mb-3">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0"><i class="bi bi-info-circle"></i> Temel Bilgiler</h5>
                 </div>
-                
-                <div class="col-md-6 mb-3">
-                    <label asp-for="BuildingTypeId" class="form-label">Bina Tipi</label>
-                    <select asp-for="BuildingTypeId" class="form-select" asp-items="ViewBag.BuildingTypes">
-                        <option value="">-- Bina Tipi Seçin (Opsiyonel) --</option>
-                    </select>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label asp-for="DistrictId" class="form-label">İlçe <span class="text-danger">*</span></label>
+                            <select asp-for="DistrictId" class="form-select" asp-items="ViewBag.Districts" required>
+                                <option value="">-- İlçe Seçin --</option>
+                            </select>
+                            <span asp-validation-for="DistrictId" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Bina Tipi (Opsiyonel)</label>
+                            <select asp-for="BuildingTypeId" class="form-select" asp-items="ViewBag.BuildingTypes">
+                                <option value="">-- Bina Tipi Seçin (Opsiyonel) --</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Oda Sayısı <span class="text-danger">*</span></label>
+                            <input asp-for="RoomCount" class="form-control" type="number" min="1" max="10" required />
+                            <span asp-validation-for="RoomCount" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Salon Sayısı <span class="text-danger">*</span></label>
+                            <input id="LivingRooms" name="LivingRooms" class="form-control" type="number" min="0" max="5" value="1" required />
+                            <small class="text-muted">Genellikle 1</small>
+                        </div>
+                        
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Metrekare (m²) <span class="text-danger">*</span></label>
+                            <input asp-for="SquareMeters" class="form-control" type="number" step="0.01" min="1" required />
+                            <span asp-validation-for="SquareMeters" class="text-danger"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Bina Yaşı <span class="text-danger">*</span></label>
+                            <input asp-for="BuildingAge" class="form-control" type="number" min="0" max="100" required />
+                            <span asp-validation-for="BuildingAge" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Banyo Sayısı <span class="text-danger">*</span></label>
+                            <input id="Bathrooms" name="Bathrooms" class="form-control" type="number" min="1" max="10" value="1" required />
+                        </div>
+                        
+                        <div class="col-md-4 mb-3">
+                            <label class="form-label">Kat</label>
+                            <input id="Floor" name="Floor" class="form-control" type="number" min="0" />
+                            <small class="text-muted">Zemin kat için 0, kot katlar için negatif değer</small>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <label asp-for="RoomCount" class="form-label">Oda Sayısı</label>
-                    <input asp-for="RoomCount" class="form-control" type="number" />
-                    <span asp-validation-for="RoomCount" class="text-danger"></span>
+
+            <!-- Özellikler -->
+            <div class="card mb-3">
+                <div class="card-header bg-success text-white">
+                    <h5 class="mb-0"><i class="bi bi-check2-square"></i> Özellikler</h5>
                 </div>
-                
-                <div class="col-md-4 mb-3">
-                    <label asp-for="SquareMeters" class="form-label">Metrekare (m²)</label>
-                    <input asp-for="SquareMeters" class="form-control" type="number" step="0.01" />
-                    <span asp-validation-for="SquareMeters" class="text-danger"></span>
-                </div>
-                
-                <div class="col-md-4 mb-3">
-                    <label asp-for="BuildingAge" class="form-label">Bina Yaşı</label>
-                    <input asp-for="BuildingAge" class="form-control" type="number" />
-                    <span asp-validation-for="BuildingAge" class="text-danger"></span>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="Balcony" name="Balcony" value="true">
+                                <label class="form-check-label" for="Balcony">Balkon</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="Elevator" name="Elevator" value="true">
+                                <label class="form-check-label" for="Elevator">Asansör</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="Garage" name="Garage" value="true">
+                                <label class="form-check-label" for="Garage">Garaj/Otopark</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="Furnished" name="Furnished" value="true">
+                                <label class="form-check-label" for="Furnished">Eşyalı</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-3 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="Swap" name="Swap" value="true">
+                                <label class="form-check-label" for="Swap">Takas</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="TitleDeed" name="TitleDeed" value="true" checked>
+                                <label class="form-check-label" for="TitleDeed">Tapulu</label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="BuildingStatus" name="BuildingStatus" value="true">
+                                <label class="form-check-label" for="BuildingStatus">İkinci El</label>
+                                <small class="text-muted d-block">İşaretlenmezse Sıfır kabul edilir</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <div class="row">
-                <div class="col-md-4 mb-3">
-                    <label asp-for="PredictedPriceMin" class="form-label">Min Fiyat (TL)</label>
-                    <input asp-for="PredictedPriceMin" class="form-control" type="number" step="0.01" />
-                    <span asp-validation-for="PredictedPriceMin" class="text-danger"></span>
+
+            <!-- Durum Bilgileri -->
+            <div class="card mb-3">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0"><i class="bi bi-building"></i> Durum Bilgileri</h5>
                 </div>
-                
-                <div class="col-md-4 mb-3">
-                    <label asp-for="PredictedPriceMax" class="form-label">Max Fiyat (TL)</label>
-                    <input asp-for="PredictedPriceMax" class="form-control" type="number" step="0.01" />
-                    <span asp-validation-for="PredictedPriceMax" class="text-danger"></span>
-                </div>
-                
-                <div class="col-md-4 mb-3">
-                    <label asp-for="ModelName" class="form-label">Model Adı</label>
-                    <input asp-for="ModelName" class="form-control" placeholder="Örn: LinearRegression" />
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Kullanım Durumu</label>
+                            <select id="UsageStatus" name="UsageStatus" class="form-select">
+                                <option value="Owner" selected>Mülk Sahibi</option>
+                                <option value="Empty">Boş</option>
+                                <option value="Tenant">Kiracılı</option>
+                            </select>
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <label class="form-label">Isınma Tipi</label>
+                            <select id="Heating" name="Heating" class="form-select">
+                                <option value="1" selected>Doğalgaz</option>
+                                <option value="2">Kombi</option>
+                                <option value="3">Soba</option>
+                                <option value="0">Yok</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
+
+            <!-- Butonlar -->
             <div class="mb-3">
-                <label asp-for="UserId" class="form-label">Kullanıcı (Opsiyonel)</label>
-                <select asp-for="UserId" class="form-select" asp-items="ViewBag.Users">
-                    <option value="">-- Kullanıcı Seçin (Opsiyonel) --</option>
-                </select>
-            </div>
-            
-            <div class="mb-3">
-                <button type="submit" class="btn btn-primary">
-                    <i class="bi bi-save"></i> Kaydet
+                <button type="submit" class="btn btn-primary btn-lg">
+                    <i class="bi bi-calculator"></i> Tahmin Yap ve Kaydet
                 </button>
                 <a asp-action="Index" class="btn btn-secondary">
                     <i class="bi bi-arrow-left"></i> Geri Dön
                 </a>
             </div>
+
+            <!-- Hidden fields for ML prediction results (will be filled by JavaScript or server) -->
+            <input type="hidden" asp-for="PredictedPriceMin" id="PredictedPriceMin" />
+            <input type="hidden" asp-for="PredictedPriceMax" id="PredictedPriceMax" />
+            <input type="hidden" asp-for="PredictedPriceAvg" id="PredictedPriceAvg" />
+            <input type="hidden" asp-for="ModelName" id="ModelName" value="XGBoost" />
         </form>
     </div>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+    <script>
+        // ASP.NET Core validation mesajlarını Türkçe'ye çevir
+        $(document).ready(function() {
+            // Form yüklendiğinde validation mesajlarını override et
+            var $form = $('#predictionForm');
+            
+            if ($form.length > 0) {
+                // jQuery Validation'un default mesajlarını override et
+                $.validator.setDefaults({
+                    messages: {
+                        required: "Bu alan zorunludur."
+                    }
+                });
+                
+                // Her input için özel mesaj ayarla
+                $form.find('input[data-val-required], select[data-val-required]').each(function() {
+                    var $input = $(this);
+                    var fieldName = $input.attr('name');
+                    var customMessage = '';
+                    
+                    // Field name'e göre özel mesaj
+                    if (fieldName === 'DistrictId') {
+                        customMessage = 'İlçe seçimi zorunludur.';
+                    } else if (fieldName === 'RoomCount') {
+                        customMessage = 'Oda sayısı zorunludur.';
+                    } else if (fieldName === 'SquareMeters') {
+                        customMessage = 'Metrekare bilgisi zorunludur.';
+                    } else if (fieldName === 'BuildingAge') {
+                        customMessage = 'Bina yaşı zorunludur.';
+                    } else {
+                        customMessage = 'Bu alan zorunludur.';
+                    }
+                    
+                    // data-val-required attribute'unu güncelle
+                    $input.attr('data-val-required', customMessage);
+                    
+                    // HTML5 required attribute için de özel mesaj
+                    if ($input.prop('required')) {
+                        $input.on('invalid', function(e) {
+                            e.preventDefault();
+                            this.setCustomValidity(customMessage);
+                        });
+                        
+                        $input.on('input', function() {
+                            this.setCustomValidity('');
+                        });
+                    }
+                });
+                
+                // Form validation'ı yeniden parse et
+                if ($.validator && $.validator.unobtrusive) {
+                    $.validator.unobtrusive.parse($form);
+                }
+            }
+        });
+    </script>
 }
-

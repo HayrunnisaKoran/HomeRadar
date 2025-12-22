@@ -62,11 +62,7 @@ VALUES
     ('Asansör', 'Asansörlü'),
     ('Garaj', 'Garajlı'),
     ('Otopark', 'Otoparklı'),
-    ('Havuz', 'Havuzlu'),
     ('Güvenlik', 'Güvenlikli'),
-    ('Bahçe', 'Bahçeli'),
-    ('Teras', 'Teraslı'),
-    ('Manzara', 'Manzaralı'),
     ('Eşyalı', 'Eşyalı')
 ON CONFLICT DO NOTHING;
 

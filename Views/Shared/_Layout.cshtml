@@ -62,11 +62,14 @@
                             <i class="bi bi-house"></i> Ana Sayfa
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Listings" asp-action="Index">
-                            <i class="bi bi-list-ul"></i> İlanlar
-                        </a>
-                    </li>
+                    @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Admin")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Listings" asp-action="Index">
+                                <i class="bi bi-list-ul"></i> İlanlar
+                            </a>
+                        </li>
+                    }
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="Districts" asp-action="Index">
                             <i class="bi bi-geo-alt"></i> İlçeler
@@ -77,11 +80,14 @@
                             <i class="bi bi-graph-up"></i> Tahminler
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Users" asp-action="Index">
-                            <i class="bi bi-people"></i> Kullanıcılar
-                        </a>
-                    </li>
+                    @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Admin")
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Users" asp-action="Index">
+                                <i class="bi bi-people"></i> Kullanıcılar
+                            </a>
+                        </li>
+                    }
                 </ul>
                 <ul class="navbar-nav">
                     @if (ViewContext.HttpContext.Session.GetString("UserId") != null)
@@ -95,12 +101,9 @@
                                     <small>Rol: @ViewContext.HttpContext.Session.GetString("UserRole")</small>
                                 </span></li>
                                 <li><hr class="dropdown-divider"></li>
-                                @if (ViewContext.HttpContext.Session.GetString("UserRole") == "Admin")
-                                {
-                                    <li><a class="dropdown-item" asp-controller="Users" asp-action="Index">
-                                        <i class="bi bi-people"></i> Kullanıcı Yönetimi
-                                    </a></li>
-                                }
+                                <li><a class="dropdown-item" asp-controller="Account" asp-action="MyAccount">
+                                    <i class="bi bi-person-gear"></i> Hesabım
+                                </a></li>
                                 <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">
                                     <i class="bi bi-box-arrow-right"></i> Çıkış Yap
                                 </a></li>
@@ -152,7 +155,11 @@
             }
 
             <!-- Page Header (PartialView) -->
-            @await Html.PartialAsync("_PageHeader")
+            @* PageHeader kaldırıldı - Ana Sayfa'da tekrar olduğu için *@
+            @if (ViewContext.RouteData.Values["controller"]?.ToString() != "Home" || ViewContext.RouteData.Values["action"]?.ToString() != "Index")
+            {
+                @await Html.PartialAsync("_PageHeader")
+            }
 
             @RenderBody()
         </div>

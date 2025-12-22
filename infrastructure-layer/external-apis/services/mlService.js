@@ -65,7 +65,7 @@ class MLService {
                 if (code !== 0) {
                     logger.error(`Python hatası - Kod: ${code}`);
                     
-                    const mockPrice = this.calculateMockPrice(inputData);
+                    const mockPrice = MLService.calculateMockPrice(inputData);
                     resolve({
                         status: 'mock',
                         price: mockPrice,
@@ -83,7 +83,7 @@ class MLService {
                 // Stdout boşsa bu da hata
                 if (!stdoutData.trim()) {
                     logger.error('Python stdout boş!');
-                    const mockPrice = this.calculateMockPrice(inputData);
+                    const mockPrice = MLService.calculateMockPrice(inputData);
                     resolve({
                         status: 'mock',
                         price: mockPrice,
@@ -103,7 +103,7 @@ class MLService {
                 } catch (parseError) {
                     logger.error('Python çıktısı parse edilemedi:', stdoutData);
                     
-                    const mockPrice = this.calculateMockPrice(inputData);
+                    const mockPrice = MLService.calculateMockPrice(inputData);
                     resolve({
                         status: 'mock',
                         price: mockPrice,
@@ -128,6 +128,22 @@ class MLService {
         }
     });
 }
+
+  // Mock fiyat hesaplama (fallback için)
+  static calculateMockPrice(inputData) {
+    const basePrice = 50000; // m² başına temel fiyat
+    const squareMeters = inputData.square_meters || 100;
+    const rooms = inputData.rooms || 2;
+    const buildingAge = inputData.building_age || 10;
+    
+    // Basit hesaplama
+    let price = basePrice * squareMeters;
+    price *= (1 + (rooms - 2) * 0.1); // Her oda için %10 artış
+    price *= (1 - buildingAge * 0.01); // Her yıl için %1 azalış
+    price = Math.max(price, 200000); // Minimum fiyat
+    
+    return Math.round(price);
+  }
 }
 
 module.exports = MLService;
