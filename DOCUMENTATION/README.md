@@ -1,4 +1,4 @@
-# SmartValue - Veritabanı Dokümantasyonu
+# HomeRadar - Veritabanı Dokümantasyonu
 
 ## 📚 Dokümantasyon İndeksi
 
