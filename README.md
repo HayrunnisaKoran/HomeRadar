@@ -94,11 +94,11 @@ soa-api/
 │   ├── database/
 │   │   ├── dbConnection.js      # PostgreSQL bağlantısı
 │   │   ├── SQL/                 # SQL dosyaları
-│   │   │   ├── 01_Database_Schema.sql
-│   │   │   ├── 02_Views.sql
-│   │   │   ├── 03_StoredProcedures.sql
-│   │   │   └── 06_SeedData.sql
-│   │   └── migrations/          # Entity Framework migrations
+│   │      ├── 01_Database_Schema.sql
+│   │      ├── 02_Views.sql
+│   │      ├── 03_StoredProcedures.sql
+│   │      └── 06_SeedData.sql
+│   │   
 │   ├── external-apis/
 │   │   └── services/
 │   │       ├── googleMapsService.js # Google Maps API
@@ -216,5 +216,6 @@ SOA API endpoint'lerini JavaScript/AJAX ile çağırın
 API'den gelen verileri Chart.js ile görselleştirin
 Responsive tasarımları API verileriyle besleyin
 Kullanıcı formlarını SOA API'ye bağlayın 
+
 
 
