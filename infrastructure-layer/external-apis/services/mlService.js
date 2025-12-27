@@ -9,7 +9,6 @@ const logger = {
   warn: (msg) => console.warn(`[WARN] ${new Date().toISOString()} - ${msg}`)
 };
 
-// PYTHON SCRIPT YOLU (DÜZELTTİK!)
 const PYTHON_SCRIPT_PATH = path.join(
     __dirname,      // infrastructure-layer/external-apis/services/
     '..',           // infrastructure-layer/external-apis/
